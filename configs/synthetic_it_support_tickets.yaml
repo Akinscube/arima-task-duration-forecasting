@@ -1,0 +1,18 @@
+
+# Per-dataset configuration — one file per candidate dataset (Stage 0 of the pipeline).
+# Copy this file per dataset, adjust, and run:  python src/data_quality.py configs/<name>.yaml
+
+name: synthetic_it_support_tickets   # used in report/plot filenames
+file: data/raw/synthetic_it_support_tickets.csv
+
+# --- column mapping ---------------------------------------------------------
+timestamp_column: created_at    # task start / arrival timestamp
+duration_column: resolution_time_hours   # NOTE: hours, not minutes (unresolved tickets are NaN)
+# If the dataset has start/end timestamps instead of a duration column,
+# delete duration_column and set:
+# end_column: resolved_at       # duration derived as (end - start) in minutes
+
+# --- series construction (these become the Stage 2 decisions) ---------------
+frequency: D                    # D = daily, W = weekly  (coarsen if periods are thin)
+aggregation: median             # median | mean  (median if durations are heavy-tailed)
+seasonal_period: 7              # 7 for daily data with weekly pattern; 52 for weekly/annual
