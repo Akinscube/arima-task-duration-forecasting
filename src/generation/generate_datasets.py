@@ -14,7 +14,8 @@ spec/ground-truth-schema.md):
   - Dataset keys match the corresponding configs/<name>.yaml `name:` field
     exactly; CSVs are written to data/raw/<name>.csv.
   - Known caveat: per-record noise + median aggregation attenuates
-    recovered AR coefficients (documented finding, Section 3.7).
+    recovered AR coefficients (see reports/recovery_validation.txt for the
+    measured attenuation).
 
 Reproducibility: single fixed seed for the whole run; no system entropy.
 """
@@ -23,7 +24,7 @@ import json
 import numpy as np
 import pandas as pd
 
-SEED = 30124470  # enrolment number -> fixed, citable seed
+SEED = 30124470  # enrolment number
 rng = np.random.default_rng(SEED)
 
 DATES = pd.date_range("2022-01-01", "2025-12-31", freq="D")
@@ -157,7 +158,10 @@ def gen_emergency_dept():
         },
         "expected_recovery_note": ("AR(1) phi expected to attenuate below 0.60 "
                                    "in the aggregated median series due to "
-                                   "record-level noise (v2 finding, Sec 3.7)."),
+                                   "record-level noise (lognormal_sigma=0.35) "
+                                   "and the acuity-level factor mixture, which "
+                                   "together dominate the AR(1) innovation "
+                                   "noise (sigma=5) at ~83 records/day."),
     }
     return df
 
@@ -221,7 +225,7 @@ def gen_job_shop():
             "form": "proc_i = p_t * exp(N(0, 0.04)), clip [20, 150]",
             "lognormal_sigma": 0.04,
             "note": "tight engineered tolerances -> low aggregation noise, "
-                    "ARMA(1,1) expected to recover faithfully (v2 finding)",
+                    "ARMA(1,1) expected to recover faithfully",
         },
         "dropout": {"mechanism": "none", "rework_flag_rate": 0.02},
         "volume": {"form": "Poisson(45)", "base_lambda": 45,

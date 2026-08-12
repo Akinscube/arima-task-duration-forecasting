@@ -1,0 +1,54 @@
+EDA REPORT — synthetic_it_support_tickets
+============================================================
+has_ground_truth: no
+NOTE: no ground truth available for this dataset — all findings below are exploratory, not validated against a known data-generating process.
+native unit: hours  (converted x60 -> minutes below)
+
+[quality-gate recap, from reports/synthetic_it_support_tickets_quality.txt]
+  exact duplicate rows: 0
+  [integrity] duration NaN: 39887, negative: 0, zero: 0
+  duration median: 29.9, p99: 226.5, max: 240.0
+  missing periods: 0.0%   longest gap: 0 periods
+
+[1] RECORD-LEVEL DESCRIPTIVE STATS (minutes)
+{
+  "n": 60113,
+  "mean": 2700.7873771064496,
+  "sd": 2952.1678050347014,
+  "cv": 1.0930767190557495,
+  "p25": 892.8000000000001,
+  "p50": 1794.6,
+  "p75": 3099.6,
+  "p99": 13591.8,
+  "skew": 2.181290293970846
+}
+
+[2] SERIES-LEVEL DESCRIPTIVE STATS (minutes, D median)
+{
+  "n": 1460,
+  "mean": 1804.590205479452,
+  "sd": 355.89670840390426,
+  "cv": 0.19721746650472813,
+  "p25": 1525.8,
+  "p50": 1806.75,
+  "p75": 2060.9999999999995,
+  "p99": 2584.1220000000003,
+  "skew": 0.15554595585633957
+}
+
+[3] STATIONARITY (ADF)
+    d=0: p=0.0000  (stationary at alpha=0.05)
+    d=1: p=0.0000  (stationary at alpha=0.05)
+    suggested_d: 0
+
+[4] ACF / PACF
+    dominant ACF lag: 35 (value -0.071)
+    dominant PACF lag: 35 (value -0.068)
+
+[5] STL DECOMPOSITION
+    seasonal_strength (F_s): 0.221
+    visible_seasonality: n  (threshold 0.3)
+    NOTE: STL input was linearly interpolated to fill any residual gaps;
+    ADF/ACF/PACF/descriptive stats above use the un-interpolated series.
+
+[6] PLOTS written to reports/eda/synthetic_it_support_tickets_{hist,series,seasonal_boxplot,acf_pacf,stl}.png

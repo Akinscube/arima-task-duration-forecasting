@@ -24,33 +24,44 @@ workflows" / "operational domains".
 against all four baselines on MAE/RMSE/MAPE with significance testing — such
 that an examiner can rerun everything from the fixed seed and get identical
 results. Every implementation choice should trace back to RQ1 or RQ2.
-
+ 
 **Design stance:** the multi-domain setup (differing temporal properties
 across the four datasets) is a deliberate design choice to answer RQ2, not a
 data-availability workaround. ARIMA is argued on problem-type suitability,
 never universal superiority over deep learning.
-
+ 
+**Final four datasets:** synthetic_it_support_tickets (third-party Kaggle
+synthetic), call centre (real Kaggle), generated_emergency_dept_stays and
+generated_job_shop_manufacturing (researcher-generated). Other configs/CSVs in
+the repo are screening candidates, not part of the final four.
+ 
 ## Rules
-
-1. `data_quality.py` (with per-dataset YAML configs in `configs/`) is the ONLY
-   quality screen. Never create any second quality script — dual thresholds 
-   break the pre-registration claim.
-2. `ground_truth.json` and `generate_datasets.py` must be committed
-   BEFORE any ARIMA fitting (commit timestamp = pre-registration evidence).
-3. `recover_structure.py` must validate recovered parameters against
-   `ground_truth.json` before ARIMA fitting begins.
-4. All generation is seeded with 30124470. Synthetic CSVs in `data/synthetic/`
-   are committed for examiner verifiability — regeneration must reproduce them
-   exactly. Never change the seed: the committed data and all recovery results
-   depend on it.
-5. Report honest results. Known/expected: ED dataset AR(1) φ=0.60 recovers at
-   ~0.50 due to aggregation noise — this is a documented finding, not a bug.
-   Do not "fix" it.
+ 
+1. `src/data_quality.py` (with per-dataset YAML configs in `configs/`) is the
+   ONLY quality screen. Never create a second quality script — dual thresholds
+   break the pre-registration claim. Thresholds are documented in
+   `spec/quality-gate-thresholds.md`; the script and spec must agree.
+2. `ground_truth.json` and `src/generation/generate_datasets.py` must be
+   committed BEFORE any ARIMA fitting (commit timestamp = pre-registration
+   evidence).
+3. `src/recover_structure.py` must validate recovered parameters against
+   `ground_truth.json` before ARIMA fitting begins. Results go to
+   `reports/recovery_validation.txt`.
+4. All generation is seeded with 30124470. Generated CSVs in `data/raw/`
+   (generated_*.csv) are committed for examiner verifiability — regeneration
+   must reproduce them exactly. Never change the seed: the committed data and
+   all recovery results depend on it.
+5. Recovery pass/fail is judged ONLY against the per-dataset TOLERANCES
+   declared in `src/recover_structure.py`. AR-coefficient attenuation under
+   record noise + daily-median aggregation is an expected, reported outcome,
+   not a failure. Out-of-tolerance results are documented, explained
+   exceptions, not silently passed and not silently "fixed".
+   Retuning data-generating process parameters is permitted only before ARIMA 
+   fitting, and every change must be logged in `ground_truth.json` with rationale.
 6. /strict: flag all Claude-drafted content, report changes honestly, no
    diplomatic softening.
-
 ## Evaluation
-
+ 
 - Baselines: naïve, historical mean, moving average, exponential smoothing
 - Metrics: MAE, RMSE, MAPE + significance testing
 - Diebold–Mariano test: NOT confirmed by supervisor — do not implement as

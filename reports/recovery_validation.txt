@@ -12,7 +12,7 @@ series: 1461 daily observations, 0 missing
 [ARIMA] stochastic component (planted -> recovered):
     AR(1):     phi 0.60 -> 0.151   [AIC 11746.2]
     ARMA(1,1): phi 0.60 -> 0.480, theta 0.00 -> -0.339   [AIC 11745.1]
-    NOTE: AR(1) phi attenuated by 0.45 — aggregation-induced noise (consistent with v2 finding, Section 3.7)
+    NOTE: AR(1) phi attenuated by 0.45 — aggregation-induced noise (record-level noise + daily-median aggregation, expected per ground_truth.json's expected_recovery_note)
     AIC-preferred order: ARMA(1,1)   <- does not match planted form: record and discuss
 [CHECK] acceptance tolerance (T5):
     [PASS] weekend effect within +/-3.0 min

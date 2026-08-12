@@ -1,0 +1,53 @@
+EDA REPORT — generated_job_shop_manufacturing
+============================================================
+has_ground_truth: yes
+native unit: minutes  (converted x1 -> minutes below)
+
+[quality-gate recap, from reports/generated_job_shop_manufacturing_quality.txt]
+  exact duplicate rows: 0
+  [integrity] duration NaN: 0, negative: 0, zero: 0
+  duration median: 54.9, p99: 68.2, max: 75.8
+  missing periods: 0.0%   longest gap: 0 periods
+
+[1] RECORD-LEVEL DESCRIPTIVE STATS (minutes)
+{
+  "n": 65911,
+  "mean": 55.160219083309315,
+  "sd": 5.319072376152324,
+  "cv": 0.096429500544928,
+  "p25": 51.5,
+  "p50": 54.9,
+  "p75": 58.6,
+  "p99": 68.2,
+  "skew": 0.19452411520476015
+}
+
+[2] SERIES-LEVEL DESCRIPTIVE STATS (minutes, D median)
+{
+  "n": 1461,
+  "mean": 55.12662559890486,
+  "sd": 4.8569706484176765,
+  "cv": 0.08810571290462162,
+  "p25": 51.8,
+  "p50": 54.85,
+  "p75": 58.3,
+  "p99": 67.11000000000001,
+  "skew": 0.1502250671307884
+}
+
+[3] STATIONARITY (ADF)
+    d=0: p=0.0000  (stationary at alpha=0.05)
+    d=1: p=0.0000  (stationary at alpha=0.05)
+    suggested_d: 0
+
+[4] ACF / PACF
+    dominant ACF lag: 1 (value 0.901)
+    dominant PACF lag: 1 (value 0.902)
+
+[5] STL DECOMPOSITION
+    seasonal_strength (F_s): 0.096
+    visible_seasonality: n  (threshold 0.3)
+    NOTE: STL input was linearly interpolated to fill any residual gaps;
+    ADF/ACF/PACF/descriptive stats above use the un-interpolated series.
+
+[6] PLOTS written to reports/eda/generated_job_shop_manufacturing_{hist,series,seasonal_boxplot,acf_pacf,stl}.png

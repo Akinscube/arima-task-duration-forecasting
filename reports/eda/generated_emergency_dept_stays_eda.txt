@@ -1,0 +1,53 @@
+EDA REPORT — generated_emergency_dept_stays
+============================================================
+has_ground_truth: yes
+native unit: minutes  (converted x1 -> minutes below)
+
+[quality-gate recap, from reports/generated_emergency_dept_stays_quality.txt]
+  exact duplicate rows: 0
+  [integrity] duration NaN: 5988, negative: 0, zero: 0
+  duration median: 176.0, p99: 615.3, max: 1440.0
+  missing periods: 0.0%   longest gap: 0 periods
+
+[1] RECORD-LEVEL DESCRIPTIVE STATS (minutes)
+{
+  "n": 120965,
+  "mean": 205.11198197825817,
+  "sd": 115.65371050707125,
+  "cv": 0.5638564329183389,
+  "p25": 126.8,
+  "p50": 176.0,
+  "p75": 250.6,
+  "p99": 615.336,
+  "skew": 1.9147820043881294
+}
+
+[2] SERIES-LEVEL DESCRIPTIVE STATS (minutes, D median)
+{
+  "n": 1461,
+  "mean": 177.09103353867215,
+  "sd": 21.586870494971766,
+  "cv": 0.12189702699012,
+  "p25": 160.65,
+  "p50": 176.0,
+  "p75": 191.4,
+  "p99": 232.38000000000002,
+  "skew": 0.35929508431529655
+}
+
+[3] STATIONARITY (ADF)
+    d=0: p=0.0826  (non-stationary at alpha=0.05)
+    d=1: p=0.0000  (stationary at alpha=0.05)
+    suggested_d: 1
+
+[4] ACF / PACF
+    dominant ACF lag: 7 (value 0.587)
+    dominant PACF lag: 1 (value 0.504)
+
+[5] STL DECOMPOSITION
+    seasonal_strength (F_s): 0.522
+    visible_seasonality: y  (threshold 0.3)
+    NOTE: STL input was linearly interpolated to fill any residual gaps;
+    ADF/ACF/PACF/descriptive stats above use the un-interpolated series.
+
+[6] PLOTS written to reports/eda/generated_emergency_dept_stays_{hist,series,seasonal_boxplot,acf_pacf,stl}.png

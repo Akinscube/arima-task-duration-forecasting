@@ -1,0 +1,32 @@
+DATA QUALITY REPORT — call_center_emea_2021_2025
+source file: data/processed/call_center_emea_2021_2025.csv
+============================================================
+
+[1] RAW LOG
+records: 5366  (unparseable timestamps dropped: 0)
+date range: 2021-01-01 00:00:00  ->  2025-12-31 00:00:00
+exact duplicate rows: 0
+
+[integrity] duration NaN: 0, negative: 0, zero: 0
+duration median: 546.0, p99: 893.0, max: 900.0
+
+[volume] tasks per W-period: mean 20.5, min 8, max 46
+active periods below 5 tasks: 0.0%
+
+[2] SERIES (median duration per W)
+length on regular calendar: 262
+missing periods: 0.0%   longest gap: 0 periods
+NOTE: classify gaps before judging — structural closure (e.g. weekends)
+      is not data loss; if structural, model business days or use W frequency.
+
+[3] HISTORY (train fraction 80%)
+usable observations: 262  ->  train 209 / test 53
+seasonal period 52: 4.0 cycles in training
+
+[4] PLOT saved to reports/call_center_emea_2021_2025_series.png
+Inspect for level shifts / structural breaks — a mid-series process
+change is a finding for the cross-domain analysis, record it.
+
+============================================================
+CHECKS: {"thin_periods_ok": true, "gaps_ok": true, "train_ok": true, "test_ok": true, "seasonal_ok": true}
+VERDICT: PASS — candidate acceptable

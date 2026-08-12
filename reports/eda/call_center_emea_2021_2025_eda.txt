@@ -1,0 +1,54 @@
+EDA REPORT — call_center_emea_2021_2025
+============================================================
+has_ground_truth: no
+NOTE: no ground truth available for this dataset — all findings below are exploratory, not validated against a known data-generating process.
+native unit: seconds  (converted x0.0166667 -> minutes below)
+
+[quality-gate recap, from reports/call_center_emea_2021_2025_quality.txt]
+  exact duplicate rows: 0
+  [integrity] duration NaN: 0, negative: 0, zero: 0
+  duration median: 546.0, p99: 893.0, max: 900.0
+  missing periods: 0.0%   longest gap: 0 periods
+
+[1] RECORD-LEVEL DESCRIPTIVE STATS (minutes)
+{
+  "n": 5366,
+  "mean": 9.072325754752145,
+  "sd": 3.462381911788498,
+  "cv": 0.38164215057807854,
+  "p25": 6.1,
+  "p50": 9.1,
+  "p75": 12.079166666666667,
+  "p99": 14.883333333333333,
+  "skew": -0.025953988713952117
+}
+
+[2] SERIES-LEVEL DESCRIPTIVE STATS (minutes, W median)
+{
+  "n": 262,
+  "mean": 9.107697201017812,
+  "sd": 1.212397212629857,
+  "cv": 0.1331178656767781,
+  "p25": 8.24375,
+  "p50": 9.054166666666667,
+  "p75": 9.945833333333333,
+  "p99": 11.7065,
+  "skew": 0.07315619780943629
+}
+
+[3] STATIONARITY (ADF)
+    d=0: p=0.0000  (stationary at alpha=0.05)
+    d=1: p=0.0000  (stationary at alpha=0.05)
+    suggested_d: 0
+
+[4] ACF / PACF
+    dominant ACF lag: 7 (value 0.137)
+    dominant PACF lag: 7 (value 0.149)
+
+[5] STL DECOMPOSITION
+    seasonal_strength (F_s): 0.331
+    visible_seasonality: y  (threshold 0.3)
+    NOTE: STL input was linearly interpolated to fill any residual gaps;
+    ADF/ACF/PACF/descriptive stats above use the un-interpolated series.
+
+[6] PLOTS written to reports/eda/call_center_emea_2021_2025_{hist,series,seasonal_boxplot,acf_pacf,stl}.png

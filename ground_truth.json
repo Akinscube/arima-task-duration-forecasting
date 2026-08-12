@@ -53,7 +53,7 @@
         "weekend_mult": 0.92,
         "winter_mult": 1.18
       },
-      "expected_recovery_note": "AR(1) phi expected to attenuate below 0.60 in the aggregated median series due to record-level noise (v2 finding, Sec 3.7)."
+      "expected_recovery_note": "AR(1) phi expected to attenuate below 0.60 in the aggregated median series due to record-level noise (lognormal_sigma=0.35) and the acuity-level factor mixture, which together dominate the AR(1) innovation noise (sigma=5) at ~83 records/day."
     },
     "generated_job_shop_manufacturing": {
       "domain": "manufacturing_job_shop",
@@ -73,7 +73,7 @@
       "record_level": {
         "form": "proc_i = p_t * exp(N(0, 0.04)), clip [20, 150]",
         "lognormal_sigma": 0.04,
-        "note": "tight engineered tolerances -> low aggregation noise, ARMA(1,1) expected to recover faithfully (v2 finding)"
+        "note": "tight engineered tolerances -> low aggregation noise, ARMA(1,1) expected to recover faithfully"
       },
       "dropout": {
         "mechanism": "none",

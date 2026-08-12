@@ -167,7 +167,8 @@ def validate(ds_name: str, ds_cfg: dict, lines: list):
     atten = phi - ar1.params["ar.L1"]
     if atten > 0.05:
         A(f"    NOTE: AR(1) phi attenuated by {atten:.2f} — aggregation-"
-          f"induced noise (consistent with v2 finding, Section 3.7)")
+          f"induced noise (record-level noise + daily-median aggregation, "
+          f"expected per ground_truth.json's expected_recovery_note)")
     best = "AR(1)" if ar1.aic < arma.aic else "ARMA(1,1)"
     A(f"    AIC-preferred order: {best}"
       + ("   (matches planted form)" if

@@ -1,0 +1,32 @@
+DATA QUALITY REPORT — generated_emergency_dept_stays
+source file: data/raw/generated_emergency_dept_stays.csv
+============================================================
+
+[1] RAW LOG
+records: 126953  (unparseable timestamps dropped: 0)
+date range: 2022-01-01 00:01:00  ->  2025-12-31 23:48:00
+exact duplicate rows: 0
+
+[integrity] duration NaN: 5988, negative: 0, zero: 0
+duration median: 176.0, p99: 615.3, max: 1440.0
+
+[volume] tasks per D-period: mean 82.8, min 46, max 125
+active periods below 5 tasks: 0.0%
+
+[2] SERIES (median duration per D)
+length on regular calendar: 1461
+missing periods: 0.0%   longest gap: 0 periods
+NOTE: classify gaps before judging — structural closure (e.g. weekends)
+      is not data loss; if structural, model business days or use W frequency.
+
+[3] HISTORY (train fraction 80%)
+usable observations: 1461  ->  train 1168 / test 293
+seasonal period 7: 166.9 cycles in training
+
+[4] PLOT saved to reports/generated_emergency_dept_stays_series.png
+Inspect for level shifts / structural breaks — a mid-series process
+change is a finding for the cross-domain analysis, record it.
+
+============================================================
+CHECKS: {"thin_periods_ok": true, "gaps_ok": true, "train_ok": true, "test_ok": true, "seasonal_ok": true}
+VERDICT: PASS — candidate acceptable

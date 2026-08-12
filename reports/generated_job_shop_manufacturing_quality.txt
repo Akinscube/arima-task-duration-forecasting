@@ -1,0 +1,32 @@
+DATA QUALITY REPORT — generated_job_shop_manufacturing
+source file: data/raw/generated_job_shop_manufacturing.csv
+============================================================
+
+[1] RAW LOG
+records: 65911  (unparseable timestamps dropped: 0)
+date range: 2022-01-01 00:20:00  ->  2025-12-31 22:36:00
+exact duplicate rows: 0
+
+[integrity] duration NaN: 0, negative: 0, zero: 0
+duration median: 54.9, p99: 68.2, max: 75.8
+
+[volume] tasks per D-period: mean 45.1, min 26, max 70
+active periods below 5 tasks: 0.0%
+
+[2] SERIES (median duration per D)
+length on regular calendar: 1461
+missing periods: 0.0%   longest gap: 0 periods
+NOTE: classify gaps before judging — structural closure (e.g. weekends)
+      is not data loss; if structural, model business days or use W frequency.
+
+[3] HISTORY (train fraction 80%)
+usable observations: 1461  ->  train 1168 / test 293
+seasonal period 7: 166.9 cycles in training
+
+[4] PLOT saved to reports/generated_job_shop_manufacturing_series.png
+Inspect for level shifts / structural breaks — a mid-series process
+change is a finding for the cross-domain analysis, record it.
+
+============================================================
+CHECKS: {"thin_periods_ok": true, "gaps_ok": true, "train_ok": true, "test_ok": true, "seasonal_ok": true}
+VERDICT: PASS — candidate acceptable

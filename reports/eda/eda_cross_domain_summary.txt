@@ -1,0 +1,12 @@
+CROSS-DOMAIN EDA SUMMARY
+============================================================
+dataset | n | frequency | adf_p_d0 | adf_p_d1 | suggested_d | dominant_acf_lag | dominant_pacf_lag | cv | seasonal_strength | visible_seasonality | has_ground_truth
+synthetic_it_support_tickets | 1460 | D | 0.0 | 0.0 | 0 | 35 | 35 | 0.197 | 0.221 | n | n
+call_center_emea_2021_2025 | 262 | W | 0.0 | 0.0 | 0 | 7 | 7 | 0.133 | 0.331 | y | n
+generated_emergency_dept_stays | 1461 | D | 0.0826 | 0.0 | 1 | 7 | 1 | 0.122 | 0.522 | y | y
+generated_job_shop_manufacturing | 1461 | D | 0.0 | 0.0 | 0 | 1 | 1 | 0.088 | 0.096 | n | y
+
+{"dataset": "synthetic_it_support_tickets", "n": 1460, "frequency": "D", "adf_p_d0": 0.0, "adf_p_d1": 0.0, "suggested_d": "0", "dominant_acf_lag": 35, "dominant_pacf_lag": 35, "cv": 0.197, "seasonal_strength": 0.221, "visible_seasonality": "n", "has_ground_truth": "n"}
+{"dataset": "call_center_emea_2021_2025", "n": 262, "frequency": "W", "adf_p_d0": 0.0, "adf_p_d1": 0.0, "suggested_d": "0", "dominant_acf_lag": 7, "dominant_pacf_lag": 7, "cv": 0.133, "seasonal_strength": 0.331, "visible_seasonality": "y", "has_ground_truth": "n"}
+{"dataset": "generated_emergency_dept_stays", "n": 1461, "frequency": "D", "adf_p_d0": 0.0826, "adf_p_d1": 0.0, "suggested_d": "1", "dominant_acf_lag": 7, "dominant_pacf_lag": 1, "cv": 0.122, "seasonal_strength": 0.522, "visible_seasonality": "y", "has_ground_truth": "y"}
+{"dataset": "generated_job_shop_manufacturing", "n": 1461, "frequency": "D", "adf_p_d0": 0.0, "adf_p_d1": 0.0, "suggested_d": "0", "dominant_acf_lag": 1, "dominant_pacf_lag": 1, "cv": 0.088, "seasonal_strength": 0.096, "visible_seasonality": "n", "has_ground_truth": "y"}
