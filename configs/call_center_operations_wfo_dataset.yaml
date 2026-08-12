@@ -1,0 +1,27 @@
+
+# Per-dataset configuration — one file per candidate dataset (Stage 0 of the pipeline).
+# Copy this file per dataset, adjust, and run:  python src/data_quality.py configs/<name>.yaml
+
+# NOTE: raw file is pre-aggregated per (Date, Hour, Country, Site, Queue_Name, Channel, ...)
+# bucket, not one-row-per-task — there is no single per-call duration, only aHT_Seconds
+# (average handle time for that bucket). Pooling all 53 countries / 58 sites / 20 queues
+# together per day would blend unrelated queues into a meaningless average, so this config
+# is scoped to a single queue (pooled across sites/countries within that queue), the
+# densest available: RETENTION_VOICE_T2 (1019 rows, 801 distinct days, 2021-01 to 2026-12).
+# Filtered/prepared via: data/processed/call_center_retention_voice_t2.csv
+# (Date also reformatted from ambiguous DD-MM-YYYY to ISO — see below.)
+
+name: call_center_retention_voice_t2   # used in report/plot filenames
+file: data/processed/call_center_retention_voice_t2.csv
+
+# --- column mapping ---------------------------------------------------------
+timestamp_column: Date          # bucket date (ISO, pre-normalized from raw DD-MM-YYYY —
+                                 # data_quality.py's pd.to_datetime has no dayfirst=True,
+                                 # so ambiguous raw dates would silently misparse otherwise)
+duration_column: aHT_Seconds    # average handle time per bucket, seconds
+
+# --- series construction (these become the Stage 2 decisions) ---------------
+frequency: W                    # daily coverage is only ~37% (data arrives every 2-3 days
+                                 # per queue); weekly coverage is ~89%, still marginal
+aggregation: median             # median | mean  (median if durations are heavy-tailed)
+seasonal_period: 52             # weekly data, annual pattern

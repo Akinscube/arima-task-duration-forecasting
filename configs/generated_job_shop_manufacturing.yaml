@@ -1,0 +1,7 @@
+name: generated_job_shop_manufacturing
+file: data/raw/generated_job_shop_manufacturing.csv
+timestamp_column: actual_start
+duration_column: processing_minutes
+frequency: D
+aggregation: median
+seasonal_period: 7

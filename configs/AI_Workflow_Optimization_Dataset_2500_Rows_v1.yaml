@@ -1,0 +1,18 @@
+
+# Per-dataset configuration — one file per candidate dataset (Stage 0 of the pipeline).
+# Copy this file per dataset, adjust, and run:  python src/data_quality.py configs/<name>.yaml
+
+name: AI_Workflow_Optimization_Dataset_2500_Rows_v1   # used in report/plot filenames
+file: data/raw/AI_Workflow_Optimization_Dataset_2500_Rows_v1.csv
+
+# --- column mapping ---------------------------------------------------------
+timestamp_column: Task_Start_Time   # one row per task, always populated, 0 nulls
+duration_column: Actual_Time_Minutes    # minutes; matches Task_End_Time - Task_Start_Time exactly
+
+# --- series construction (these become the Stage 2 decisions) ---------------
+frequency: D                    # W was tried to fix thin_periods but collapses to 53 obs
+                                 # (train_ok/test_ok/seasonal_ok all fail) — D is the better
+                                 # tradeoff: only thin_periods fails, and it's borderline
+                                 # (18.9% vs 10% threshold) against a strong 365-day series
+aggregation: median             # median | mean  (median if durations are heavy-tailed)
+seasonal_period: 7               # 7 for daily data with weekly pattern

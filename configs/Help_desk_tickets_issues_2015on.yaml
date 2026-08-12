@@ -1,0 +1,27 @@
+
+# Per-dataset configuration — one file per candidate dataset (Stage 0 of the pipeline).
+# Copy this file per dataset, adjust, and run:  python src/data_quality.py configs/<name>.yaml
+
+# Variant of Help_desk_tickets_issues.yaml restricted to issue_created >= 2015-08-01.
+# Full-history run (2007-2023) failed thin_periods (23% of days <5 tickets) and gaps
+# (17.2% missing days) despite huge history margin (3849 train / 963 test / 549.9
+# seasonal cycles) — monthly volume ramps from ~40-350/month (2007-2015) to a
+# sustained >300/month from Aug 2015 onward, so the early years were dragging down
+# density. This config tests whether restricting to the denser, mature period alone
+# clears the volume/gap checks given the history margin to spare.
+
+name: Help_desk_tickets_issues_2015on   # used in report/plot filenames
+file: data/processed/Help_desk_tickets_issues_2015on.csv
+
+# --- column mapping ---------------------------------------------------------
+timestamp_column: issue_created   # when the ticket entered the system
+duration_column: wf_total_time    # wf_total_time is the total processing time in SECONDS
+
+# --- series construction (these become the Stage 2 decisions) ---------------
+# D failed thin_periods/gaps: weekday counts show a Sun-Thu work week / Fri-Sat
+# weekend (Fri mean 2.4 tickets/day, Sat 4.7, vs 20-25 Sun-Thu) -- structural
+# closure, not data loss, per the tool's own note. W absorbs it; history has huge
+# margin (2016 train / 504 test daily) so trading resolution for stability is cheap.
+frequency: W                    # D = daily, W = weekly  (coarsen if periods are thin)
+aggregation: median             # median | mean  (median if durations are heavy-tailed)
+seasonal_period: 52             # weekly data, annual pattern

@@ -1,0 +1,7 @@
+name: generated_emergency_dept_stays
+file: data/raw/generated_emergency_dept_stays.csv
+timestamp_column: arrival_ts
+duration_column: los_minutes
+frequency: D
+aggregation: median
+seasonal_period: 7

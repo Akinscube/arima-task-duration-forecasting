@@ -2,9 +2,10 @@
 Dataset quality profiler — Stage 0/3 of the experimental pipeline.
 
 Screens a candidate task-log dataset against the quality criteria defined in
-the pipeline definition: task volume per period, calendar gaps, sufficient
-history for ARIMA (training length, seasonal coverage, test length), and
-basic integrity (duplicates, impossible durations, unit sanity).
+spec/quality-gate-thresholds.md: task volume per period, calendar gaps,
+sufficient history for ARIMA (training length, seasonal coverage, test
+length), and basic integrity (duplicates, impossible durations, unit
+sanity).
 
 Usage:
     python src/data_quality.py configs/<dataset>.yaml
@@ -26,6 +27,7 @@ import matplotlib.pyplot as plt
 import yaml
 
 # ---------------------------------------------------------------- thresholds
+# see spec/quality-gate-thresholds.md for the formula each constant feeds
 MIN_TASKS_PER_PERIOD = 5      # aggregate below this is noise
 MAX_MISSING_PCT = 0.05        # non-structural missingness ceiling
 MIN_TRAIN_OBS = 200           # training observations (daily series target)
@@ -42,12 +44,16 @@ def load_config(path: str) -> dict:
 def load_data(cfg: dict) -> pd.DataFrame:
     df = pd.read_csv(cfg["file"])
     ts_col = cfg["timestamp_column"]
-    df[ts_col] = pd.to_datetime(df[ts_col], errors="coerce")
+    # format="ISO8601" handles mixed sub-second precision within a column (plain
+    # pd.to_datetime's vectorized fast path silently coerces those rows to NaT);
+    # non-ISO formats fail loudly (100% unparseable) instead of silently
+    # misparsing ambiguous DD-MM vs MM-DD dates.
+    df[ts_col] = pd.to_datetime(df[ts_col], errors="coerce", format="ISO8601")
 
     if "duration_column" in cfg:
         df["duration"] = pd.to_numeric(df[cfg["duration_column"]], errors="coerce")
     else:  # derive from start/end
-        end = pd.to_datetime(df[cfg["end_column"]], errors="coerce")
+        end = pd.to_datetime(df[cfg["end_column"]], errors="coerce", format="ISO8601")
         df["duration"] = (end - df[ts_col]).dt.total_seconds() / 60.0  # minutes
 
     return df
@@ -74,10 +80,12 @@ def profile(cfg: dict) -> tuple[list[str], dict]:
     lines.append(f"records: {n_raw}  (unparseable timestamps dropped: {n_bad_ts})")
     lines.append(f"date range: {df[ts].min()}  ->  {df[ts].max()}")
 
+    # exact full-row duplicates (informational only — see
+    # spec/quality-gate-thresholds.md's duplicate-definition note)
     dupes = df.duplicated().sum()
     lines.append(f"exact duplicate rows: {dupes}" + ("  <- review" if dupes else ""))
 
-    # duration integrity
+    # duration integrity (informational only)
     n_nan_dur = df["duration"].isna().sum()
     n_neg = (df["duration"] < 0).sum()
     n_zero = (df["duration"] == 0).sum()
@@ -89,7 +97,7 @@ def profile(cfg: dict) -> tuple[list[str], dict]:
         lines.append("  <- max is >>p99: check for open-ticket artefacts or mixed units")
     df = df[(df["duration"] > 0)].dropna(subset=["duration"])
 
-    # tasks per period (irregularity)
+    # -------- Gate 1: volume per period (irregularity)
     counts = df.set_index(ts).resample(freq).size()
     thin = (counts[counts > 0] < MIN_TASKS_PER_PERIOD).mean()
     lines.append(f"\n[volume] tasks per {freq}-period: mean {counts.mean():.1f}, "
@@ -99,7 +107,7 @@ def profile(cfg: dict) -> tuple[list[str], dict]:
     if not results["thin_periods_ok"]:
         lines.append(f"  FAIL: >10% of periods too thin — consider coarser frequency (e.g. W)")
 
-    # -------- Step 2: series construction + gaps
+    # -------- Gate 2: series construction + calendar gaps
     series = df.set_index(ts)["duration"].resample(freq).agg(agg)
     series_full = series.asfreq(freq)
     missing_pct = series_full.isna().mean()
@@ -115,7 +123,7 @@ def profile(cfg: dict) -> tuple[list[str], dict]:
     if not results["gaps_ok"]:
         lines.append(f"  FAIL: missing > {MAX_MISSING_PCT:.0%} or gap >= one seasonal period")
 
-    # -------- Step 3: sufficient history
+    # -------- Gate 3: sufficient history
     n = series_full.notna().sum()
     n_train = int(n * TRAIN_FRACTION)
     n_test = n - n_train
@@ -148,7 +156,7 @@ def profile(cfg: dict) -> tuple[list[str], dict]:
     lines.append("Inspect for level shifts / structural breaks — a mid-series process")
     lines.append("change is a finding for the cross-domain analysis, record it.")
 
-    # -------- verdict
+    # -------- verdict (integrity checks above are reported, not gating)
     lines.append("\n" + "=" * 60)
     passed = all(results.values())
     results = {k: bool(v) for k, v in results.items()}

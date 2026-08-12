@@ -1,0 +1,89 @@
+{
+  "version": "v1",
+  "seed": 30124470,
+  "generated_for": "IS4T702 dissertation - cross-domain datasets",
+  "date_range": [
+    "2022-01-01",
+    "2025-12-31"
+  ],
+  "datasets": {
+    "generated_emergency_dept_stays": {
+      "domain": "healthcare_emergency_department",
+      "duration_column": "los_minutes",
+      "timestamp_column": "arrival_ts",
+      "aggregation": "median per D",
+      "latent_series_dgp": {
+        "form": "m_t = 180 + 25*weekend + 20*cos(2pi*(doy-15)/365.25) + AR1",
+        "base_level_minutes": 180.0,
+        "weekend_effect_minutes": 25.0,
+        "annual_amplitude_minutes": 20.0,
+        "annual_peak": "mid-January (winter surge)",
+        "annual_phase_reference_day": 15,
+        "seasonal_planted": true,
+        "stochastic_form": "AR1",
+        "ar1_phi": 0.6,
+        "ar1_sigma": 5.0
+      },
+      "record_level": {
+        "form": "los_i = m_t * acuity_factor * exp(N(0, 0.35)), clip [10, 1440]",
+        "acuity_probs": {
+          "1": 0.05,
+          "2": 0.15,
+          "3": 0.4,
+          "4": 0.3,
+          "5": 0.1
+        },
+        "acuity_factors": {
+          "1": 2.2,
+          "2": 1.6,
+          "3": 1.0,
+          "4": 0.75,
+          "5": 0.55
+        },
+        "lognormal_sigma": 0.35
+      },
+      "dropout": {
+        "mechanism": "LWBS -> los_minutes NaN",
+        "p_base": 0.04,
+        "p_winter": 0.07
+      },
+      "volume": {
+        "form": "Poisson(85 * 0.92^weekend * 1.18^winter)",
+        "base_lambda": 85,
+        "weekend_mult": 0.92,
+        "winter_mult": 1.18
+      },
+      "expected_recovery_note": "AR(1) phi expected to attenuate below 0.60 in the aggregated median series due to record-level noise (v2 finding, Sec 3.7)."
+    },
+    "generated_job_shop_manufacturing": {
+      "domain": "manufacturing_job_shop",
+      "duration_column": "processing_minutes",
+      "timestamp_column": "actual_start",
+      "aggregation": "median per D",
+      "latent_series_dgp": {
+        "form": "p_t = 55 + ARMA(1,1)",
+        "base_level_minutes": 55.0,
+        "seasonal_planted": false,
+        "stochastic_form": "ARMA11",
+        "arma_phi": 0.85,
+        "arma_theta": 0.35,
+        "arma_sigma": 2.0,
+        "seasonality": "none planted (persistence-dominated domain)"
+      },
+      "record_level": {
+        "form": "proc_i = p_t * exp(N(0, 0.04)), clip [20, 150]",
+        "lognormal_sigma": 0.04,
+        "note": "tight engineered tolerances -> low aggregation noise, ARMA(1,1) expected to recover faithfully (v2 finding)"
+      },
+      "dropout": {
+        "mechanism": "none",
+        "rework_flag_rate": 0.02
+      },
+      "volume": {
+        "form": "Poisson(45)",
+        "base_lambda": 45,
+        "operation": "7-day continuous"
+      }
+    }
+  }
+}

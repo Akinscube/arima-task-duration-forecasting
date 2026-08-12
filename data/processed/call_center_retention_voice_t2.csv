@@ -1,0 +1,1020 @@
+Date,Weekday,Week_Number,Month,Year,Hour,Country,Region,Site,Queue_Name,Channel,All_Units_Filter,Queue_Units_Filter,ASU_Tier_Filter,Business_Unit,planned_Volume,offered_Volume,handled_Volume,abandoned_Volume,backlog_Volume,aHT_Seconds,handle_Time_Total,Wait_Time_Avg,shrinkage_Percent,required_FTE,agent_Count,utilization_percent,Active_Agents,Service_Level_Percent,Occupancy_Percent
+2025-02-09,Sunday,6,February,2025,10,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,107,90,86,4,4,630,54180,28.0,20,1,1,89,1,89,61
+2021-10-14,Thursday,41,October,2021,16,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,311,331,330,1,1,280,92400,0.84592145,20,3,4,71,3,84,63
+2022-07-29,Friday,30,July,2022,8,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Retail,408,402,402,0,0,718,288636,0.0,17,10,12,73,9,80,68
+2021-05-16,Sunday,19,May,2021,14,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Healthcare,275,268,261,7,7,346,90306,9.037313433,23,3,4,76,3,77,77
+2025-03-13,Thursday,11,March,2025,6,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,365,379,366,13,13,492,180072,16.87598945,30,6,8,72,6,89,60
+2021-12-08,Wednesday,49,December,2021,6,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Healthcare,188,191,164,27,27,195,31980,27.56544503,23,1,1,89,1,75,79
+2022-10-11,Tuesday,41,October,2022,3,China,APAC,Shanghai,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,124,148,130,18,18,579,75270,70.41891892,17,2,2,85,2,88,82
+2021-09-15,Wednesday,37,September,2021,1,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Retail,279,289,261,28,28,478,124758,46.31141869,27,4,5,87,4,81,79
+2025-06-26,Thursday,26,June,2025,23,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Retail,243,227,200,27,27,814,162800,96.81938326,30,5,7,72,5,76,87
+2022-05-26,Thursday,21,May,2022,17,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,E-commerce,257,258,257,1,1,887,227959,3.437984496,26,7,9,92,8,73,66
+2022-10-01,Saturday,39,October,2022,5,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Retail,431,448,447,1,1,455,203385,1.015625,24,7,9,79,7,70,86
+2021-05-17,Monday,20,May,2021,0,China,APAC,Shanghai,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,478,502,476,26,26,825,392700,42.72908367,29,13,17,88,15,85,67
+2024-09-03,Tuesday,36,September,2024,8,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,140,157,137,20,20,462,63294,58.85350318,26,2,3,74,2,75,66
+2024-03-06,Wednesday,10,March,2024,18,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Banking,173,159,132,27,27,360,47520,61.13207547,26,1,1,82,1,86,72
+2023-11-24,Friday,47,November,2023,17,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,230,247,232,15,15,882,204624,53.56275304,25,7,9,91,8,83,90
+2021-09-16,Thursday,37,September,2021,14,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Healthcare,134,122,113,9,9,687,77631,50.68032787,20,2,2,87,2,95,90
+2022-02-08,Tuesday,6,February,2022,11,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,375,375,351,24,24,861,302211,55.104,33,10,13,69,9,76,88
+2024-08-24,Saturday,34,August,2024,9,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,174,194,190,4,4,323,61370,6.659793814,16,2,2,79,2,90,73
+2023-04-06,Thursday,14,April,2023,22,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,466,490,469,21,21,612,287028,26.22857143,34,9,12,69,8,81,67
+2021-04-15,Thursday,15,April,2021,7,Philippines,APAC,Manila,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,213,234,204,30,30,746,152184,95.64102564,30,5,7,72,5,89,90
+2024-05-09,Thursday,19,May,2024,5,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,388,373,347,26,26,243,84321,16.9383378,18,2,2,76,2,76,84
+2026-08-02,Sunday,31,August,2026,3,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,315,299,296,3,3,490,145040,4.91638796,18,5,6,66,4,81,78
+2023-06-23,Friday,25,June,2023,4,Canada,AMER,Toronto,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,E-commerce,236,226,203,23,23,243,49329,24.7300885,17,1,1,69,1,70,68
+2023-10-17,Tuesday,42,October,2023,12,United States,AMER,New York,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,274,279,276,3,3,845,233220,9.086021505,22,8,10,71,7,86,61
+2022-06-18,Saturday,24,June,2022,16,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,362,384,384,0,0,699,268416,0.0,16,9,10,68,7,80,83
+2023-07-26,Wednesday,30,July,2023,15,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,196,225,201,24,24,248,49848,26.45333333,16,1,1,87,1,95,61
+2023-12-15,Friday,50,December,2023,2,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,123,112,109,3,3,678,73902,18.16071429,22,2,2,65,1,72,90
+2025-02-01,Saturday,5,February,2025,22,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Telecom,456,467,451,16,16,457,206107,15.65738758,28,7,9,73,7,92,72
+2022-05-09,Monday,19,May,2022,9,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Retail,139,151,125,26,26,429,53625,73.86754967,31,1,1,89,1,74,76
+2025-05-26,Monday,22,May,2025,8,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,375,397,376,21,21,280,105280,14.81108312,18,3,4,79,3,84,60
+2023-03-24,Friday,12,March,2023,11,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Banking,246,268,251,17,17,511,128261,32.4141791,18,4,5,94,5,92,71
+2021-01-18,Monday,3,January,2021,22,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,183,184,174,10,10,688,119712,37.39130435,34,4,5,71,4,75,90
+2021-11-03,Wednesday,44,November,2021,1,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,351,337,320,17,17,193,61760,9.735905045,17,2,2,77,2,74,83
+2025-08-20,Wednesday,34,August,2025,21,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,162,173,150,23,23,444,66600,59.02890173,21,2,2,75,2,78,80
+2021-12-19,Sunday,50,December,2021,15,United States,AMER,Dallas,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,293,319,310,9,9,604,187240,17.04075235,29,6,8,85,7,82,88
+2026-02-23,Monday,9,February,2026,4,Italy,EMEA,Rome,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Healthcare,212,216,204,12,12,619,126276,34.38888889,33,4,5,78,4,89,89
+2024-03-02,Saturday,9,March,2024,23,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,105,131,126,5,5,642,80892,24.50381679,24,2,2,75,2,95,78
+2024-11-18,Monday,47,November,2024,7,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,80,88,77,11,11,302,23254,37.75,26,0,0,86,0,85,87
+2022-06-07,Tuesday,23,June,2022,16,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Telecom,234,263,253,10,10,385,97405,14.63878327,17,3,4,66,3,70,81
+2021-06-15,Tuesday,24,June,2021,9,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,94,96,94,2,2,841,79054,17.52083333,19,2,2,74,1,91,67
+2023-02-25,Saturday,8,February,2023,14,Italy,EMEA,Rome,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,398,399,386,13,13,380,146680,12.38095238,25,5,6,74,4,82,76
+2026-02-24,Tuesday,9,February,2026,23,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,E-commerce,157,176,163,13,13,573,93399,42.32386364,18,3,4,86,3,85,73
+2021-04-05,Monday,14,April,2021,8,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,444,431,423,8,8,827,349821,15.35034803,18,12,14,94,13,72,65
+2023-09-24,Sunday,38,September,2023,16,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,207,235,233,2,2,825,192225,7.021276596,19,6,7,75,5,79,69
+2024-11-26,Tuesday,48,November,2024,15,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,402,397,394,3,3,872,343568,6.589420655,31,11,14,73,10,70,61
+2024-11-10,Sunday,45,November,2024,0,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,114,141,131,10,10,216,28296,15.31914894,25,0,0,91,0,83,68
+2023-06-17,Saturday,24,June,2023,1,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Retail,294,299,282,17,17,502,141564,28.54180602,32,4,5,66,3,88,80
+2024-02-12,Monday,7,February,2024,12,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,350,353,344,9,9,217,74648,5.532577904,18,2,2,68,1,79,90
+2026-02-23,Monday,9,February,2026,11,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,151,135,134,1,1,435,58290,3.222222222,20,2,2,69,1,90,81
+2024-02-17,Saturday,7,February,2024,3,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Banking,356,382,376,6,6,496,186496,7.790575916,15,6,7,90,6,84,62
+2025-08-09,Saturday,32,August,2025,10,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,62,85,73,12,12,270,19710,38.11764706,26,0,0,67,0,70,87
+2022-10-24,Monday,43,October,2022,5,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Telecom,187,191,164,27,27,867,142188,122.5602094,20,4,5,86,4,92,78
+2025-08-31,Sunday,35,August,2025,13,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,220,236,217,19,19,747,162099,60.13983051,18,5,6,93,6,86,88
+2025-04-05,Saturday,14,April,2025,7,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,419,408,390,18,18,449,175110,19.80882353,15,6,7,70,5,94,90
+2025-06-09,Monday,24,June,2025,6,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,341,365,364,1,1,584,212576,1.6,30,7,9,74,7,86,77
+2022-07-23,Saturday,29,July,2022,11,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,473,497,468,29,29,800,374400,46.68008048,27,13,17,72,12,85,67
+2025-09-27,Saturday,39,September,2025,16,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Healthcare,178,188,160,28,28,508,81280,75.65957447,35,2,3,70,2,79,85
+2024-03-02,Saturday,9,March,2024,15,Italy,EMEA,Rome,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,150,134,133,1,1,819,108927,6.111940299,29,3,4,66,3,78,68
+2021-08-22,Sunday,33,August,2021,23,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,483,476,452,24,24,679,306908,34.23529412,22,10,12,74,9,74,79
+2025-11-18,Tuesday,47,November,2025,5,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,125,116,96,20,20,455,43680,78.44827586,20,1,1,81,1,71,61
+2021-09-14,Tuesday,37,September,2021,9,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,E-commerce,237,255,229,26,26,263,60227,26.81568627,17,2,2,76,2,89,66
+2021-10-01,Friday,39,October,2021,0,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Banking,199,208,179,29,29,522,93438,72.77884615,25,3,4,84,3,78,60
+2021-05-03,Monday,18,May,2021,14,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,241,226,217,9,9,801,173817,31.89823009,33,6,8,73,6,83,64
+2022-02-13,Sunday,6,February,2022,8,China,APAC,Shanghai,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,403,430,405,25,25,251,101655,14.59302326,23,3,4,68,3,70,70
+2021-06-25,Friday,25,June,2021,16,China,APAC,Shanghai,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,421,446,432,14,14,676,292032,21.21973094,18,10,12,83,10,91,86
+2021-04-24,Saturday,16,April,2021,4,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,139,124,95,29,29,297,28215,69.45967742,26,0,0,66,0,89,90
+2021-11-02,Tuesday,44,November,2021,4,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,413,404,378,26,26,640,241920,41.18811881,28,8,10,73,7,79,86
+2021-07-02,Friday,26,July,2021,11,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Healthcare,261,259,235,24,24,551,129485,51.05791506,27,4,5,67,3,92,79
+2024-01-17,Wednesday,3,January,2024,22,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,427,452,437,15,15,489,213693,16.22787611,18,7,8,66,5,70,78
+2022-10-01,Saturday,39,October,2022,16,France,EMEA,Paris,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Banking,466,467,466,1,1,528,246048,1.130620985,25,8,10,68,7,87,61
+2023-04-17,Monday,16,April,2023,7,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,100,92,78,14,14,503,39234,76.54347826,29,1,1,81,1,91,63
+2025-05-27,Tuesday,22,May,2025,12,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Retail,193,215,212,3,3,393,83316,5.48372093,17,2,2,83,2,71,69
+2022-10-24,Monday,43,October,2022,10,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Banking,262,290,266,24,24,513,136458,42.45517241,26,4,5,76,4,81,86
+2024-04-09,Tuesday,15,April,2024,7,India,APAC,Bangalore,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,198,211,198,13,13,583,115434,35.91943128,34,4,5,77,4,74,76
+2024-01-08,Monday,2,January,2024,21,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,271,275,251,24,24,434,108934,37.87636364,29,3,4,94,4,87,60
+2023-09-24,Sunday,38,September,2023,18,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,200,226,198,28,28,403,79794,49.92920354,23,2,2,95,2,93,63
+2021-04-30,Friday,17,April,2021,14,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,269,288,277,11,11,473,131021,18.06597222,20,4,5,92,5,75,63
+2021-05-08,Saturday,18,May,2021,6,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Healthcare,253,244,243,1,1,182,44226,0.745901639,33,1,1,65,1,78,75
+2023-01-01,Sunday,52,January,2023,19,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,72,95,72,23,23,285,20520,69.0,23,0,0,85,0,80,68
+2023-11-27,Monday,48,November,2023,7,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,419,415,403,12,12,349,140647,10.09156627,18,4,5,70,4,73,79
+2021-08-08,Sunday,31,August,2021,5,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,210,201,193,8,8,267,51531,10.62686567,33,1,1,73,1,93,69
+2021-03-08,Monday,10,March,2021,9,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,304,330,307,23,23,518,159026,36.1030303,33,5,7,67,5,94,74
+2024-05-29,Wednesday,22,May,2024,21,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,404,384,354,30,30,564,199656,44.0625,32,6,8,95,8,86,77
+2023-10-28,Saturday,43,October,2023,15,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,120,103,80,23,23,749,59920,167.2524272,19,2,2,72,1,80,89
+2024-07-24,Wednesday,30,July,2024,12,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,E-commerce,242,229,228,1,1,496,113088,2.165938865,19,3,4,84,3,73,68
+2025-03-07,Friday,10,March,2025,0,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,411,404,393,11,11,500,196500,13.61386139,23,6,7,82,6,72,80
+2025-02-06,Thursday,6,February,2025,20,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Telecom,125,118,117,1,1,260,30420,2.203389831,28,1,1,65,1,72,72
+2024-09-29,Sunday,39,September,2024,16,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,126,141,128,13,13,426,54528,39.27659574,18,1,1,79,1,71,75
+2024-08-30,Friday,35,August,2024,18,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,155,182,157,25,25,455,71435,62.5,17,2,2,90,2,76,89
+2025-07-20,Sunday,29,July,2025,5,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,166,146,139,7,7,778,108142,37.30136986,33,3,4,70,3,83,81
+2024-08-16,Friday,33,August,2024,4,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,376,381,375,6,6,319,119625,5.023622047,30,4,5,74,4,87,87
+2024-03-07,Thursday,10,March,2024,0,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,373,367,337,30,30,369,124353,30.16348774,31,4,5,76,4,94,83
+2022-09-30,Friday,39,September,2022,2,China,APAC,Shanghai,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Banking,444,429,404,25,25,568,229472,33.1002331,20,7,8,75,6,78,83
+2025-01-31,Friday,5,January,2025,12,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Telecom,260,253,228,25,25,869,198132,85.86956522,29,6,8,74,6,72,87
+2024-08-26,Monday,35,August,2024,4,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,296,310,304,6,6,749,227696,14.49677419,24,7,9,95,9,84,88
+2022-10-12,Wednesday,41,October,2022,19,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,114,121,115,6,6,656,75440,32.52892562,35,2,3,85,3,90,60
+2025-05-20,Tuesday,21,May,2025,0,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Telecom,260,255,231,24,24,743,171633,69.92941176,24,5,6,75,5,91,75
+2021-01-13,Wednesday,2,January,2021,6,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Telecom,298,301,288,13,13,698,201024,30.1461794,32,6,8,79,6,91,62
+2025-03-22,Saturday,12,March,2025,18,Australia,APAC,Sydney,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,197,211,197,14,14,696,137112,46.18009479,15,4,5,85,4,81,90
+2022-12-28,Wednesday,52,December,2022,23,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Telecom,236,231,205,26,26,462,94710,52.0,27,3,4,75,3,79,65
+2021-08-18,Wednesday,33,August,2021,23,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Healthcare,418,443,435,8,8,657,285795,11.86455982,32,9,12,86,10,75,90
+2022-11-17,Thursday,46,November,2022,8,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,185,205,193,12,12,369,71217,21.6,17,2,2,94,2,90,75
+2022-11-27,Sunday,47,November,2022,19,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,215,195,194,1,1,614,119116,3.148717949,24,4,5,81,4,82,81
+2022-10-01,Saturday,39,October,2022,8,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,206,205,185,20,20,336,62160,32.7804878,29,2,3,82,2,78,77
+2024-03-03,Sunday,9,March,2024,20,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Banking,107,94,73,21,21,284,20732,63.44680851,15,0,0,75,0,78,60
+2022-02-14,Monday,7,February,2022,18,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,133,119,99,20,20,552,54648,92.77310924,17,1,1,76,1,88,78
+2022-05-26,Thursday,21,May,2022,21,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,77,90,77,13,13,558,42966,80.6,24,1,1,71,1,88,69
+2024-12-07,Saturday,49,December,2024,12,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,131,129,105,24,24,293,30765,54.51162791,29,1,1,94,1,83,82
+2021-09-22,Wednesday,38,September,2021,7,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,447,447,418,29,29,248,103664,16.08948546,29,3,4,92,4,88,71
+2024-09-08,Sunday,36,September,2024,3,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Retail,86,90,71,19,19,345,24495,72.83333333,28,0,0,77,0,75,71
+2023-10-06,Friday,40,October,2023,8,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,105,106,89,17,17,667,59363,106.9716981,30,2,3,85,3,93,86
+2022-11-11,Friday,45,November,2022,17,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,142,123,100,23,23,484,48400,90.50406504,25,1,1,88,1,85,70
+2022-08-27,Saturday,34,August,2022,0,Philippines,APAC,Manila,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,302,294,264,30,30,643,169752,65.6122449,22,5,6,79,5,78,90
+2023-07-27,Thursday,30,July,2023,18,France,EMEA,Paris,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,64,82,62,20,20,467,28954,113.902439,35,1,1,74,1,73,62
+2025-08-07,Thursday,32,August,2025,8,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,244,231,222,9,9,193,42846,7.51948052,25,1,1,87,1,74,65
+2025-09-13,Saturday,37,September,2025,6,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,E-commerce,407,411,399,12,12,402,160398,11.73722628,24,5,6,89,5,72,81
+2021-12-22,Wednesday,51,December,2021,19,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,319,320,307,13,13,719,220733,29.209375,26,7,9,68,6,88,67
+2025-05-16,Friday,20,May,2025,19,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,237,247,221,26,26,541,119561,56.94736842,26,4,5,94,5,88,78
+2026-01-01,Thursday,1,January,2026,17,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,399,417,404,13,13,751,303404,23.41247002,32,10,13,91,12,71,64
+2026-11-02,Monday,45,November,2026,9,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,98,116,112,4,4,567,63504,19.55172414,24,2,2,78,2,79,78
+2024-03-30,Saturday,13,March,2024,1,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,175,192,181,11,11,266,48146,15.23958333,33,1,1,77,1,71,87
+2025-09-05,Friday,36,September,2025,21,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,63,63,54,9,9,275,14850,39.28571429,18,0,0,88,0,83,76
+2024-10-13,Sunday,41,October,2024,18,China,APAC,Shanghai,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,167,148,131,17,17,897,117507,103.0337838,26,4,5,81,4,95,72
+2025-05-24,Saturday,21,May,2025,8,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Healthcare,151,161,156,5,5,386,60216,11.98757764,17,2,2,81,2,85,66
+2021-06-19,Saturday,24,June,2021,14,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,417,428,423,5,5,557,235611,6.507009346,35,8,11,75,8,95,68
+2024-03-12,Tuesday,11,March,2024,20,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Healthcare,487,517,514,3,3,823,423022,4.775628627,19,14,17,83,14,80,80
+2023-09-15,Friday,37,September,2023,15,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Retail,334,358,347,11,11,773,268231,23.75139665,17,9,11,80,9,84,80
+2022-01-29,Saturday,4,January,2022,18,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,448,466,441,25,25,527,232407,28.27253219,26,8,10,67,7,86,71
+2022-03-24,Thursday,12,March,2022,10,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,114,112,108,4,4,608,65664,21.71428571,16,2,2,81,2,72,71
+2021-08-21,Saturday,33,August,2021,4,Canada,AMER,Toronto,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,424,445,441,4,4,849,374409,7.631460674,26,13,16,70,11,76,80
+2025-11-21,Friday,47,November,2025,2,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,241,221,208,13,13,820,170560,48.23529412,15,5,6,65,4,76,70
+2023-07-06,Thursday,27,July,2023,9,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,488,483,480,3,3,704,337920,4.372670808,23,11,14,75,11,93,72
+2025-08-11,Monday,33,August,2025,9,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,152,178,150,28,28,749,112350,117.8202247,29,3,4,81,3,87,90
+2021-05-25,Tuesday,21,May,2021,20,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,496,504,504,0,0,464,233856,0.0,34,8,11,86,9,81,68
+2025-05-30,Friday,22,May,2025,5,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,385,393,383,10,10,655,250865,16.66666667,27,8,10,70,7,83,68
+2021-05-24,Monday,21,May,2021,16,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,206,218,217,1,1,719,156023,3.298165138,19,5,6,79,5,81,66
+2021-11-12,Friday,45,November,2021,11,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,115,105,93,12,12,712,66216,81.37142857,16,2,2,80,2,70,60
+2021-09-23,Thursday,38,September,2021,2,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Retail,399,406,376,30,30,759,285384,56.08374384,32,9,12,87,10,81,83
+2025-06-16,Monday,25,June,2025,0,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,89,80,61,19,19,486,29646,115.425,33,1,1,91,1,83,81
+2023-03-02,Thursday,9,March,2023,2,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,359,358,355,3,3,839,297845,7.030726257,32,10,13,74,10,79,65
+2021-10-15,Friday,41,October,2021,12,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Banking,313,309,299,10,10,529,158171,17.1197411,28,5,6,73,4,79,76
+2022-11-15,Tuesday,46,November,2022,14,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,89,102,81,21,21,202,16362,41.58823529,35,0,0,68,0,81,81
+2022-03-26,Saturday,12,March,2022,7,Canada,AMER,Toronto,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Retail,395,397,367,30,30,853,313051,64.45843829,29,10,13,77,10,82,69
+2023-09-06,Wednesday,36,September,2023,15,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,197,177,170,7,7,265,45050,10.48022599,23,1,1,89,1,82,74
+2021-02-17,Wednesday,7,February,2021,11,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,409,410,398,12,12,367,146066,10.74146341,15,5,6,81,5,80,87
+2024-08-12,Monday,33,August,2024,5,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Retail,490,520,515,5,5,419,215785,4.028846154,15,7,8,78,6,72,61
+2023-02-14,Tuesday,7,February,2023,8,France,EMEA,Paris,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Retail,412,411,381,30,30,267,101727,19.48905109,21,3,4,93,4,82,87
+2025-04-14,Monday,16,April,2025,22,United States,AMER,New York,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,227,235,218,17,17,518,112924,37.47234043,34,3,4,75,3,84,73
+2026-05-01,Friday,18,May,2026,4,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Banking,453,436,428,8,8,266,113848,4.880733945,20,3,4,73,3,86,79
+2021-01-02,Saturday,53,January,2021,11,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,E-commerce,230,238,232,6,6,608,141056,15.32773109,34,4,5,80,4,84,68
+2025-05-05,Monday,19,May,2025,8,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Telecom,325,354,324,30,30,522,169128,44.23728814,18,5,6,75,5,77,88
+2024-02-13,Tuesday,7,February,2024,5,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,385,406,405,1,1,304,123120,0.748768473,29,4,5,65,3,91,66
+2025-01-17,Friday,3,January,2025,1,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,391,377,362,15,15,395,142990,15.71618037,21,4,5,85,4,88,64
+2021-11-09,Tuesday,45,November,2021,16,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,80,70,54,16,16,625,33750,142.8571429,17,1,1,72,1,90,82
+2022-08-07,Sunday,31,August,2022,22,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,472,480,474,6,6,301,142674,3.7625,28,4,5,68,3,94,68
+2023-07-17,Monday,29,July,2023,12,Canada,AMER,Toronto,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,303,330,303,27,27,771,233613,63.08181818,21,8,10,78,8,76,71
+2026-12-02,Wednesday,49,December,2026,9,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Banking,436,429,414,15,15,679,281106,23.74125874,19,9,11,85,9,77,74
+2026-06-02,Tuesday,23,June,2026,9,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Banking,285,278,275,3,3,646,177650,6.971223022,32,6,8,84,7,81,83
+2021-11-04,Thursday,44,November,2021,1,Canada,AMER,Toronto,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,375,400,382,18,18,556,212392,25.02,29,7,9,83,7,76,70
+2022-04-28,Thursday,17,April,2022,18,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,241,258,246,12,12,467,114882,21.72093023,29,3,4,80,3,87,82
+2025-10-24,Friday,43,October,2025,2,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,101,116,116,0,0,819,95004,0.0,19,3,4,88,4,95,62
+2025-09-14,Sunday,37,September,2025,13,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Telecom,319,336,329,7,7,794,261226,16.54166667,16,9,10,80,8,91,65
+2024-01-31,Wednesday,5,January,2024,1,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Telecom,488,507,493,14,14,485,239105,13.39250493,18,8,9,66,6,81,83
+2024-03-02,Saturday,9,March,2024,1,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Retail,391,413,383,30,30,280,107240,20.33898305,26,3,4,90,4,84,74
+2024-05-28,Tuesday,22,May,2024,7,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,70,73,46,27,27,404,18584,149.4246575,20,0,0,73,0,74,87
+2025-06-18,Wednesday,25,June,2025,3,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,146,146,137,9,9,213,29181,13.13013699,18,1,1,88,1,84,76
+2023-05-16,Tuesday,20,May,2023,6,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,253,266,246,20,20,352,86592,26.46616541,25,3,4,94,4,73,83
+2025-07-18,Friday,29,July,2025,16,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,114,119,117,2,2,212,24804,3.56302521,27,0,0,86,0,92,76
+2021-04-11,Sunday,14,April,2021,10,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,257,259,259,0,0,771,199689,0.0,16,6,7,71,5,70,84
+2022-02-18,Friday,7,February,2022,22,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,E-commerce,205,199,183,16,16,371,67893,29.82914573,16,2,2,93,2,93,68
+2022-08-01,Monday,31,August,2022,4,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,163,181,176,5,5,388,68288,10.71823204,35,2,3,94,3,70,74
+2021-03-25,Thursday,12,March,2021,22,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Banking,435,452,444,8,8,257,114108,4.548672566,34,3,4,70,3,82,84
+2025-04-17,Thursday,16,April,2025,15,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Telecom,248,254,236,18,18,724,170864,51.30708661,26,5,6,70,4,74,84
+2025-02-21,Friday,8,February,2025,10,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,438,467,440,27,27,331,145640,19.13704497,34,5,7,92,6,78,69
+2021-07-26,Monday,30,July,2021,3,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,218,248,218,30,30,331,72158,40.04032258,25,2,3,84,3,89,87
+2023-12-10,Sunday,49,December,2023,16,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,206,218,208,10,10,593,123344,27.20183486,30,4,5,83,4,95,79
+2023-10-13,Friday,41,October,2023,3,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,194,181,153,28,28,597,91341,92.35359116,32,3,4,91,4,92,80
+2024-02-04,Sunday,5,February,2024,4,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,205,229,229,0,0,826,189154,0.0,28,6,8,78,6,83,60
+2023-03-16,Thursday,11,March,2023,4,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,E-commerce,203,226,206,20,20,724,149144,64.07079646,35,5,7,87,6,81,66
+2023-07-25,Tuesday,30,July,2023,15,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Telecom,496,478,465,13,13,735,341775,19.98953975,32,11,15,65,10,72,77
+2023-07-02,Sunday,26,July,2023,12,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,467,450,436,14,14,598,260728,18.60444444,28,9,12,86,10,88,82
+2022-07-19,Tuesday,29,July,2022,19,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Healthcare,267,293,280,13,13,585,163800,25.9556314,17,5,6,88,5,80,78
+2021-08-05,Thursday,31,August,2021,15,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,466,487,476,11,11,264,125664,5.963039014,27,4,5,93,5,94,81
+2022-01-03,Monday,1,January,2022,19,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,490,475,461,14,14,347,159967,10.22736842,33,5,7,80,6,82,79
+2023-12-21,Thursday,51,December,2023,9,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,299,319,315,4,4,594,187110,7.448275862,33,6,8,65,5,79,71
+2022-01-08,Saturday,1,January,2022,18,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Retail,391,404,392,12,12,617,241864,18.32673267,17,8,9,76,7,70,83
+2023-08-10,Thursday,32,August,2023,11,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,242,233,233,0,0,426,99258,0.0,35,3,4,88,4,92,86
+2021-08-05,Thursday,31,August,2021,12,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,305,300,291,9,9,573,166743,17.19,20,5,6,88,5,81,72
+2023-09-12,Tuesday,37,September,2023,17,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,485,478,463,15,15,868,401884,27.23849372,35,13,18,74,13,77,70
+2025-06-14,Saturday,24,June,2025,5,United States,AMER,New York,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,131,122,109,13,13,850,92650,90.57377049,28,3,4,94,4,80,68
+2021-04-25,Sunday,16,April,2021,12,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,E-commerce,297,290,289,1,1,419,121091,1.444827586,24,4,5,80,4,86,80
+2023-06-14,Wednesday,24,June,2023,18,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,81,69,52,17,17,392,20384,96.57971014,29,0,0,75,0,87,74
+2024-08-22,Thursday,34,August,2024,3,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,180,165,144,21,21,804,115776,102.3272727,28,4,5,73,4,85,78
+2022-01-13,Thursday,2,January,2022,8,United States,AMER,New York,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,112,116,109,7,7,758,82622,45.74137931,35,2,3,86,3,85,61
+2023-01-02,Monday,1,January,2023,9,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Healthcare,347,368,339,29,29,853,289167,67.2201087,17,10,12,95,11,70,68
+2023-08-08,Tuesday,32,August,2023,6,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,461,477,456,21,21,341,155496,15.01257862,25,5,6,88,5,80,61
+2021-11-18,Thursday,46,November,2021,9,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,E-commerce,214,231,216,15,15,594,128304,38.57142857,15,4,5,84,4,73,61
+2023-11-22,Wednesday,47,November,2023,1,India,APAC,Hyderabad,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,180,182,173,9,9,199,34427,9.840659341,26,1,1,76,1,72,70
+2025-04-08,Tuesday,15,April,2025,7,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,80,65,35,30,30,292,10220,134.7692308,15,0,0,87,0,70,85
+2025-07-23,Wednesday,30,July,2025,23,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,440,457,437,20,20,382,166934,16.71772429,16,5,6,72,4,90,64
+2025-10-10,Friday,41,October,2025,2,United States,AMER,Dallas,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,388,409,403,6,6,448,180544,6.572127139,31,6,8,77,6,70,84
+2022-11-19,Saturday,46,November,2022,4,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Healthcare,296,278,251,27,27,858,215358,83.33093525,35,7,9,90,8,87,80
+2021-04-12,Monday,15,April,2021,12,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,E-commerce,327,335,335,0,0,516,172860,0.0,15,6,7,69,5,90,62
+2022-07-22,Friday,29,July,2022,17,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,491,494,476,18,18,895,426020,32.61133603,21,14,17,90,15,75,87
+2021-09-26,Sunday,38,September,2021,7,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,353,359,341,18,18,394,134354,19.75487465,35,4,5,84,4,82,62
+2022-11-09,Wednesday,45,November,2022,10,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Banking,353,377,355,22,22,357,126735,20.83289125,18,4,5,91,5,87,64
+2023-04-16,Sunday,15,April,2023,4,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,480,472,471,1,1,425,200175,0.900423729,27,6,8,72,6,78,71
+2022-03-25,Friday,12,March,2022,2,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Retail,408,432,431,1,1,418,180158,0.967592593,16,6,7,69,5,88,77
+2021-05-07,Friday,18,May,2021,11,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,E-commerce,274,298,295,3,3,479,141305,4.822147651,25,4,5,94,5,86,78
+2026-03-03,Tuesday,10,March,2026,8,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,390,377,362,15,15,507,183534,20.17241379,26,6,8,65,5,79,88
+2023-06-23,Friday,25,June,2023,11,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,E-commerce,231,238,218,20,20,457,99626,38.40336134,20,3,4,91,4,78,60
+2025-01-05,Sunday,1,January,2025,4,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Telecom,411,414,389,25,25,393,152877,23.73188406,29,5,6,95,6,89,74
+2022-05-15,Sunday,19,May,2022,15,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Telecom,374,357,355,2,2,816,289680,4.571428571,19,10,12,93,11,75,63
+2022-08-13,Saturday,32,August,2022,20,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,309,312,301,11,11,292,87892,10.29487179,16,3,3,67,2,91,62
+2025-12-16,Tuesday,51,December,2025,16,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,E-commerce,251,240,212,28,28,406,86072,47.36666667,26,2,3,71,2,91,85
+2023-09-06,Wednesday,36,September,2023,9,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,489,487,482,5,5,427,205814,4.383983573,17,7,8,86,7,90,75
+2021-05-27,Thursday,21,May,2021,0,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,90,79,69,10,10,681,46989,86.20253165,26,1,1,87,1,70,84
+2022-07-18,Monday,29,July,2022,7,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,69,74,47,27,27,317,14899,115.6621622,16,0,0,77,0,87,86
+2022-03-17,Thursday,11,March,2022,10,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Banking,306,291,274,17,17,197,53978,11.50859107,34,1,1,75,1,80,73
+2024-05-30,Thursday,22,May,2024,21,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,241,223,208,15,15,547,113776,36.79372197,27,3,4,89,4,80,75
+2022-03-02,Wednesday,9,March,2022,0,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Healthcare,135,139,138,1,1,568,78384,4.086330935,35,2,3,71,2,95,79
+2023-04-05,Wednesday,14,April,2023,22,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Retail,473,469,440,29,29,861,378840,53.23880597,24,13,16,66,11,94,82
+2023-03-10,Friday,10,March,2023,2,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,E-commerce,391,406,397,9,9,511,202867,11.32758621,18,7,8,91,7,90,71
+2024-11-18,Monday,47,November,2024,2,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,242,248,228,20,20,215,49020,17.33870968,32,1,1,89,1,84,73
+2025-05-08,Thursday,19,May,2025,8,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,333,351,350,1,1,424,148400,1.207977208,27,5,6,76,5,95,87
+2023-12-05,Tuesday,49,December,2023,5,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Telecom,137,132,124,8,8,474,58776,28.72727273,18,2,2,89,2,88,60
+2023-09-29,Friday,39,September,2023,23,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Telecom,200,203,183,20,20,540,98820,53.20197044,24,3,4,76,3,83,89
+2022-08-22,Monday,34,August,2022,5,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,231,240,232,8,8,678,157296,22.6,30,5,7,68,5,78,66
+2026-05-03,Sunday,18,May,2026,23,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,E-commerce,404,410,406,4,4,326,132356,3.180487805,18,4,5,78,4,95,90
+2022-07-03,Sunday,26,July,2022,18,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Retail,393,416,393,23,23,450,176850,24.87980769,22,6,7,82,6,72,83
+2026-07-03,Friday,27,July,2026,5,India,APAC,Hyderabad,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,352,376,368,8,8,562,206816,11.95744681,30,7,9,77,7,82,77
+2025-08-10,Sunday,32,August,2025,8,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,457,464,446,18,18,404,180184,15.67241379,24,6,7,79,6,79,70
+2021-01-24,Sunday,3,January,2021,22,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,162,163,140,23,23,637,89180,89.88343558,22,3,4,95,4,70,73
+2021-05-11,Tuesday,19,May,2021,1,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,E-commerce,69,73,71,2,2,750,53250,20.54794521,29,1,1,87,1,86,62
+2021-08-12,Thursday,32,August,2021,5,India,APAC,Bangalore,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,169,199,196,3,3,878,172088,13.2361809,27,5,6,91,5,73,68
+2021-05-27,Thursday,21,May,2021,22,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Healthcare,252,273,249,24,24,221,55029,19.42857143,17,1,1,81,1,91,67
+2023-03-08,Wednesday,10,March,2023,21,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Telecom,254,238,232,6,6,215,49880,5.420168067,29,1,1,75,1,91,63
+2024-08-18,Sunday,33,August,2024,9,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Retail,119,115,109,6,6,872,95048,45.49565217,33,3,4,77,3,77,73
+2025-06-05,Thursday,23,June,2025,2,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,294,301,296,5,5,451,133496,7.491694352,22,4,5,86,4,71,70
+2022-09-04,Sunday,35,September,2022,3,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Telecom,347,348,337,11,11,704,237248,22.25287356,24,8,10,77,8,84,74
+2022-06-16,Thursday,24,June,2022,19,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,368,352,323,29,29,414,133722,34.10795455,23,4,5,75,4,82,86
+2023-04-12,Wednesday,15,April,2023,0,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,392,420,390,30,30,681,265590,48.64285714,16,9,10,67,7,90,77
+2026-01-26,Monday,5,January,2026,19,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,238,254,240,14,14,458,109920,25.24409449,33,3,4,88,4,95,82
+2021-10-08,Friday,40,October,2021,15,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,301,281,258,23,23,421,108618,34.45907473,31,3,4,82,3,89,77
+2024-07-03,Wednesday,27,July,2024,14,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,411,428,428,0,0,664,284192,0.0,27,9,11,76,8,84,62
+2024-06-30,Sunday,26,June,2024,21,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,70,77,55,22,22,193,10615,55.14285714,22,0,0,92,0,93,89
+2022-09-19,Monday,38,September,2022,7,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,E-commerce,122,137,121,16,16,349,42229,40.75912409,20,1,1,86,1,95,83
+2024-08-10,Saturday,32,August,2024,5,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,65,73,72,1,1,263,18936,3.602739726,18,0,0,86,0,74,79
+2024-07-21,Sunday,29,July,2024,2,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,472,489,478,11,11,871,416338,19.59304703,34,14,19,86,16,72,89
+2024-03-13,Wednesday,11,March,2024,9,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Telecom,206,207,193,14,14,847,163471,57.28502415,24,5,6,69,4,80,89
+2022-11-21,Monday,47,November,2022,15,China,APAC,Shanghai,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,366,353,339,14,14,473,160347,18.7592068,16,5,6,91,5,73,80
+2023-03-24,Friday,12,March,2023,3,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,267,293,273,20,20,286,78078,19.5221843,20,2,2,90,2,82,77
+2021-08-16,Monday,33,August,2021,0,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Healthcare,126,135,125,10,10,275,34375,20.37037037,17,1,1,69,1,93,75
+2023-11-13,Monday,46,November,2023,21,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,195,200,179,21,21,356,63724,37.38,34,2,3,75,2,71,72
+2025-10-02,Thursday,40,October,2025,10,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Retail,228,219,202,17,17,866,174932,67.22374429,24,6,7,84,6,72,81
+2021-12-15,Wednesday,50,December,2021,20,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,469,462,435,27,27,497,216195,29.04545455,26,7,9,85,8,95,66
+2021-01-27,Wednesday,4,January,2021,15,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Retail,191,171,159,12,12,498,79182,34.94736842,22,2,2,68,1,73,69
+2023-01-11,Wednesday,2,January,2023,11,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Retail,380,394,364,30,30,851,309764,64.79695431,34,10,13,93,12,71,75
+2021-04-30,Friday,17,April,2021,17,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,198,190,177,13,13,430,76110,29.42105263,35,2,3,76,2,91,90
+2021-01-13,Wednesday,2,January,2021,11,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Banking,496,513,506,7,7,750,379500,10.23391813,26,13,16,77,12,74,76
+2023-11-09,Thursday,45,November,2023,19,United States,AMER,New York,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,E-commerce,250,261,256,5,5,419,107264,8.026819923,26,3,4,80,3,72,80
+2021-02-02,Tuesday,5,February,2021,15,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,404,389,371,18,18,212,78652,9.809768638,16,2,2,71,1,72,89
+2025-05-17,Saturday,20,May,2025,20,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Retail,233,253,245,8,8,223,54635,7.051383399,23,1,1,88,1,71,67
+2021-12-27,Monday,52,December,2021,7,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,355,349,329,20,20,653,214837,37.42120344,17,7,8,80,6,78,83
+2021-10-13,Wednesday,41,October,2021,20,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Banking,441,469,467,2,2,728,339976,3.104477612,29,11,14,86,12,82,89
+2025-12-27,Saturday,52,December,2025,22,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,264,245,241,4,4,407,98087,6.644897959,21,3,4,68,3,94,71
+2021-12-27,Monday,52,December,2021,10,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Healthcare,290,286,261,25,25,357,93177,31.20629371,22,3,4,65,3,71,70
+2023-01-11,Wednesday,2,January,2023,8,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Healthcare,238,264,244,20,20,490,119560,37.12121212,20,4,5,80,4,92,76
+2021-01-29,Friday,4,January,2021,11,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,438,455,442,13,13,711,314262,20.31428571,30,10,13,70,9,89,89
+2025-10-22,Wednesday,43,October,2025,12,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,389,419,392,27,27,735,288120,47.3627685,25,10,13,82,11,74,62
+2023-05-05,Friday,18,May,2023,23,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,377,359,351,8,8,408,143208,9.091922006,27,4,5,79,4,72,60
+2024-09-28,Saturday,39,September,2024,15,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Telecom,123,142,136,6,6,217,29512,9.169014085,35,1,1,77,1,90,80
+2024-07-17,Wednesday,29,July,2024,1,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,164,164,164,0,0,783,128412,0.0,16,4,5,90,5,94,68
+2025-06-01,Sunday,22,June,2025,16,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,452,455,431,24,24,780,336180,41.14285714,23,11,14,94,13,88,90
+2023-01-10,Tuesday,2,January,2023,6,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,152,150,137,13,13,764,104668,66.21333333,26,3,4,85,3,71,78
+2025-11-07,Friday,45,November,2025,9,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,299,293,281,12,12,717,201477,29.36518771,25,6,8,88,7,71,88
+2025-09-01,Monday,36,September,2025,5,United States,AMER,Dallas,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Telecom,96,119,93,26,26,343,31899,74.94117647,29,1,1,83,1,86,76
+2022-07-29,Friday,30,July,2022,16,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,279,304,281,23,23,767,215527,58.02960526,20,7,8,81,6,92,63
+2025-01-03,Friday,1,January,2025,22,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,167,186,166,20,20,761,126326,81.82795699,29,4,5,81,4,76,75
+2022-08-29,Monday,35,August,2022,17,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,384,397,374,23,23,543,203082,31.45843829,20,7,8,72,6,81,77
+2026-03-16,Monday,12,March,2026,16,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Retail,133,128,122,6,6,464,56608,21.75,31,1,1,71,1,81,63
+2026-01-14,Wednesday,3,January,2026,21,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Banking,491,514,485,29,29,306,148410,17.26459144,18,5,6,87,5,81,82
+2026-03-18,Wednesday,12,March,2026,7,China,APAC,Shanghai,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Telecom,94,83,78,5,5,647,50466,38.97590361,15,1,1,75,1,79,81
+2021-08-30,Monday,35,August,2021,7,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,195,225,210,15,15,606,127260,40.4,23,4,5,69,3,80,64
+2023-11-20,Monday,47,November,2023,5,China,APAC,Shanghai,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,393,374,353,21,21,819,289107,45.98663102,16,10,12,76,9,84,64
+2021-09-11,Saturday,36,September,2021,17,Philippines,APAC,Manila,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,125,134,117,17,17,200,23400,25.37313433,18,0,0,79,0,95,69
+2025-10-31,Friday,44,October,2025,15,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Banking,170,193,169,24,24,705,119145,87.66839378,16,4,5,70,4,70,82
+2023-12-19,Tuesday,51,December,2023,14,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Telecom,59,77,64,13,13,238,15232,40.18181818,15,0,0,67,0,80,71
+2025-03-02,Sunday,9,March,2025,9,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,95,80,51,29,29,830,42330,300.875,21,1,1,94,1,86,86
+2022-12-01,Thursday,48,December,2022,14,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,E-commerce,70,63,43,20,20,567,24381,180.0,20,0,0,73,0,93,81
+2023-08-10,Thursday,32,August,2023,4,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Telecom,96,109,82,27,27,359,29438,88.9266055,19,1,1,79,1,82,60
+2022-06-02,Thursday,22,June,2022,15,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,70,86,62,24,24,811,50282,226.3255814,16,1,1,88,1,92,81
+2021-03-22,Monday,12,March,2021,11,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Banking,252,269,241,28,28,730,175930,75.98513011,28,6,8,81,6,83,75
+2024-07-11,Thursday,28,July,2024,13,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Healthcare,121,103,101,2,2,773,78073,15.00970874,15,2,2,83,2,90,90
+2025-04-12,Saturday,15,April,2025,14,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,393,391,366,25,25,412,150792,26.342711,24,5,6,90,5,88,79
+2026-04-02,Thursday,14,April,2026,3,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Banking,88,112,94,18,18,862,81028,138.5357143,32,2,3,68,2,77,61
+2021-09-20,Monday,38,September,2021,10,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,E-commerce,422,407,397,10,10,766,304102,18.82063882,32,10,13,95,12,72,84
+2022-11-18,Friday,46,November,2022,6,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,110,103,97,6,6,737,71489,42.93203884,22,2,2,69,1,78,80
+2025-01-25,Saturday,4,January,2025,4,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Retail,52,40,21,19,19,708,14868,336.3,19,0,0,79,0,71,60
+2024-10-11,Friday,41,October,2024,1,Australia,APAC,Sydney,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,E-commerce,319,349,333,16,16,363,120879,16.64183381,15,4,5,91,5,71,63
+2022-08-26,Friday,34,August,2022,10,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,420,434,424,10,10,529,224296,12.18894009,31,7,9,81,7,91,80
+2025-10-07,Tuesday,41,October,2025,16,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,282,279,264,15,15,453,119592,24.35483871,22,4,5,90,5,74,77
+2021-05-19,Wednesday,20,May,2021,15,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,462,475,474,1,1,627,297198,1.32,33,10,13,67,9,84,80
+2023-10-25,Wednesday,43,October,2023,0,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Healthcare,65,68,46,22,22,468,21528,151.4117647,23,0,0,95,0,73,77
+2022-01-16,Sunday,2,January,2022,19,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Banking,468,498,484,14,14,304,147136,8.546184739,19,5,6,89,5,71,75
+2022-05-07,Saturday,18,May,2022,4,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,183,179,169,10,10,236,39884,13.18435754,35,1,1,91,1,92,80
+2022-05-19,Thursday,20,May,2022,11,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Healthcare,59,59,59,0,0,578,34102,0.0,21,1,1,93,1,90,66
+2024-11-22,Friday,47,November,2024,7,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,444,451,425,26,26,259,110075,14.93126386,32,3,4,73,3,89,79
+2022-03-28,Monday,13,March,2022,5,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,290,299,292,7,7,399,116508,9.341137124,19,4,5,73,4,93,70
+2025-03-22,Saturday,12,March,2025,3,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,278,306,306,0,0,486,148716,0.0,28,5,6,95,6,84,81
+2021-12-27,Monday,52,December,2021,18,France,EMEA,Paris,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Retail,267,281,262,19,19,248,64976,16.76868327,18,2,2,71,1,85,71
+2024-09-12,Thursday,37,September,2024,23,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,119,133,124,9,9,412,51088,27.87969925,15,1,1,87,1,87,86
+2022-05-20,Friday,20,May,2022,8,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Telecom,481,509,503,6,6,311,156433,3.666011788,34,5,7,93,7,77,60
+2023-08-26,Saturday,34,August,2023,12,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Banking,221,225,206,19,19,833,171598,70.34222222,19,5,6,73,4,94,79
+2024-02-04,Sunday,5,February,2024,20,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,454,467,452,15,15,638,288376,20.49250535,21,10,12,68,8,83,83
+2026-11-03,Tuesday,45,November,2026,20,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Banking,456,451,428,23,23,665,284620,33.9135255,35,9,12,83,10,86,81
+2024-11-25,Monday,48,November,2024,17,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,394,393,381,12,12,250,95250,7.633587786,27,3,4,95,4,75,65
+2023-02-22,Wednesday,8,February,2023,0,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,435,417,397,20,20,854,339038,40.95923261,24,11,14,66,9,84,67
+2025-02-28,Friday,9,February,2025,21,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Retail,87,95,67,28,28,766,51322,225.7684211,35,1,1,82,1,71,76
+2025-03-14,Friday,11,March,2025,4,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,352,338,311,27,27,652,202772,52.08284024,24,7,9,81,7,76,71
+2022-10-18,Tuesday,42,October,2022,1,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,279,262,237,25,25,886,209982,84.54198473,21,7,8,95,8,81,88
+2023-04-27,Thursday,17,April,2023,11,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Banking,487,498,497,1,1,687,341439,1.379518072,19,11,13,95,12,77,76
+2024-06-17,Monday,25,June,2024,9,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,380,383,372,11,11,201,74772,5.772845953,30,2,3,77,2,92,75
+2022-12-12,Monday,50,December,2022,6,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,130,110,83,27,27,655,54365,160.7727273,16,1,1,72,1,82,84
+2024-02-19,Monday,8,February,2024,4,France,EMEA,Paris,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,E-commerce,103,120,95,25,25,850,80750,177.0833333,34,2,3,91,3,72,78
+2022-11-23,Wednesday,47,November,2022,4,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Retail,424,445,430,15,15,357,153510,12.03370787,25,5,6,69,4,93,72
+2025-01-02,Thursday,1,January,2025,8,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Retail,239,226,210,16,16,339,71190,24.0,15,2,2,69,1,88,65
+2024-12-28,Saturday,52,December,2024,1,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,97,114,113,1,1,335,37855,2.938596491,20,1,1,92,1,72,77
+2021-03-10,Wednesday,10,March,2021,4,China,APAC,Shanghai,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,233,255,231,24,24,506,116886,47.62352941,26,4,5,72,4,89,85
+2021-11-13,Saturday,45,November,2021,15,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,430,455,437,18,18,188,82156,7.437362637,27,2,3,71,2,91,60
+2022-07-17,Sunday,28,July,2022,4,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,115,107,88,19,19,354,31152,62.85981308,30,1,1,67,1,92,86
+2021-04-26,Monday,17,April,2021,2,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Telecom,343,352,333,19,19,843,280719,45.50284091,27,9,11,93,10,95,76
+2025-04-06,Sunday,14,April,2025,0,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,140,165,151,14,14,723,109173,61.34545455,25,3,4,72,3,87,85
+2023-08-28,Monday,35,August,2023,15,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Healthcare,96,104,91,13,13,256,23296,32.0,16,0,0,88,0,91,67
+2024-08-08,Thursday,32,August,2024,14,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,129,136,107,29,29,502,53714,107.0441176,20,1,1,78,1,72,78
+2023-05-21,Sunday,20,May,2023,16,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,332,320,306,14,14,336,102816,14.7,16,3,3,80,2,76,61
+2025-11-09,Sunday,45,November,2025,14,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Telecom,335,356,355,1,1,828,293940,2.325842697,32,10,13,72,9,90,65
+2025-07-14,Monday,29,July,2025,17,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,362,344,336,8,8,522,175392,12.13953488,20,6,7,82,6,84,86
+2025-09-24,Wednesday,39,September,2025,10,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,98,123,121,2,2,823,99583,13.38211382,25,3,4,69,3,72,89
+2025-04-27,Sunday,17,April,2025,18,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,228,215,192,23,23,618,118656,66.11162791,15,4,5,81,4,86,87
+2025-04-23,Wednesday,17,April,2025,4,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Telecom,459,473,448,25,25,605,271040,31.97674419,18,9,11,66,7,72,62
+2023-09-16,Saturday,37,September,2023,11,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,106,131,115,16,16,590,67850,72.0610687,30,2,3,71,2,88,68
+2021-12-05,Sunday,48,December,2021,19,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,288,310,300,10,10,684,205200,22.06451613,16,7,8,76,6,75,82
+2025-03-07,Friday,10,March,2025,8,Australia,APAC,Sydney,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Healthcare,464,478,473,5,5,780,368940,8.158995816,21,12,15,70,11,84,63
+2021-03-08,Monday,10,March,2021,7,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,435,419,394,25,25,849,334506,50.65632458,28,11,14,65,9,94,85
+2025-02-04,Tuesday,6,February,2025,9,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,116,130,128,2,2,674,86272,10.36923077,29,2,3,86,3,71,66
+2024-09-30,Monday,40,September,2024,18,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,275,294,284,10,10,354,100536,12.04081633,22,3,4,65,3,75,87
+2026-08-03,Monday,32,August,2026,19,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,250,252,242,10,10,293,70906,11.62698413,22,2,2,68,1,71,86
+2025-05-08,Thursday,19,May,2025,23,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Telecom,167,191,187,4,4,702,131274,14.70157068,27,4,5,75,4,88,89
+2021-06-13,Sunday,23,June,2021,21,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,89,85,72,13,13,804,57888,122.9647059,25,2,3,69,2,77,73
+2024-07-18,Thursday,29,July,2024,1,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Telecom,183,175,169,6,6,236,39884,8.091428571,30,1,1,89,1,75,75
+2021-03-23,Tuesday,12,March,2021,2,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Banking,270,297,297,0,0,457,135729,0.0,22,4,5,86,4,79,61
+2021-05-26,Wednesday,21,May,2021,13,India,APAC,Hyderabad,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Banking,225,255,250,5,5,481,120250,9.431372549,25,4,5,67,3,79,66
+2022-09-28,Wednesday,39,September,2022,8,France,EMEA,Paris,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,363,350,323,27,27,465,150195,35.87142857,20,5,6,88,5,81,67
+2022-12-01,Thursday,48,December,2022,23,Canada,AMER,Toronto,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Banking,202,203,191,12,12,812,155092,48.0,15,5,6,65,4,77,63
+2026-01-19,Monday,4,January,2026,22,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,131,118,113,5,5,253,28589,10.72033898,27,0,0,72,0,87,63
+2025-06-19,Thursday,25,June,2025,14,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,391,409,390,19,19,614,239460,28.52322738,15,8,9,75,7,85,81
+2025-04-19,Saturday,16,April,2025,20,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,E-commerce,392,377,352,25,25,457,160864,30.30503979,32,5,7,81,6,77,87
+2026-01-03,Saturday,1,January,2026,10,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Healthcare,232,221,216,5,5,751,162216,16.99095023,30,5,7,65,5,79,73
+2025-05-26,Monday,22,May,2025,19,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,234,232,225,7,7,525,118125,15.84051724,16,4,5,85,4,74,79
+2026-05-01,Friday,18,May,2026,3,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Healthcare,160,178,171,7,7,217,37107,8.533707865,16,1,1,86,1,89,83
+2023-08-12,Saturday,32,August,2023,8,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,E-commerce,389,416,411,5,5,647,265917,7.776442308,21,9,11,83,9,89,62
+2022-04-22,Friday,16,April,2022,12,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Telecom,490,503,473,30,30,551,260623,32.86282306,19,9,11,87,10,93,81
+2023-05-31,Wednesday,22,May,2023,11,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,63,51,34,17,17,794,26996,264.6666667,20,0,0,84,0,71,71
+2025-04-11,Friday,15,April,2025,2,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Retail,360,361,359,2,2,727,260993,4.027700831,27,9,11,77,8,84,84
+2024-07-31,Wednesday,31,July,2024,8,Philippines,APAC,Manila,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,156,141,128,13,13,748,95744,68.96453901,22,3,4,95,4,93,78
+2025-05-25,Sunday,21,May,2025,23,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,386,409,397,12,12,355,140935,10.41564792,16,4,5,76,4,72,78
+2022-01-31,Monday,5,January,2022,13,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,290,284,266,18,18,610,162260,38.66197183,33,5,7,74,5,90,82
+2025-05-15,Thursday,20,May,2025,10,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,430,436,415,21,21,192,79680,9.247706422,34,2,3,65,2,92,65
+2022-08-21,Sunday,33,August,2022,5,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,E-commerce,398,389,372,17,17,290,107880,12.67352185,16,3,3,94,3,85,71
+2025-08-06,Wednesday,32,August,2025,16,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Banking,197,192,171,21,21,670,114570,73.28125,28,3,4,69,3,83,76
+2023-01-11,Wednesday,2,January,2023,22,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Retail,166,150,141,9,9,467,65847,28.02,35,2,3,74,2,75,77
+2024-04-06,Saturday,14,April,2024,14,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,482,475,469,6,6,292,136948,3.688421053,21,4,5,88,4,88,64
+2022-10-09,Sunday,40,October,2022,5,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,443,472,443,29,29,336,148848,20.6440678,15,5,6,94,6,70,78
+2025-05-01,Thursday,18,May,2025,2,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Retail,166,156,132,24,24,740,97680,113.8461538,23,3,4,92,4,70,90
+2022-04-20,Wednesday,16,April,2022,20,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,205,229,200,29,29,659,131800,83.45414847,34,4,5,90,5,70,86
+2021-02-16,Tuesday,7,February,2021,7,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,488,486,463,23,23,726,336138,34.35802469,35,11,15,66,10,80,75
+2024-07-04,Thursday,27,July,2024,19,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,E-commerce,372,401,384,17,17,486,186624,20.60349127,22,6,7,80,6,81,67
+2021-03-30,Tuesday,13,March,2021,11,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,246,234,227,7,7,343,77861,10.26068376,26,2,3,95,3,92,88
+2022-10-19,Wednesday,42,October,2022,7,United States,AMER,Dallas,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,361,358,334,24,24,297,99198,19.91061453,23,3,4,89,4,87,82
+2026-12-01,Tuesday,49,December,2026,12,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Banking,185,196,171,25,25,885,151335,112.8826531,26,5,6,79,5,93,75
+2023-03-26,Sunday,12,March,2023,5,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,465,465,439,26,26,866,380174,48.42150538,34,13,17,84,14,95,64
+2026-01-21,Wednesday,4,January,2026,23,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,307,312,294,18,18,382,112308,22.03846154,21,3,4,85,3,91,88
+2025-11-23,Sunday,47,November,2025,0,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,94,109,107,2,2,863,92341,15.83486239,26,3,4,86,3,77,62
+2022-03-05,Saturday,9,March,2022,21,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,350,374,357,17,17,223,79611,10.13636364,21,2,2,80,2,88,80
+2025-05-14,Wednesday,20,May,2025,12,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,296,299,284,15,15,393,111612,19.71571906,25,3,4,94,4,80,76
+2023-05-26,Friday,21,May,2023,2,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,168,188,167,21,21,705,117735,78.75,28,4,5,81,4,85,70
+2025-02-06,Thursday,6,February,2025,8,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,327,307,293,14,14,816,239088,37.21172638,21,8,10,72,7,94,88
+2024-10-30,Wednesday,44,October,2024,12,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,102,86,65,21,21,799,51935,195.1046512,24,1,1,75,1,80,89
+2023-04-25,Tuesday,17,April,2023,19,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,337,326,300,26,26,662,198600,52.79754601,28,6,8,79,6,83,87
+2025-11-22,Saturday,47,November,2025,2,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Retail,265,284,274,10,10,326,89324,11.47887324,17,3,4,94,4,84,72
+2024-03-06,Wednesday,10,March,2024,0,India,APAC,Hyderabad,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,268,271,262,9,9,320,83840,10.62730627,31,2,3,91,3,94,70
+2022-09-09,Friday,36,September,2022,18,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Healthcare,107,122,93,29,29,236,21948,56.09836066,27,0,0,89,0,90,78
+2021-10-22,Friday,42,October,2021,1,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,158,176,165,11,11,853,140745,53.3125,35,4,5,71,4,88,84
+2023-04-18,Tuesday,16,April,2023,11,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,81,73,69,4,4,791,54579,43.34246575,22,1,1,76,1,93,62
+2023-05-31,Wednesday,22,May,2023,16,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,402,426,418,8,8,470,196460,8.82629108,32,6,8,77,6,89,87
+2024-05-10,Friday,19,May,2024,14,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Telecom,424,443,433,10,10,651,281883,14.69525959,17,9,11,77,8,85,79
+2025-10-11,Saturday,41,October,2025,3,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Banking,219,224,198,26,26,623,123354,72.3125,23,4,5,84,4,95,70
+2021-04-04,Sunday,13,April,2021,3,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Telecom,461,460,438,22,22,534,233892,25.53913043,24,8,10,80,8,85,72
+2024-11-12,Tuesday,46,November,2024,23,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,208,220,202,18,18,856,172912,70.03636364,20,6,7,72,5,92,87
+2021-06-12,Saturday,23,June,2021,20,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,306,321,315,6,6,547,172305,10.22429907,17,5,6,84,5,84,70
+2023-11-07,Tuesday,45,November,2023,15,India,APAC,Bangalore,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,338,352,347,5,5,602,208894,8.551136364,17,7,8,67,5,77,69
+2024-01-01,Monday,1,January,2024,12,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,180,173,151,22,22,634,95734,80.62427746,26,3,4,75,3,73,77
+2023-05-06,Saturday,18,May,2023,20,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Telecom,65,87,75,12,12,365,27375,50.34482759,19,0,0,70,0,70,78
+2023-12-12,Tuesday,50,December,2023,8,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,320,340,333,7,7,365,121545,7.514705882,27,4,5,88,4,75,90
+2022-09-15,Thursday,37,September,2022,18,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Retail,164,186,181,5,5,458,82898,12.31182796,30,2,3,84,3,88,75
+2023-09-30,Saturday,39,September,2023,15,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Banking,491,502,481,21,21,685,329485,28.65537849,19,11,13,89,12,87,67
+2023-03-08,Wednesday,10,March,2023,3,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Healthcare,245,271,259,12,12,445,115255,19.70479705,16,4,5,72,4,71,68
+2023-04-29,Saturday,17,April,2023,23,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,191,215,211,4,4,555,117105,10.3255814,17,4,5,94,5,72,90
+2022-04-24,Sunday,16,April,2022,15,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Healthcare,476,480,479,1,1,300,143700,0.625,22,4,5,78,4,77,83
+2022-10-12,Wednesday,41,October,2022,10,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Healthcare,121,146,138,8,8,639,88182,35.01369863,22,3,4,74,3,90,65
+2021-03-13,Saturday,10,March,2021,16,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,121,120,92,28,28,713,65596,166.3666667,35,2,3,87,3,80,73
+2025-03-13,Thursday,11,March,2025,9,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,117,121,110,11,11,468,51480,42.54545455,29,1,1,73,1,90,60
+2021-03-11,Thursday,10,March,2021,9,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Banking,312,341,340,1,1,856,291040,2.51026393,32,10,13,83,11,95,72
+2024-12-08,Sunday,49,December,2024,5,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,226,251,248,3,3,394,97712,4.709163347,18,3,4,82,3,76,84
+2025-01-25,Saturday,4,January,2025,16,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,101,98,92,6,6,275,25300,16.83673469,24,0,0,83,0,86,90
+2025-08-04,Monday,32,August,2025,12,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,103,126,113,13,13,320,36160,33.01587302,20,1,1,80,1,78,84
+2022-01-22,Saturday,3,January,2022,4,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,117,146,144,2,2,357,51408,4.890410959,19,1,1,74,1,91,87
+2024-01-28,Sunday,4,January,2024,8,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,314,337,331,6,6,820,271420,14.59940653,34,9,12,69,8,74,61
+2021-11-11,Thursday,45,November,2021,21,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,304,318,291,27,27,530,154230,45.0,31,5,7,91,6,81,73
+2023-09-04,Monday,36,September,2023,0,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,294,324,318,6,6,571,181578,10.57407407,15,6,7,90,6,95,68
+2022-10-17,Monday,42,October,2022,7,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,50,39,22,17,17,188,4136,81.94871795,29,0,0,94,0,72,74
+2024-05-11,Saturday,19,May,2024,14,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Healthcare,105,85,69,16,16,835,57615,157.1764706,21,2,2,94,2,95,66
+2025-08-18,Monday,34,August,2025,0,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,173,173,160,13,13,400,64000,30.05780347,20,2,2,67,1,80,86
+2022-02-15,Tuesday,7,February,2022,23,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,112,134,131,3,3,730,95630,16.34328358,22,3,4,72,3,95,86
+2025-07-24,Thursday,30,July,2025,6,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,E-commerce,82,87,66,21,21,520,34320,125.5172414,25,1,1,80,1,70,67
+2025-08-03,Sunday,31,August,2025,9,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,272,272,243,29,29,795,193185,84.76102941,16,6,7,85,6,86,75
+2022-05-11,Wednesday,19,May,2022,4,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,309,300,286,14,14,581,166166,27.11333333,27,5,6,71,4,84,87
+2023-12-30,Saturday,52,December,2023,20,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Retail,491,490,471,19,19,244,114924,9.46122449,27,3,4,85,3,89,69
+2023-10-28,Saturday,43,October,2023,7,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,100,84,64,20,20,217,13888,51.66666667,23,0,0,90,0,94,60
+2021-09-15,Wednesday,37,September,2021,12,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Retail,73,54,29,25,25,798,23142,369.4444444,26,0,0,69,0,80,73
+2022-03-08,Tuesday,10,March,2022,12,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,235,262,233,29,29,685,159605,75.82061069,24,5,6,66,4,87,78
+2025-07-27,Sunday,30,July,2025,13,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,292,307,306,1,1,499,152694,1.625407166,20,5,6,92,6,85,65
+2023-04-24,Monday,17,April,2023,4,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,E-commerce,375,402,390,12,12,840,327600,25.07462687,33,11,15,72,11,84,85
+2022-01-31,Monday,5,January,2022,21,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,E-commerce,80,85,82,3,3,566,46412,19.97647059,25,1,1,90,1,91,72
+2021-06-27,Sunday,25,June,2021,18,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Telecom,367,386,382,4,4,508,194056,5.264248705,22,6,7,89,6,80,81
+2022-11-26,Saturday,47,November,2022,4,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,162,163,143,20,20,230,32890,28.2208589,28,1,1,91,1,88,62
+2021-07-01,Thursday,26,July,2021,23,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,98,98,72,26,26,382,27504,101.3469388,22,0,0,65,0,90,69
+2022-12-08,Thursday,49,December,2022,2,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Banking,446,445,440,5,5,665,292600,7.471910112,24,10,12,85,10,83,63
+2025-11-12,Wednesday,46,November,2025,21,United States,AMER,New York,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,276,258,250,8,8,428,107000,13.27131783,22,3,4,85,3,77,76
+2025-05-25,Sunday,21,May,2025,15,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,78,98,78,20,20,337,26286,68.7755102,17,0,0,72,0,81,77
+2023-12-13,Wednesday,50,December,2023,23,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,448,476,450,26,26,549,247050,29.98739496,19,8,10,89,9,75,84
+2024-05-27,Monday,22,May,2024,9,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,273,301,301,0,0,346,104146,0.0,22,3,4,86,3,79,73
+2022-09-21,Wednesday,38,September,2022,17,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,75,60,53,7,7,348,18444,40.6,21,0,0,83,0,88,81
+2022-07-24,Sunday,29,July,2022,0,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,170,167,159,8,8,299,47541,14.32335329,21,1,1,87,1,90,74
+2022-08-12,Friday,32,August,2022,21,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,263,275,267,8,8,195,52065,5.672727273,19,1,1,66,1,74,88
+2024-11-13,Wednesday,46,November,2024,20,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,267,266,243,23,23,455,110565,39.34210526,22,3,4,94,4,84,84
+2022-05-22,Sunday,20,May,2022,13,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,E-commerce,211,196,193,3,3,378,72954,5.785714286,26,2,3,81,2,71,87
+2024-02-08,Thursday,6,February,2024,23,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,187,211,209,2,2,258,53922,2.44549763,19,1,1,74,1,94,65
+2022-12-30,Friday,52,December,2022,23,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,485,511,491,20,20,382,187562,14.95107632,19,6,7,95,7,76,84
+2022-07-24,Sunday,29,July,2022,16,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Telecom,53,78,63,15,15,202,12726,38.84615385,29,0,0,80,0,86,87
+2023-09-10,Sunday,36,September,2023,12,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Healthcare,485,496,475,21,21,228,108300,9.653225807,28,3,4,70,3,89,87
+2024-03-21,Thursday,12,March,2024,6,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,E-commerce,194,209,187,22,22,730,136510,76.84210526,24,4,5,79,4,90,90
+2021-02-08,Monday,6,February,2021,9,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,245,244,214,30,30,252,53928,30.98360656,26,1,1,90,1,94,64
+2022-01-05,Wednesday,1,January,2022,20,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,404,387,373,14,14,456,170088,16.49612403,19,5,6,71,4,81,86
+2026-02-28,Saturday,9,February,2026,21,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Retail,494,480,465,15,15,716,332940,22.375,18,11,13,77,10,72,83
+2023-07-17,Monday,29,July,2023,7,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,309,319,306,13,13,587,179622,23.92163009,35,6,8,76,6,78,78
+2023-01-30,Monday,5,January,2023,23,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,462,473,469,4,4,193,90517,1.632135307,19,3,4,80,3,80,81
+2021-11-06,Saturday,44,November,2021,7,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,293,291,265,26,26,256,67840,22.87285223,32,2,3,81,2,77,84
+2021-02-25,Thursday,8,February,2021,2,China,APAC,Shanghai,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,E-commerce,55,80,68,12,12,805,54740,120.75,28,1,1,73,1,90,76
+2022-12-25,Sunday,51,December,2022,2,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Telecom,116,109,93,16,16,631,58683,92.62385321,26,2,3,92,3,89,75
+2023-05-02,Tuesday,18,May,2023,1,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,198,184,180,4,4,292,52560,6.347826087,34,1,1,80,1,86,77
+2021-01-31,Sunday,4,January,2021,16,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Banking,335,358,340,18,18,194,65960,9.754189944,18,2,2,93,2,88,72
+2026-05-02,Saturday,18,May,2026,17,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,466,447,426,21,21,478,203628,22.45637584,22,7,9,67,6,71,79
+2025-06-09,Monday,24,June,2025,6,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,105,121,98,23,23,216,21168,41.05785124,17,0,0,72,0,81,65
+2022-04-08,Friday,14,April,2022,14,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Banking,221,221,191,30,30,258,49278,35.02262443,28,1,1,86,1,94,82
+2021-04-17,Saturday,15,April,2021,13,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,203,223,212,11,11,662,140344,32.65470852,34,4,5,80,4,91,71
+2023-06-09,Friday,23,June,2023,16,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,E-commerce,351,363,344,19,19,716,246304,37.47658402,17,8,9,83,7,80,70
+2024-09-24,Tuesday,39,September,2024,17,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,280,264,242,22,22,182,44044,15.16666667,20,1,1,81,1,93,79
+2022-11-04,Friday,44,November,2022,16,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Telecom,428,435,435,0,0,548,238380,0.0,18,8,9,86,8,92,83
+2022-01-09,Sunday,1,January,2022,11,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,246,269,247,22,22,435,107445,35.57620818,33,3,4,90,4,71,87
+2023-09-08,Friday,36,September,2023,19,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Healthcare,466,479,476,3,3,775,368900,4.853862213,22,12,15,90,14,76,71
+2024-06-03,Monday,23,June,2024,9,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,E-commerce,267,282,260,22,22,247,64220,19.26950355,27,2,3,76,2,80,70
+2024-11-24,Sunday,47,November,2024,4,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,399,396,392,4,4,565,221480,5.707070707,15,7,8,85,7,85,82
+2024-04-13,Saturday,15,April,2024,21,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,281,295,265,30,30,636,168540,64.6779661,31,5,7,84,6,90,67
+2026-01-22,Thursday,4,January,2026,12,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,160,146,143,3,3,618,88374,12.69863014,26,3,4,72,3,91,87
+2022-10-19,Wednesday,42,October,2022,2,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,E-commerce,406,401,392,9,9,765,299880,17.16957606,34,10,13,76,10,73,80
+2026-12-02,Wednesday,49,December,2026,11,China,APAC,Shanghai,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,433,417,394,23,23,743,292742,40.98081535,15,10,12,78,9,81,83
+2022-12-14,Wednesday,50,December,2022,14,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,55,49,26,23,23,372,9672,174.6122449,26,0,0,94,0,75,71
+2024-05-22,Wednesday,21,May,2024,0,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,69,85,76,9,9,193,14668,20.43529412,17,0,0,84,0,87,64
+2023-01-12,Thursday,2,January,2023,9,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,230,260,234,26,26,358,83772,35.8,34,2,3,76,2,82,81
+2023-04-09,Sunday,14,April,2023,11,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,296,319,303,16,16,871,263913,43.68652038,27,9,11,88,10,87,64
+2021-06-04,Friday,22,June,2021,18,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,66,59,36,23,23,186,6696,72.50847458,30,0,0,90,0,90,67
+2026-11-03,Tuesday,45,November,2026,7,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,320,303,295,8,8,404,119180,10.66666667,25,4,5,72,4,73,78
+2022-11-06,Sunday,44,November,2022,6,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,119,122,95,27,27,582,55290,128.8032787,23,1,1,73,1,73,80
+2023-03-26,Sunday,12,March,2023,23,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Telecom,461,446,439,7,7,707,310373,11.09641256,33,10,13,73,9,84,88
+2023-07-26,Wednesday,30,July,2023,9,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,251,237,212,25,25,200,42400,21.09704641,24,1,1,92,1,85,84
+2024-10-02,Wednesday,40,October,2024,19,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,305,327,325,2,2,567,184275,3.467889908,35,6,8,89,7,85,68
+2023-02-28,Tuesday,9,February,2023,0,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,E-commerce,385,397,370,27,27,362,133940,24.61964736,27,4,5,84,4,77,60
+2022-03-28,Monday,13,March,2022,5,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,385,407,397,10,10,666,264402,16.36363636,33,9,12,71,9,75,82
+2021-12-23,Thursday,51,December,2021,23,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,158,186,185,1,1,216,39960,1.161290323,30,1,1,86,1,74,62
+2026-01-24,Saturday,4,January,2026,7,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Banking,404,385,368,17,17,695,255760,30.68831169,17,8,9,67,6,92,68
+2024-11-10,Sunday,45,November,2024,17,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,E-commerce,194,218,193,25,25,435,83955,49.8853211,16,2,2,93,2,79,67
+2026-01-20,Tuesday,4,January,2026,3,Canada,AMER,Toronto,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,380,395,366,29,29,724,264984,53.15443038,30,9,12,68,8,79,82
+2024-07-12,Friday,28,July,2024,13,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,167,188,163,25,25,732,119316,97.34042553,28,4,5,76,4,82,68
+2022-05-15,Sunday,19,May,2022,17,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,350,348,322,26,26,678,218316,50.65517241,32,7,9,95,9,90,90
+2025-07-25,Friday,30,July,2025,15,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,E-commerce,318,324,317,7,7,850,269450,18.36419753,32,9,12,81,10,78,86
+2021-01-11,Monday,2,January,2021,19,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,432,448,425,23,23,864,367200,44.35714286,23,12,15,87,13,70,82
+2021-10-07,Thursday,40,October,2021,1,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Telecom,473,478,476,2,2,897,426972,3.753138075,34,14,19,69,13,78,67
+2024-05-08,Wednesday,19,May,2024,19,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,314,299,282,17,17,395,111390,22.45819398,29,3,4,70,3,84,88
+2023-11-17,Friday,46,November,2023,8,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,66,79,78,1,1,418,32604,5.291139241,23,1,1,92,1,82,74
+2024-11-29,Friday,48,November,2024,5,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,364,371,363,8,8,764,277332,16.47439353,31,9,12,72,9,92,75
+2025-03-29,Saturday,13,March,2025,6,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,392,396,371,25,25,194,71974,12.24747475,35,2,3,69,2,81,67
+2022-03-31,Thursday,13,March,2022,19,India,APAC,Hyderabad,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,405,411,402,9,9,655,263310,14.34306569,21,9,11,72,8,87,64
+2022-02-27,Sunday,8,February,2022,7,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Retail,290,308,278,30,30,604,167912,58.83116883,19,5,6,88,5,74,73
+2021-08-06,Friday,31,August,2021,16,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Retail,267,289,264,25,25,375,99000,32.43944637,30,3,4,72,3,94,62
+2021-02-17,Wednesday,7,February,2021,7,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,94,93,91,2,2,784,71344,16.86021505,26,2,3,89,3,86,69
+2023-03-30,Thursday,13,March,2023,17,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Banking,60,52,44,8,8,233,10252,35.84615385,28,0,0,66,0,70,66
+2024-06-10,Monday,24,June,2024,3,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Healthcare,294,291,275,16,16,282,77550,15.50515464,25,2,3,80,2,74,75
+2023-08-02,Wednesday,31,August,2023,0,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,490,504,479,25,25,458,219382,22.71825397,23,7,9,68,6,76,75
+2024-10-07,Monday,41,October,2024,0,China,APAC,Shanghai,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,240,233,224,9,9,324,72576,12.51502146,33,2,3,70,2,79,77
+2026-01-15,Thursday,3,January,2026,11,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Telecom,85,71,70,1,1,253,17710,3.563380282,17,0,0,89,0,78,64
+2024-06-16,Sunday,24,June,2024,16,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Telecom,459,487,472,15,15,291,137352,8.963039014,26,4,5,82,4,94,84
+2021-01-17,Sunday,2,January,2021,19,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,67,92,70,22,22,818,57260,195.6086957,20,1,1,77,1,85,73
+2024-04-16,Tuesday,16,April,2024,2,India,APAC,Hyderabad,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Healthcare,213,233,218,15,15,307,66926,19.7639485,24,2,2,75,2,77,69
+2023-07-26,Wednesday,30,July,2023,21,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,441,428,402,26,26,361,145122,21.92990654,32,5,7,85,6,80,87
+2025-05-15,Thursday,20,May,2025,16,Australia,APAC,Sydney,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,213,236,231,5,5,537,124047,11.37711864,35,4,5,67,3,86,86
+2025-01-18,Saturday,3,January,2025,8,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Retail,225,238,213,25,25,818,174234,85.92436975,19,6,7,78,5,86,65
+2023-08-24,Thursday,34,August,2023,20,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,143,134,112,22,22,372,41664,61.07462687,16,1,1,67,1,77,73
+2021-05-17,Monday,20,May,2021,9,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,369,389,359,30,30,787,282533,60.6940874,31,9,12,87,10,81,85
+2023-08-29,Tuesday,35,August,2023,5,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Retail,229,233,211,22,22,468,98748,44.1888412,29,3,4,70,3,75,69
+2025-05-23,Friday,21,May,2025,8,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,179,181,172,9,9,548,94256,27.24861878,27,3,4,69,3,93,60
+2021-11-01,Monday,44,November,2021,23,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,172,186,175,11,11,279,48825,16.5,16,1,1,77,1,78,70
+2021-09-21,Tuesday,38,September,2021,2,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,487,474,452,22,22,668,301936,31.00421941,15,10,12,72,9,78,69
+2022-12-03,Saturday,48,December,2022,0,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,97,96,92,4,4,741,68172,30.875,25,2,3,77,2,70,79
+2025-08-04,Monday,32,August,2025,4,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Banking,313,295,292,3,3,899,262508,9.142372881,17,9,11,88,10,92,71
+2024-10-04,Friday,40,October,2024,10,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,231,248,248,0,0,373,92504,0.0,21,3,4,67,3,86,61
+2021-12-18,Saturday,50,December,2021,20,China,APAC,Shanghai,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,479,498,475,23,23,470,223250,21.70682731,31,7,9,80,7,94,67
+2022-06-29,Wednesday,26,June,2022,12,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Retail,488,517,503,14,14,486,244458,13.16054159,26,8,10,78,8,70,75
+2023-05-14,Sunday,19,May,2023,12,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,62,74,52,22,22,354,18408,105.2432432,31,0,0,91,0,83,66
+2024-02-20,Tuesday,8,February,2024,4,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Healthcare,187,181,175,6,6,410,71750,13.59116022,19,2,2,91,2,92,78
+2025-02-27,Thursday,9,February,2025,18,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,82,98,93,5,5,699,65007,35.66326531,32,2,3,68,2,94,64
+2023-01-05,Thursday,1,January,2023,20,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,450,456,447,9,9,856,382632,16.89473684,24,13,16,65,10,80,60
+2025-05-26,Monday,22,May,2025,0,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,426,438,424,14,14,585,248040,18.69863014,33,8,11,73,8,85,75
+2024-10-23,Wednesday,43,October,2024,9,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,141,138,117,21,21,627,73359,95.41304348,19,2,2,89,2,75,82
+2025-12-14,Sunday,50,December,2025,5,France,EMEA,Paris,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,327,309,302,7,7,511,154322,11.57605178,15,5,6,78,5,85,62
+2023-12-02,Saturday,48,December,2023,8,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,129,142,138,4,4,263,36294,7.408450704,30,1,1,94,1,90,65
+2025-03-20,Thursday,12,March,2025,13,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Healthcare,497,491,477,14,14,810,386370,23.09572301,30,13,17,95,16,94,85
+2022-03-27,Sunday,12,March,2022,22,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Telecom,109,134,107,27,27,766,81962,154.3432836,22,2,2,77,2,95,75
+2022-02-03,Thursday,5,February,2022,19,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,487,470,440,30,30,574,252560,36.63829787,23,8,10,84,8,87,77
+2021-03-06,Saturday,9,March,2021,9,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,328,326,314,12,12,729,228906,26.83435583,29,7,9,80,7,84,67
+2023-09-13,Wednesday,37,September,2023,15,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,121,107,102,5,5,821,83742,38.36448598,34,2,3,73,2,77,82
+2024-06-30,Sunday,26,June,2024,2,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,199,201,185,16,16,575,106375,45.77114428,30,3,4,94,4,90,60
+2024-01-05,Friday,1,January,2024,8,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,E-commerce,417,403,382,21,21,390,148980,20.32258065,32,5,7,68,5,76,66
+2026-03-15,Sunday,11,March,2026,4,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,325,326,301,25,25,217,65317,16.64110429,28,2,3,69,2,81,67
+2021-03-13,Saturday,10,March,2021,9,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,279,305,287,18,18,845,242515,49.86885246,15,8,9,78,7,95,87
+2024-05-16,Thursday,20,May,2024,23,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Retail,189,219,207,12,12,590,122130,32.32876712,26,4,5,82,4,75,79
+2021-09-11,Saturday,36,September,2021,22,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,212,209,195,14,14,761,148395,50.97607656,29,5,6,94,6,95,81
+2024-08-08,Thursday,32,August,2024,17,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Healthcare,162,165,149,16,16,735,109515,71.27272727,33,3,4,89,4,75,71
+2022-04-09,Saturday,14,April,2022,2,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,352,381,374,7,7,807,301818,14.82677165,28,10,13,81,11,93,76
+2022-10-27,Thursday,43,October,2022,1,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Healthcare,257,249,221,28,28,728,160888,81.86345382,18,5,6,92,6,71,89
+2023-03-28,Tuesday,13,March,2023,14,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Retail,110,94,72,22,22,460,33120,107.6595745,32,1,1,71,1,86,73
+2026-02-01,Sunday,5,February,2026,12,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,206,218,206,12,12,755,155530,41.55963303,15,5,6,94,6,86,63
+2022-08-16,Tuesday,33,August,2022,12,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,418,412,395,17,17,429,169455,17.70145631,23,5,6,73,4,89,88
+2024-04-04,Thursday,14,April,2024,10,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,480,477,465,12,12,339,157635,8.528301887,27,5,6,79,5,90,62
+2022-04-26,Tuesday,17,April,2022,6,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,213,241,213,28,28,556,118428,64.59751037,28,4,5,66,3,72,74
+2023-10-23,Monday,43,October,2023,1,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Telecom,393,374,372,2,2,344,127968,1.839572193,19,4,5,71,4,74,72
+2023-11-02,Thursday,44,November,2023,10,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,E-commerce,499,517,487,30,30,422,205514,24.48742747,20,7,8,86,7,95,85
+2025-02-16,Sunday,7,February,2025,4,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,80,66,50,16,16,237,11850,57.45454545,25,0,0,89,0,91,83
+2023-01-16,Monday,3,January,2023,2,United States,AMER,Dallas,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Healthcare,464,468,450,18,18,655,294750,25.19230769,29,10,13,72,9,79,73
+2021-08-04,Wednesday,31,August,2021,17,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Telecom,362,369,348,21,21,292,101616,16.61788618,24,3,4,68,3,74,88
+2024-12-03,Tuesday,49,December,2024,5,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,459,465,446,19,19,271,120866,11.07311828,20,4,5,94,5,86,65
+2021-11-09,Tuesday,45,November,2021,18,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Retail,416,406,385,21,21,307,118195,15.87931034,25,4,5,68,3,92,79
+2024-02-08,Thursday,6,February,2024,5,China,APAC,Shanghai,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,181,167,146,21,21,435,63510,54.7005988,29,2,3,77,2,74,76
+2023-01-16,Monday,3,January,2023,1,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,290,288,285,3,3,479,136515,4.989583333,33,4,5,82,4,75,90
+2021-03-29,Monday,13,March,2021,17,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,180,200,183,17,17,339,62037,28.815,31,2,3,80,2,71,74
+2025-06-29,Sunday,26,June,2025,14,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Banking,240,268,257,11,11,309,79413,12.68283582,29,2,3,81,2,84,78
+2025-01-27,Monday,5,January,2025,23,France,EMEA,Paris,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,447,437,423,14,14,841,355743,26.94279176,28,12,15,81,12,74,71
+2021-07-08,Thursday,27,July,2021,5,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,393,387,371,16,16,495,183645,20.46511628,24,6,7,91,6,89,78
+2025-10-18,Saturday,42,October,2025,4,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,348,369,364,5,5,323,117572,4.376693767,21,4,5,82,4,82,87
+2022-05-05,Thursday,18,May,2022,13,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Banking,131,160,152,8,8,604,91808,30.2,31,3,4,75,3,90,61
+2022-01-24,Monday,4,January,2022,23,China,APAC,Shanghai,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,142,151,136,15,15,541,73576,53.74172185,28,2,3,83,2,89,85
+2021-12-03,Friday,48,December,2021,11,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Healthcare,74,104,74,30,30,438,32412,126.3461538,27,1,1,91,1,95,76
+2022-04-14,Thursday,15,April,2022,21,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Retail,109,125,125,0,0,402,50250,0.0,34,1,1,72,1,73,87
+2022-06-07,Tuesday,23,June,2022,8,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,E-commerce,281,284,284,0,0,242,68728,0.0,29,2,3,70,2,94,69
+2021-11-30,Tuesday,48,November,2021,17,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,435,418,401,17,17,787,315587,32.00717703,32,10,13,71,9,75,81
+2023-11-06,Monday,45,November,2023,21,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,372,375,373,2,2,587,218951,3.130666667,20,7,8,83,7,86,71
+2022-01-19,Wednesday,3,January,2022,13,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,E-commerce,486,503,480,23,23,709,340320,32.4194831,26,11,14,84,12,93,65
+2025-04-10,Thursday,15,April,2025,9,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Healthcare,188,189,178,11,11,180,32040,10.47619048,33,1,1,68,1,80,84
+2024-01-21,Sunday,3,January,2024,18,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,498,487,473,14,14,510,241230,14.66119097,17,8,9,88,8,79,88
+2023-08-20,Sunday,33,August,2023,8,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,82,72,50,22,22,376,18800,114.8888889,31,0,0,90,0,70,84
+2024-02-10,Saturday,6,February,2024,13,United States,AMER,Dallas,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,379,406,386,20,20,195,75270,9.60591133,15,2,2,73,1,95,90
+2021-05-10,Monday,19,May,2021,4,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Banking,232,231,217,14,14,184,39928,11.15151515,16,1,1,89,1,80,62
+2021-03-03,Wednesday,9,March,2021,19,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Healthcare,413,429,411,18,18,831,341541,34.86713287,18,11,13,94,12,93,70
+2023-03-21,Tuesday,12,March,2023,9,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Retail,245,245,234,11,11,890,208260,39.95918367,22,7,9,83,7,91,74
+2024-01-07,Sunday,1,January,2024,23,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,270,251,251,0,0,489,122739,0.0,32,4,5,73,4,80,87
+2024-08-26,Monday,35,August,2024,16,India,APAC,Bangalore,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,325,353,336,17,17,866,290976,41.70538244,18,10,12,90,11,84,81
+2023-02-26,Sunday,8,February,2023,3,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,182,163,160,3,3,408,65280,7.509202454,34,2,3,80,2,93,72
+2025-01-03,Friday,1,January,2025,17,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,129,110,91,19,19,288,26208,49.74545455,15,0,0,70,0,87,85
+2021-12-11,Saturday,49,December,2021,22,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Retail,245,272,249,23,23,813,202437,68.74632353,34,7,9,86,8,95,85
+2026-01-15,Thursday,3,January,2026,7,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,E-commerce,244,264,261,3,3,884,230724,10.04545455,17,8,9,83,7,80,79
+2023-10-09,Monday,41,October,2023,21,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,322,331,304,27,27,755,229520,61.58610272,27,7,9,85,8,78,69
+2023-03-16,Thursday,11,March,2023,14,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Telecom,56,80,71,9,9,811,57581,91.2375,32,1,1,94,1,78,70
+2022-07-19,Tuesday,29,July,2022,17,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,388,417,396,21,21,241,95436,12.13669065,25,3,4,65,3,77,80
+2022-05-26,Thursday,21,May,2022,11,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,57,42,21,21,21,559,11739,279.5,33,0,0,80,0,90,86
+2022-07-17,Sunday,28,July,2022,13,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,178,185,159,26,26,543,86337,76.31351351,28,2,3,82,2,75,68
+2026-05-01,Friday,18,May,2026,11,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,369,357,356,1,1,407,144892,1.140056022,24,5,6,85,5,79,61
+2021-05-17,Monday,20,May,2021,20,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Retail,199,220,210,10,10,387,81270,17.59090909,35,2,3,80,2,92,88
+2024-04-05,Friday,14,April,2024,18,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,188,178,153,25,25,766,117198,107.5842697,15,4,5,65,3,95,80
+2023-03-10,Friday,10,March,2023,9,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,205,185,182,3,3,805,146510,13.05405405,23,5,6,83,5,72,80
+2021-05-02,Sunday,17,May,2021,19,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,304,294,274,20,20,745,204130,50.68027211,19,7,8,75,6,82,70
+2022-10-07,Friday,40,October,2022,0,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,116,146,134,12,12,359,48106,29.50684932,27,1,1,84,1,84,73
+2025-05-23,Friday,21,May,2025,8,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,E-commerce,472,500,497,3,3,806,400582,4.836,16,13,15,76,11,85,81
+2021-05-18,Tuesday,20,May,2021,6,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Banking,456,452,442,10,10,844,373048,18.67256637,21,12,15,69,10,87,61
+2025-08-22,Friday,34,August,2025,7,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Retail,208,233,217,16,16,616,133672,42.30042918,25,4,5,82,4,87,75
+2021-03-16,Tuesday,11,March,2021,3,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,361,351,344,7,7,526,180944,10.49002849,34,6,8,81,6,77,80
+2024-04-04,Thursday,14,April,2024,7,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,233,224,214,10,10,741,158574,33.08035714,26,5,6,81,5,78,70
+2024-07-10,Wednesday,28,July,2024,23,India,APAC,Bangalore,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Healthcare,462,452,431,21,21,299,128869,13.89159292,16,4,5,91,5,74,84
+2022-07-05,Tuesday,27,July,2022,16,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,413,430,420,10,10,888,372960,20.65116279,21,12,15,79,12,79,61
+2022-10-07,Friday,40,October,2022,20,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Telecom,190,193,191,2,2,461,88051,4.777202073,16,3,3,75,2,70,89
+2022-08-13,Saturday,32,August,2022,8,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Healthcare,184,211,200,11,11,454,90800,23.66824645,31,3,4,85,3,86,68
+2026-03-01,Sunday,9,March,2026,12,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,179,179,159,20,20,241,38319,26.9273743,24,1,1,92,1,72,65
+2022-11-21,Monday,47,November,2022,11,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,441,448,429,19,19,503,215787,21.33258929,35,7,9,80,7,81,75
+2023-07-14,Friday,28,July,2023,13,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,156,184,161,23,23,776,124936,97.0,19,4,5,82,4,85,79
+2023-11-27,Monday,48,November,2023,16,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,450,473,449,24,24,316,141884,16.03382664,29,4,5,94,5,80,61
+2023-12-26,Tuesday,52,December,2023,3,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,152,135,126,9,9,224,28224,14.93333333,24,0,0,75,0,85,72
+2023-08-21,Monday,34,August,2023,14,United States,AMER,Dallas,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,212,217,193,24,24,488,94184,53.97235023,32,3,4,91,4,95,74
+2025-12-30,Tuesday,1,December,2025,15,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Banking,205,204,183,21,21,624,114192,64.23529412,25,3,4,77,3,87,85
+2023-01-26,Thursday,4,January,2023,16,United States,AMER,New York,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,264,258,231,27,27,402,92862,42.06976744,21,3,4,91,4,74,81
+2021-04-30,Friday,17,April,2021,13,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,395,380,363,17,17,667,242121,29.83947368,21,8,10,88,9,74,68
+2022-08-18,Thursday,33,August,2022,22,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,448,467,454,13,13,444,201576,12.35974304,26,6,8,72,6,73,90
+2024-01-03,Wednesday,1,January,2024,21,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,493,508,499,9,9,185,92315,3.277559055,18,3,4,88,4,95,66
+2023-08-20,Sunday,33,August,2023,12,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,341,321,299,22,22,797,238303,54.62305296,33,8,11,81,9,81,88
+2025-12-28,Sunday,52,December,2025,2,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,389,400,376,24,24,591,222216,35.46,33,7,9,87,8,81,70
+2023-01-05,Thursday,1,January,2023,19,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,471,463,434,29,29,250,108500,15.6587473,15,3,3,84,3,75,68
+2022-12-03,Saturday,48,December,2022,3,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,369,390,387,3,3,805,311535,6.192307692,34,10,13,81,11,82,63
+2024-09-14,Saturday,37,September,2024,4,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,381,390,373,17,17,745,277885,32.47435897,22,9,11,94,10,72,75
+2025-12-06,Saturday,49,December,2025,21,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,207,213,204,9,9,392,79968,16.56338028,17,2,2,66,1,95,89
+2024-06-22,Saturday,25,June,2024,21,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Telecom,83,113,110,3,3,504,55440,13.38053097,33,1,1,65,1,71,60
+2022-05-09,Monday,19,May,2022,19,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Telecom,191,199,185,14,14,658,121730,46.29145729,31,4,5,67,3,88,86
+2025-11-23,Sunday,47,November,2025,0,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Retail,64,56,34,22,22,261,8874,102.5357143,24,0,0,83,0,75,87
+2022-08-10,Wednesday,32,August,2022,13,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,226,253,246,7,7,477,117342,13.19762846,18,4,5,68,3,80,89
+2023-12-05,Tuesday,49,December,2023,2,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,407,423,414,9,9,802,332028,17.06382979,32,11,15,67,10,87,70
+2022-01-21,Friday,3,January,2022,6,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,479,462,455,7,7,444,202020,6.727272727,25,7,9,88,8,84,68
+2021-08-27,Friday,34,August,2021,18,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Retail,151,181,173,8,8,311,53803,13.74585635,34,1,1,92,1,89,66
+2025-04-04,Friday,14,April,2025,17,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Retail,387,387,376,11,11,183,68808,5.201550388,21,2,2,81,2,87,71
+2022-12-17,Saturday,50,December,2022,13,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,50,42,14,28,28,384,5376,256.0,27,0,0,79,0,75,60
+2024-07-03,Wednesday,27,July,2024,2,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,E-commerce,263,274,269,5,5,435,117015,7.937956204,19,4,5,91,5,83,61
+2022-06-06,Monday,23,June,2022,8,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,95,117,114,3,3,270,30780,6.923076923,22,1,1,81,1,75,81
+2026-03-18,Wednesday,12,March,2026,18,United States,AMER,Dallas,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,176,178,174,4,4,888,154512,19.95505618,28,5,6,86,5,88,86
+2022-07-14,Thursday,28,July,2022,5,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,159,187,158,29,29,424,66992,65.7540107,16,2,2,67,1,86,62
+2023-01-27,Friday,4,January,2023,8,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,323,318,313,5,5,404,126452,6.352201258,19,4,5,71,4,83,63
+2023-02-10,Friday,6,February,2023,21,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,490,511,500,11,11,492,246000,10.59099804,32,8,11,65,7,86,89
+2021-02-16,Tuesday,7,February,2021,19,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,70,91,76,15,15,856,65056,141.0989011,15,2,2,87,2,79,76
+2022-05-15,Sunday,19,May,2022,23,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,144,127,109,18,18,779,84911,110.4094488,18,2,2,80,2,70,81
+2024-06-28,Friday,26,June,2024,9,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,50,57,42,15,15,403,16926,106.0526316,23,0,0,70,0,79,77
+2025-05-12,Monday,20,May,2025,7,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,411,414,404,10,10,887,358348,21.42512077,26,12,15,76,11,90,67
+2023-07-10,Monday,28,July,2023,22,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,94,117,97,20,20,346,33562,59.14529915,23,1,1,69,1,94,76
+2021-07-17,Saturday,28,July,2021,22,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,311,327,316,11,11,849,268284,28.55963303,25,9,11,87,10,73,82
+2021-03-07,Sunday,9,March,2021,16,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,377,372,355,17,17,245,86975,11.19623656,16,3,3,75,2,87,61
+2025-12-15,Monday,51,December,2025,16,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Healthcare,448,436,436,0,0,850,370600,0.0,34,12,16,89,14,88,76
+2025-09-15,Monday,38,September,2025,8,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Retail,50,78,71,7,7,433,30743,38.85897436,31,1,1,69,1,82,70
+2022-03-22,Tuesday,12,March,2022,4,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Healthcare,59,71,59,12,12,345,20355,58.30985915,26,0,0,72,0,85,81
+2023-02-11,Saturday,6,February,2023,6,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,E-commerce,318,325,301,24,24,849,255549,62.69538462,18,8,9,84,8,82,61
+2025-09-15,Monday,38,September,2025,15,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,206,188,184,4,4,357,65688,7.595744681,28,2,3,67,2,78,70
+2022-12-01,Thursday,48,December,2022,4,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,417,430,422,8,8,878,370516,16.33488372,31,12,16,88,14,70,90
+2025-05-22,Thursday,21,May,2025,5,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Healthcare,498,517,507,10,10,236,119652,4.564796905,21,4,5,84,4,70,72
+2025-10-11,Saturday,41,October,2025,22,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,466,487,461,26,26,579,266919,30.91170431,26,9,11,86,9,89,65
+2022-04-18,Monday,16,April,2022,9,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,447,460,437,23,23,240,104880,12.0,29,3,4,86,3,95,69
+2022-02-08,Tuesday,6,February,2022,16,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,321,350,338,12,12,368,124384,12.61714286,26,4,5,87,4,89,86
+2025-02-24,Monday,9,February,2025,6,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,101,87,83,4,4,432,35856,19.86206897,32,1,1,95,1,90,65
+2025-12-20,Saturday,51,December,2025,21,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,95,88,85,3,3,650,55250,22.15909091,16,1,1,81,1,76,60
+2021-09-25,Saturday,38,September,2021,21,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,332,317,308,9,9,613,188804,17.40378549,24,6,7,75,5,83,70
+2021-09-27,Monday,39,September,2021,8,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,391,397,386,11,11,450,173700,12.46851385,24,6,7,90,6,73,77
+2023-06-02,Friday,22,June,2023,9,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,500,485,472,13,13,399,188328,10.69484536,27,6,8,79,6,75,84
+2024-11-01,Friday,44,November,2024,18,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,159,171,152,19,19,371,56392,41.22222222,35,1,1,73,1,95,89
+2022-02-02,Wednesday,5,February,2022,12,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,128,109,86,23,23,603,51858,127.2385321,15,1,1,93,1,92,89
+2024-08-30,Friday,35,August,2024,21,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,57,62,36,26,26,467,16812,195.8387097,29,0,0,90,0,78,80
+2023-08-26,Saturday,34,August,2023,16,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,206,219,212,7,7,607,128684,19.40182648,28,4,5,65,3,86,90
+2024-11-02,Saturday,44,November,2024,12,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Retail,234,224,215,9,9,439,94385,17.63839286,16,3,3,95,3,73,83
+2024-08-26,Monday,35,August,2024,22,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,271,296,292,4,4,735,214620,9.932432432,17,7,8,88,7,73,77
+2023-01-08,Sunday,1,January,2023,3,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Banking,206,210,198,12,12,636,125928,36.34285714,34,4,5,84,4,79,80
+2024-06-30,Sunday,26,June,2024,8,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Retail,288,316,293,23,23,722,211546,52.55063291,34,7,9,90,8,80,86
+2023-11-18,Saturday,46,November,2023,17,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Healthcare,305,325,299,26,26,895,267605,71.6,32,9,12,71,9,79,74
+2023-04-15,Saturday,15,April,2023,11,France,EMEA,Paris,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,102,110,105,5,5,224,23520,10.18181818,15,0,0,90,0,79,69
+2021-09-27,Monday,39,September,2021,1,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Banking,339,351,335,16,16,651,218085,29.67521368,29,7,9,81,7,83,89
+2026-01-14,Wednesday,3,January,2026,11,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,148,160,145,15,15,513,74385,48.09375,21,2,2,91,2,93,72
+2025-09-16,Tuesday,38,September,2025,21,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,68,87,68,19,19,835,56780,182.3563218,28,1,1,82,1,83,82
+2022-01-01,Saturday,52,January,2022,19,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Retail,228,227,207,20,20,754,156078,66.43171806,28,5,6,79,5,87,72
+2022-01-27,Thursday,4,January,2022,8,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,169,163,137,26,26,557,76309,88.84662577,20,2,2,76,2,73,80
+2021-07-03,Saturday,26,July,2021,18,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,72,79,61,18,18,564,34404,128.5063291,27,1,1,67,1,81,69
+2021-12-25,Saturday,51,December,2021,7,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Banking,444,446,417,29,29,501,208917,32.57623318,19,7,8,92,7,79,63
+2023-05-30,Tuesday,22,May,2023,22,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Telecom,163,143,127,16,16,721,91567,80.67132867,15,3,3,79,2,88,80
+2021-02-11,Thursday,6,February,2021,20,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Banking,156,165,141,24,24,886,124926,128.8727273,16,4,5,85,4,93,82
+2024-11-25,Monday,48,November,2024,7,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,254,251,248,3,3,617,153016,7.374501992,26,5,6,90,5,75,70
+2022-07-08,Friday,27,July,2022,1,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Banking,470,486,477,9,9,508,242316,9.407407407,24,8,10,87,9,79,73
+2023-02-06,Monday,6,February,2023,0,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,95,81,57,24,24,649,36993,192.2962963,28,1,1,94,1,71,85
+2021-11-09,Tuesday,45,November,2021,0,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,349,337,330,7,7,661,218130,13.72997033,21,7,8,95,8,77,86
+2022-01-19,Wednesday,3,January,2022,15,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,462,462,444,18,18,808,358752,31.48051948,32,12,16,65,10,72,71
+2024-08-16,Friday,33,August,2024,23,United States,AMER,New York,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,225,246,234,12,12,310,72540,15.12195122,26,2,3,75,2,91,88
+2021-11-24,Wednesday,47,November,2021,5,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Telecom,387,416,399,17,17,520,207480,21.25,29,7,9,76,7,70,61
+2023-07-30,Sunday,30,July,2023,10,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,493,502,481,21,21,426,204906,17.82071713,23,7,9,73,7,79,66
+2025-10-01,Wednesday,40,October,2025,6,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,375,404,393,11,11,451,177243,12.27970297,21,6,7,83,6,75,70
+2026-10-01,Thursday,40,October,2026,12,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,289,285,274,11,11,770,210980,29.71929825,35,7,9,79,7,71,63
+2025-09-03,Wednesday,36,September,2025,5,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Telecom,479,488,475,13,13,675,320625,17.98155738,21,11,13,78,10,77,72
+2024-06-06,Thursday,23,June,2024,10,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Telecom,285,306,281,25,25,197,55357,16.09477124,29,1,1,81,1,75,71
+2026-11-03,Tuesday,45,November,2026,6,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,146,136,121,15,15,706,85426,77.86764706,22,2,2,84,2,88,88
+2024-12-09,Monday,50,December,2024,22,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Healthcare,355,370,368,2,2,363,133584,1.962162162,23,4,5,74,4,77,67
+2021-03-28,Sunday,12,March,2021,9,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,62,63,57,6,6,380,21660,36.19047619,27,0,0,80,0,86,87
+2023-11-19,Sunday,46,November,2023,1,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,423,453,423,30,30,222,93906,14.70198676,32,3,4,89,4,82,67
+2023-12-21,Thursday,51,December,2023,5,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Healthcare,159,158,144,14,14,817,117648,72.39240506,30,4,5,68,3,70,70
+2024-01-19,Friday,3,January,2024,11,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,304,286,285,1,1,840,239400,2.937062937,34,8,11,67,7,87,87
+2023-09-22,Friday,38,September,2023,5,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,223,249,235,14,14,417,97995,23.44578313,30,3,4,86,3,85,74
+2021-06-15,Tuesday,24,June,2021,6,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,287,282,275,7,7,686,188650,17.02836879,26,6,8,73,6,71,79
+2022-02-26,Saturday,8,February,2022,0,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,210,213,190,23,23,305,57950,32.9342723,30,2,3,83,2,70,64
+2023-06-22,Thursday,25,June,2023,7,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,244,270,241,29,29,353,85073,37.91481481,27,2,3,71,2,70,70
+2023-03-30,Thursday,13,March,2023,11,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,E-commerce,488,503,489,14,14,338,165282,9.407554672,28,5,6,66,4,79,90
+2021-03-06,Saturday,9,March,2021,2,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,E-commerce,257,239,221,18,18,521,115141,39.23849372,24,3,4,88,4,88,81
+2023-07-01,Saturday,26,July,2023,3,United States,AMER,New York,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,E-commerce,334,339,328,11,11,646,211888,20.96165192,28,7,9,90,8,79,73
+2023-06-18,Sunday,24,June,2023,14,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Banking,143,124,99,25,25,734,72666,147.983871,22,2,2,75,2,77,70
+2021-07-24,Saturday,29,July,2021,16,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,233,216,206,10,10,658,135548,30.46296296,34,4,5,88,4,81,64
+2025-05-25,Sunday,21,May,2025,14,Italy,EMEA,Rome,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,407,397,392,5,5,584,228928,7.355163728,18,7,8,65,5,72,60
+2024-08-07,Wednesday,32,August,2024,7,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,E-commerce,411,393,369,24,24,688,253872,42.01526718,24,8,10,70,7,89,87
+2021-12-01,Wednesday,48,December,2021,18,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,58,55,53,2,2,502,26606,18.25454545,21,0,0,81,0,84,88
+2022-05-12,Thursday,19,May,2022,7,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,96,125,95,30,30,483,45885,115.92,25,1,1,93,1,75,82
+2022-09-27,Tuesday,39,September,2022,11,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,385,404,398,6,6,526,209348,7.811881188,35,7,9,72,6,76,84
+2021-04-19,Monday,16,April,2021,8,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Retail,127,114,89,25,25,192,17088,42.10526316,29,0,0,95,0,88,88
+2025-04-06,Sunday,14,April,2025,12,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Retail,345,337,313,24,24,722,225986,51.41839763,33,7,9,87,8,73,80
+2025-07-02,Wednesday,27,July,2025,22,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,80,78,61,17,17,316,19276,68.87179487,26,0,0,77,0,73,86
+2025-03-27,Thursday,13,March,2025,17,France,EMEA,Paris,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,165,174,170,4,4,277,47090,6.367816092,26,1,1,82,1,84,75
+2023-12-23,Saturday,51,December,2023,6,United States,AMER,Dallas,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Banking,71,88,83,5,5,740,61420,42.04545455,34,2,3,67,2,70,79
+2022-08-21,Sunday,33,August,2022,6,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,387,391,379,12,12,843,319497,25.87212276,32,11,15,88,13,73,70
+2023-12-07,Thursday,49,December,2023,11,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,E-commerce,374,382,363,19,19,571,207273,28.40052356,18,7,8,86,7,76,70
+2022-01-23,Sunday,3,January,2022,9,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,429,439,431,8,8,476,205156,8.674259681,29,7,9,88,8,70,60
+2025-12-07,Sunday,49,December,2025,9,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,374,363,335,28,28,448,150080,34.55647383,33,5,7,80,6,81,77
+2022-01-31,Monday,5,January,2022,23,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,189,197,173,24,24,880,152240,107.2081218,28,5,6,95,6,80,67
+2022-03-13,Sunday,10,March,2022,15,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,153,155,152,3,3,615,93480,11.90322581,19,3,4,74,3,72,73
+2024-09-01,Sunday,35,September,2024,11,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,139,144,124,20,20,199,24676,27.63888889,34,0,0,74,0,86,86
+2024-10-09,Wednesday,41,October,2024,2,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,71,81,66,15,15,279,18414,51.66666667,25,0,0,68,0,77,69
+2022-06-21,Tuesday,25,June,2022,10,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,249,248,227,21,21,644,146188,54.53225806,31,5,7,90,6,79,74
+2025-08-28,Thursday,35,August,2025,15,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,65,72,47,25,25,767,36049,266.3194444,17,1,1,67,1,91,78
+2024-01-09,Tuesday,2,January,2024,17,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,167,147,126,21,21,368,46368,52.57142857,29,1,1,87,1,95,78
+2024-04-18,Thursday,16,April,2024,5,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,435,429,420,9,9,498,209160,10.44755245,33,7,9,94,8,88,63
+2023-03-17,Friday,11,March,2023,3,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,446,448,443,5,5,201,89043,2.243303571,28,3,4,89,4,94,73
+2025-03-30,Sunday,13,March,2025,9,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,E-commerce,96,92,88,4,4,350,30800,15.2173913,28,1,1,88,1,91,87
+2022-07-09,Saturday,27,July,2022,18,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,99,109,84,25,25,611,51324,140.1376147,31,1,1,74,1,72,79
+2022-03-22,Tuesday,12,March,2022,12,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,194,189,175,14,14,848,148400,62.81481481,24,5,6,78,5,92,74
+2021-09-28,Tuesday,39,September,2021,1,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,82,91,81,10,10,458,37098,50.32967033,16,1,1,90,1,70,68
+2021-09-04,Saturday,35,September,2021,7,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Banking,426,429,420,9,9,841,353220,17.64335664,35,12,16,95,15,86,82
+2025-08-13,Wednesday,33,August,2025,0,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Healthcare,481,507,500,7,7,521,260500,7.193293886,22,9,11,83,9,94,70
+2025-02-13,Thursday,7,February,2025,1,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Healthcare,497,500,484,16,16,677,327668,21.664,27,11,14,67,9,72,70
+2022-05-01,Sunday,17,May,2022,2,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,482,462,434,28,28,542,235228,32.84848485,31,8,10,78,8,80,82
+2023-10-01,Sunday,39,October,2023,21,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Banking,180,176,156,20,20,763,119028,86.70454545,31,4,5,91,5,75,68
+2025-09-28,Sunday,39,September,2025,0,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Retail,168,158,153,5,5,356,54468,11.26582278,17,1,1,90,1,92,60
+2024-09-07,Saturday,36,September,2024,5,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,492,472,445,27,27,805,358225,46.04872881,24,12,15,81,12,71,78
+2021-03-27,Saturday,12,March,2021,21,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Banking,267,291,267,24,24,577,154059,47.58762887,18,5,6,94,6,82,77
+2023-09-15,Friday,37,September,2023,0,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Banking,134,160,139,21,21,854,118706,112.0875,22,4,5,78,4,78,66
+2021-09-08,Wednesday,36,September,2021,5,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,256,255,243,12,12,576,139968,27.10588235,24,4,5,85,4,87,62
+2022-04-14,Thursday,15,April,2022,12,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,118,106,93,13,13,320,29760,39.24528302,28,1,1,82,1,83,78
+2025-04-12,Saturday,15,April,2025,10,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Banking,427,414,391,23,23,418,163438,23.22222222,27,5,6,92,6,92,89
+2025-10-03,Friday,40,October,2025,22,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,212,202,184,18,18,755,138920,67.27722772,16,4,5,79,4,81,61
+2024-08-04,Sunday,31,August,2024,15,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Telecom,134,128,109,19,19,591,64419,87.7265625,24,2,2,92,2,93,76
+2023-04-09,Sunday,14,April,2023,5,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Retail,164,169,162,7,7,431,69822,17.85207101,29,2,3,79,2,89,61
+2026-01-21,Wednesday,4,January,2026,12,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,178,190,182,8,8,724,131768,30.48421053,17,4,5,65,3,94,79
+2022-08-15,Monday,33,August,2022,14,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Banking,274,272,266,6,6,782,208012,17.25,28,7,9,72,6,95,85
+2025-06-30,Monday,27,June,2025,17,India,APAC,Bangalore,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Retail,417,414,395,19,19,425,167875,19.50483092,19,5,6,68,4,94,61
+2024-02-17,Saturday,7,February,2024,13,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,349,338,328,10,10,308,101024,9.112426036,19,3,4,73,3,78,69
+2021-04-27,Tuesday,17,April,2021,21,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,154,159,150,9,9,548,82200,31.01886792,16,2,2,95,2,71,83
+2022-09-28,Wednesday,39,September,2022,9,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Banking,130,131,122,9,9,242,29524,16.6259542,21,1,1,86,1,75,68
+2021-06-16,Wednesday,24,June,2021,17,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,335,356,329,27,27,436,143444,33.06741573,25,4,5,68,3,94,72
+2024-05-13,Monday,20,May,2024,18,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,245,229,214,15,15,864,184896,56.59388646,18,6,7,93,7,94,78
+2024-05-05,Sunday,18,May,2024,13,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,210,218,210,8,8,770,161700,28.25688073,15,5,6,75,5,92,64
+2025-08-26,Tuesday,35,August,2025,17,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,73,67,54,13,13,778,42012,150.9552239,28,1,1,90,1,78,81
+2023-01-18,Wednesday,3,January,2023,23,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,378,383,363,20,20,749,271887,39.11227154,17,9,11,74,8,78,69
+2024-01-12,Friday,2,January,2024,23,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Telecom,345,339,331,8,8,659,218129,15.55162242,24,7,9,67,6,88,72
+2023-12-23,Saturday,51,December,2023,16,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,265,271,262,9,9,264,69168,8.767527675,21,2,2,77,2,76,89
+2025-08-29,Friday,35,August,2025,22,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Telecom,64,72,55,17,17,811,44605,191.4861111,30,1,1,68,1,85,69
+2025-04-19,Saturday,16,April,2025,18,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,212,221,213,8,8,597,127161,21.61085973,32,4,5,81,4,94,80
+2025-11-19,Wednesday,47,November,2025,11,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,314,302,277,25,25,624,172848,51.65562914,32,6,8,81,6,88,82
+2024-05-23,Thursday,21,May,2024,10,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,369,379,365,14,14,380,138700,14.03693931,26,4,5,88,4,95,77
+2025-11-29,Saturday,48,November,2025,15,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,127,111,110,1,1,826,90860,7.441441441,24,3,4,93,4,73,70
+2023-12-30,Saturday,52,December,2023,18,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Retail,290,313,312,1,1,728,227136,2.325878594,18,7,8,82,7,82,89
+2021-06-28,Monday,26,June,2021,21,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,495,513,492,21,21,277,136284,11.33918129,20,4,5,70,4,73,71
+2025-12-27,Saturday,52,December,2025,16,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Banking,463,492,474,18,18,698,330852,25.53658537,27,11,14,90,13,90,64
+2023-09-09,Saturday,36,September,2023,19,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,133,156,131,25,25,659,86329,105.6089744,27,2,3,92,3,75,79
+2022-01-15,Saturday,2,January,2022,23,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,171,153,129,24,24,319,41151,50.03921569,26,1,1,90,1,71,67
+2021-04-11,Sunday,14,April,2021,3,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Banking,378,368,366,2,2,207,75762,1.125,22,2,2,87,2,87,69
+2022-01-30,Sunday,4,January,2022,5,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,Banking,100,108,92,16,16,639,58788,94.66666667,20,2,2,78,2,89,78
+2021-01-06,Wednesday,1,January,2021,8,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,454,453,423,30,30,539,227997,35.69536424,21,7,8,65,5,80,82
+2022-10-17,Monday,42,October,2022,14,Australia,APAC,Sydney,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,E-commerce,88,102,73,29,29,258,18834,73.35294118,27,0,0,87,0,87,64
+2022-08-08,Monday,32,August,2022,4,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,453,435,411,24,24,412,169332,22.73103448,24,5,6,68,4,91,86
+2026-02-21,Saturday,8,February,2026,21,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Banking,84,67,47,20,20,888,41736,265.0746269,23,1,1,69,1,89,72
+2021-02-12,Friday,6,February,2021,4,Canada,AMER,Toronto,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,469,473,459,14,14,834,382806,24.68498943,35,13,18,82,15,95,72
+2023-07-10,Monday,28,July,2023,13,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Telecom,309,326,311,15,15,454,141194,20.88957055,30,4,5,86,4,86,79
+2025-03-11,Tuesday,11,March,2025,5,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Banking,182,167,159,8,8,448,71232,21.46107784,31,2,3,90,3,81,77
+2025-03-22,Saturday,12,March,2025,12,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Retail,436,430,427,3,3,292,124684,2.037209302,24,4,5,92,5,90,68
+2024-11-19,Tuesday,47,November,2024,6,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Retail,216,241,222,19,19,873,193806,68.82572614,25,6,8,73,6,93,73
+2023-10-24,Tuesday,43,October,2023,20,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,178,194,185,9,9,774,143190,35.90721649,22,4,5,86,4,93,68
+2024-10-26,Saturday,43,October,2024,16,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,383,387,366,21,21,454,166164,24.63565891,22,5,6,68,4,90,72
+2023-10-18,Wednesday,42,October,2023,7,Italy,EMEA,Rome,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,442,438,426,12,12,669,284994,18.32876712,16,9,10,84,8,81,89
+2021-04-07,Wednesday,14,April,2021,16,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,124,136,107,29,29,351,37557,74.84558824,25,1,1,73,1,88,76
+2025-03-04,Tuesday,10,March,2025,23,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,395,394,389,5,5,555,215895,7.043147208,26,7,9,67,6,87,90
+2025-05-26,Monday,22,May,2025,3,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Healthcare,65,46,20,26,26,866,17320,489.4782609,19,0,0,95,0,77,63
+2023-06-03,Saturday,22,June,2023,8,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,364,387,361,26,26,780,281580,52.40310078,32,9,12,78,9,90,90
+2021-11-10,Wednesday,45,November,2021,9,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,248,252,250,2,2,400,100000,3.174603175,25,3,4,92,4,72,69
+2025-01-13,Monday,3,January,2025,14,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,325,339,322,17,17,376,121072,18.85545723,22,4,5,74,4,77,82
+2023-01-31,Tuesday,5,January,2023,12,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,E-commerce,425,418,390,28,28,785,306150,52.58373206,33,10,13,71,9,88,64
+2023-07-19,Wednesday,29,July,2023,0,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,328,323,316,7,7,713,225308,15.45201238,33,7,9,69,6,86,71
+2025-08-25,Monday,35,August,2025,6,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,352,376,364,12,12,536,195104,17.10638298,33,6,8,68,5,79,67
+2023-01-21,Saturday,3,January,2023,13,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,342,336,309,27,27,388,119892,31.17857143,20,4,5,82,4,81,74
+2025-07-22,Tuesday,30,July,2025,1,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Healthcare,385,366,338,28,28,610,206180,46.66666667,18,7,8,72,6,90,69
+2022-04-02,Saturday,13,April,2022,23,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,112,129,115,14,14,838,96370,90.94573643,34,3,4,90,4,85,69
+2025-12-01,Monday,49,December,2025,22,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,440,432,425,7,7,815,346375,13.20601852,15,12,14,66,9,71,82
+2025-08-17,Sunday,33,August,2025,19,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,368,348,337,11,11,427,143899,13.49712644,16,4,5,76,4,89,64
+2023-04-22,Saturday,16,April,2023,5,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Retail,135,162,159,3,3,817,129903,15.12962963,31,4,5,82,4,78,70
+2022-11-10,Thursday,45,November,2022,23,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Telecom,419,437,427,10,10,183,78141,4.187643021,25,2,3,69,2,82,63
+2023-11-28,Tuesday,48,November,2023,13,China,APAC,Shanghai,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Telecom,269,265,261,4,4,201,52461,3.033962264,15,1,1,73,1,85,80
+2023-08-13,Sunday,32,August,2023,7,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,457,473,468,5,5,591,276588,6.247357294,24,9,11,94,10,84,90
+2026-11-02,Monday,45,November,2026,8,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Retail,185,211,199,12,12,238,47362,13.53554502,35,1,1,89,1,78,67
+2023-12-16,Saturday,50,December,2023,8,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,77,85,66,19,19,826,54516,184.6352941,28,1,1,72,1,77,63
+2021-10-31,Sunday,43,October,2021,17,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Healthcare,495,490,484,6,6,687,332508,8.412244898,17,11,13,89,12,73,62
+2025-08-10,Sunday,32,August,2025,5,Philippines,APAC,Cebu,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Telecom,158,175,173,2,2,215,37195,2.457142857,23,1,1,72,1,89,71
+2024-11-24,Sunday,47,November,2024,11,France,EMEA,Paris,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Healthcare,98,118,113,5,5,314,35482,13.30508475,26,1,1,76,1,93,64
+2025-10-22,Wednesday,43,October,2025,20,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,126,120,120,0,0,556,66720,0.0,19,2,2,85,2,83,88
+2022-04-14,Thursday,15,April,2022,1,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,399,413,401,12,12,806,323206,23.4188862,23,11,14,75,11,94,85
+2021-06-18,Friday,24,June,2021,9,Australia,APAC,Sydney,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Banking,333,347,322,25,25,261,84042,18.80403458,21,2,2,88,2,95,86
+2024-12-14,Saturday,50,December,2024,11,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,244,230,214,16,16,542,115988,37.70434783,25,4,5,92,5,91,78
+2026-10-01,Thursday,40,October,2026,22,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,112,122,116,6,6,186,21576,9.147540984,33,0,0,82,0,79,84
+2023-04-13,Thursday,15,April,2023,22,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,E-commerce,266,250,231,19,19,272,62832,20.672,34,2,3,66,2,77,75
+2025-11-25,Tuesday,48,November,2025,18,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Telecom,415,439,426,13,13,753,320778,22.29840547,31,11,14,66,9,75,90
+2024-06-13,Thursday,24,June,2024,16,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,267,268,265,3,3,606,160590,6.78358209,20,5,6,80,5,78,82
+2025-01-11,Saturday,2,January,2025,0,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Retail,444,440,425,15,15,386,164050,13.15909091,19,5,6,77,5,73,72
+2023-11-03,Friday,44,November,2023,13,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Telecom,283,298,271,27,27,848,229808,76.83221477,32,7,9,65,6,86,70
+2023-01-03,Tuesday,1,January,2023,8,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,298,319,313,6,6,411,128643,7.730407524,22,4,5,95,5,90,85
+2024-04-09,Tuesday,15,April,2024,14,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,427,439,413,26,26,651,268863,38.55580866,16,9,10,73,7,80,65
+2026-03-16,Monday,12,March,2026,3,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Banking,57,63,36,27,27,551,19836,236.1428571,23,0,0,73,0,87,78
+2022-01-15,Saturday,2,January,2022,3,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Telecom,195,186,182,4,4,563,102466,12.10752688,22,3,4,65,3,85,90
+2022-08-01,Monday,31,August,2022,13,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Retail,219,242,221,21,21,841,185861,72.97933884,24,6,7,72,5,86,65
+2026-05-03,Sunday,18,May,2026,11,Belgium,EMEA,Belgium Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Banking,349,344,336,8,8,527,177072,12.25581395,32,6,8,92,7,80,64
+2022-10-29,Saturday,43,October,2022,4,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,106,131,129,2,2,239,30831,3.648854962,34,1,1,71,1,73,64
+2022-04-27,Wednesday,17,April,2022,8,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Banking,342,338,328,10,10,761,249608,22.5147929,32,8,11,94,10,78,86
+2024-11-03,Sunday,44,November,2024,8,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Retail,200,186,160,26,26,252,40320,35.22580645,25,1,1,74,1,95,78
+2024-03-26,Tuesday,13,March,2024,7,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Healthcare,172,199,186,13,13,267,49662,17.44221106,15,1,1,79,1,95,64
+2022-10-27,Thursday,43,October,2022,6,India,APAC,Bangalore,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,292,319,294,25,25,553,162582,43.33855799,19,5,6,76,5,72,63
+2025-08-09,Saturday,32,August,2025,13,Australia,APAC,Sydney,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,E-commerce,485,507,504,3,3,679,342216,4.017751479,33,11,15,92,14,94,89
+2024-03-07,Thursday,10,March,2024,14,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,432,420,390,30,30,295,115050,21.07142857,33,3,4,72,3,77,89
+2026-12-02,Wednesday,49,December,2026,4,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,E-commerce,228,209,192,17,17,535,102720,43.51674641,25,3,4,86,3,95,63
+2024-05-20,Monday,21,May,2024,2,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,373,370,365,5,5,494,180310,6.675675676,24,6,7,65,5,81,70
+2022-06-03,Friday,22,June,2022,13,United States,AMER,New York,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,297,284,267,17,17,810,216270,48.48591549,32,7,9,88,8,90,86
+2023-03-16,Thursday,11,March,2023,14,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,322,351,347,4,4,781,271007,8.9002849,28,9,12,79,9,75,71
+2023-09-22,Friday,38,September,2023,10,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Banking,207,232,202,30,30,758,153116,98.01724138,22,5,6,83,5,71,89
+2021-12-26,Sunday,51,December,2021,7,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Telecom,494,520,505,15,15,720,363600,20.76923077,31,12,16,67,11,74,81
+2022-08-03,Wednesday,31,August,2022,2,France,EMEA,Paris,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Telecom,167,150,124,26,26,348,43152,60.32,23,1,1,91,1,87,64
+2022-03-27,Sunday,12,March,2022,23,France,EMEA,Paris,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,E-commerce,489,516,505,11,11,866,437330,18.46124031,35,15,20,78,16,76,87
+2022-06-16,Thursday,24,June,2022,1,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,429,436,407,29,29,272,110704,18.09174312,24,3,4,70,3,71,63
+2025-05-07,Wednesday,19,May,2025,6,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Healthcare,60,41,35,6,6,851,29785,124.5365854,22,1,1,80,1,86,79
+2022-02-05,Saturday,5,February,2022,13,China,APAC,Shanghai,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,107,104,95,9,9,288,27360,24.92307692,19,0,0,78,0,71,63
+2022-08-27,Saturday,34,August,2022,6,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,456,450,421,29,29,498,209658,32.09333333,19,7,8,71,6,90,84
+2022-10-22,Saturday,42,October,2022,21,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,101,97,67,30,30,459,30753,141.9587629,30,1,1,80,1,76,81
+2022-08-30,Tuesday,35,August,2022,4,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,55,45,35,10,10,532,18620,118.2222222,20,0,0,79,0,73,87
+2025-07-06,Sunday,27,July,2025,14,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Retail,224,214,206,8,8,868,178808,32.44859813,25,6,8,87,7,72,86
+2021-07-21,Wednesday,29,July,2021,16,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,321,333,306,27,27,421,128826,34.13513514,23,4,5,82,4,95,83
+2023-07-26,Wednesday,30,July,2023,21,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,333,347,320,27,27,233,74560,18.129683,27,2,3,95,3,76,60
+2022-03-29,Tuesday,13,March,2022,16,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Healthcare,337,319,312,7,7,203,63336,4.454545455,32,2,3,73,2,78,86
+2023-07-06,Thursday,27,July,2023,0,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Telecom,129,152,132,20,20,763,100716,100.3947368,25,3,4,80,3,81,65
+2022-06-25,Saturday,25,June,2022,15,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Banking,200,221,212,9,9,552,117024,22.47963801,27,4,5,91,5,91,88
+2022-02-06,Sunday,5,February,2022,16,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,269,253,224,29,29,780,174720,89.40711462,22,6,7,81,6,92,90
+2023-12-30,Saturday,52,December,2023,12,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,305,313,306,7,7,887,271422,19.8370607,35,9,12,78,9,72,89
+2024-06-25,Tuesday,26,June,2024,5,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,218,242,216,26,26,354,76464,38.03305785,16,2,2,74,1,93,68
+2025-06-29,Sunday,26,June,2025,10,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,470,454,432,22,22,428,184896,20.74008811,27,6,8,71,6,78,89
+2023-11-10,Friday,45,November,2023,0,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Banking,70,70,50,20,20,759,37950,216.8571429,20,1,1,73,1,76,79
+2022-08-20,Saturday,33,August,2022,23,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Telecom,309,326,315,11,11,824,259560,27.80368098,24,9,11,93,10,86,83
+2023-10-08,Sunday,40,October,2023,17,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,276,289,263,26,26,282,74166,25.37024221,30,2,3,85,3,85,65
+2025-02-15,Saturday,7,February,2025,3,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Healthcare,457,438,417,21,21,416,173472,19.94520548,23,6,7,84,6,85,86
+2025-06-10,Tuesday,24,June,2025,16,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,370,374,365,9,9,489,178485,11.76737968,21,6,7,81,6,92,84
+2023-05-24,Wednesday,21,May,2023,0,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,220,200,193,7,7,502,96886,17.57,18,3,4,93,4,95,79
+2021-08-04,Wednesday,31,August,2021,8,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,188,184,157,27,27,679,106603,99.63586957,22,3,4,65,3,94,82
+2025-06-04,Wednesday,23,June,2025,3,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,420,437,431,6,6,604,260324,8.292906179,32,9,12,65,8,87,84
+2021-09-09,Thursday,36,September,2021,23,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Telecom,153,148,143,5,5,499,71357,16.85810811,35,2,3,77,2,72,72
+2023-05-29,Monday,22,May,2023,23,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Banking,314,315,311,4,4,571,177581,7.250793651,31,6,8,90,7,86,78
+2021-12-26,Sunday,51,December,2021,22,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Retail,449,444,423,21,21,201,85023,9.506756757,33,2,3,95,3,74,65
+2025-05-13,Tuesday,20,May,2025,0,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,Healthcare,105,131,119,12,12,243,28917,22.25954198,17,1,1,71,1,85,71
+2023-08-24,Thursday,34,August,2023,2,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,E-commerce,326,316,287,29,29,517,148379,47.44620253,31,5,7,84,6,87,61
+2026-03-17,Tuesday,12,March,2026,8,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,E-commerce,284,303,296,7,7,730,216080,16.86468647,30,7,9,79,7,92,61
+2023-09-28,Thursday,39,September,2023,2,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Healthcare,310,335,316,19,19,643,203188,36.46865672,17,7,8,89,7,78,71
+2023-06-05,Monday,23,June,2023,17,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,Telecom,144,137,124,13,13,233,28892,22.10948905,16,1,1,85,1,80,61
+2024-05-29,Wednesday,22,May,2024,17,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,E-commerce,369,386,377,9,9,620,233740,14.45595855,22,8,10,82,8,70,90
+2024-11-13,Wednesday,46,November,2024,0,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,347,351,322,29,29,623,200606,51.47293447,24,6,7,81,6,93,67
+2023-07-02,Sunday,26,July,2023,1,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Banking,442,426,397,29,29,589,233833,40.09624413,30,8,10,69,7,93,79
+2023-10-29,Sunday,43,October,2023,3,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,425,424,404,20,20,805,325220,37.97169811,32,11,15,68,10,82,90
+2023-10-21,Saturday,42,October,2023,7,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,E-commerce,382,386,370,16,16,457,169090,18.94300518,27,5,6,80,5,91,62
+2023-11-27,Monday,48,November,2023,13,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,378,365,352,13,13,642,225984,22.86575342,25,7,9,95,9,89,67
+2025-07-08,Tuesday,28,July,2025,11,Norway,EMEA,Norway Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Telecom,441,443,415,28,28,264,109560,16.68623025,17,3,4,71,3,78,75
+2025-08-21,Thursday,34,August,2025,8,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,313,326,297,29,29,623,185031,55.4202454,25,6,8,94,8,94,72
+2024-09-29,Sunday,39,September,2024,5,Morocco,EMEA,Morocco Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Banking,166,165,154,11,11,698,107492,46.53333333,26,3,4,85,3,89,79
+2024-06-21,Friday,25,June,2024,1,Russia,EMEA,Russia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,260,270,269,1,1,522,140418,1.933333333,21,4,5,91,5,84,60
+2021-04-20,Tuesday,16,April,2021,6,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,447,456,451,5,5,223,100573,2.445175439,30,3,4,74,3,74,74
+2021-03-13,Saturday,10,March,2021,4,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Retail,109,122,96,26,26,858,82368,182.852459,34,2,3,88,3,90,70
+2021-05-22,Saturday,20,May,2021,16,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,E-commerce,59,53,35,18,18,521,18235,176.9433962,30,0,0,65,0,72,81
+2023-05-19,Friday,20,May,2023,8,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,478,483,458,25,25,641,293578,33.17805383,15,10,12,69,8,84,86
+2025-04-16,Wednesday,16,April,2025,0,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Telecom,382,374,367,7,7,705,258735,13.19518717,15,8,9,83,7,71,87
+2021-06-03,Thursday,22,June,2021,10,India,APAC,Pune,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Telecom,117,128,102,26,26,886,90372,179.96875,16,3,3,81,2,77,82
+2022-07-31,Sunday,30,July,2022,20,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,274,274,256,18,18,566,144896,37.18248175,22,5,6,78,5,70,85
+2024-02-04,Sunday,5,February,2024,15,India,APAC,Hyderabad,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,234,214,211,3,3,650,137150,9.112149533,25,4,5,85,4,74,81
+2023-07-22,Saturday,29,July,2023,17,United States,AMER,New York,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,438,468,462,6,6,219,101178,2.807692308,18,3,4,85,3,93,90
+2024-07-15,Monday,29,July,2024,22,Taiwan,APAC,Taiwan Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,324,341,333,8,8,216,71928,5.06744868,26,2,3,87,3,81,73
+2025-02-25,Tuesday,9,February,2025,15,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Healthcare,222,238,231,7,7,365,84315,10.73529412,20,2,2,74,1,85,69
+2024-09-29,Sunday,39,September,2024,14,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,212,215,191,24,24,328,62648,36.61395349,22,2,2,88,2,92,68
+2024-11-21,Thursday,47,November,2024,6,Spain,EMEA,Madrid,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,E-commerce,152,144,137,7,7,750,102750,36.45833333,26,3,4,68,3,73,64
+2024-09-26,Thursday,39,September,2024,17,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Telecom,130,151,137,14,14,378,51786,35.04635762,35,1,1,74,1,77,61
+2023-05-07,Sunday,18,May,2023,3,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,458,483,453,30,30,726,328878,45.0931677,20,11,13,87,11,91,73
+2022-08-09,Tuesday,32,August,2022,20,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,360,353,328,25,25,732,240096,51.84135977,35,8,11,82,9,79,83
+2023-12-18,Monday,51,December,2023,11,United States,AMER,Dallas,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,363,361,334,27,27,602,201068,45.02493075,21,6,7,79,6,77,61
+2021-12-04,Saturday,48,December,2021,12,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Retail,408,401,393,8,8,489,192177,9.755610973,22,6,7,76,5,92,81
+2022-10-30,Sunday,43,October,2022,14,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Telecom,347,345,338,7,7,230,77740,4.666666667,29,2,3,91,3,79,90
+2022-08-25,Thursday,34,August,2022,23,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,120,132,107,25,25,355,37985,67.23484848,16,1,1,71,1,91,83
+2021-08-05,Thursday,31,August,2021,16,India,APAC,Bangalore,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,E-commerce,75,89,60,29,29,193,11580,62.88764045,19,0,0,71,0,95,81
+2022-05-09,Monday,19,May,2022,17,France,EMEA,Paris,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,336,352,333,19,19,274,91242,14.78977273,16,3,3,78,2,85,69
+2023-02-20,Monday,8,February,2023,19,Italy,EMEA,Rome,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,325,312,308,4,4,234,72072,3.0,28,2,3,72,2,73,62
+2021-04-27,Tuesday,17,April,2021,8,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Retail,395,409,385,24,24,813,313005,47.70660147,33,10,13,71,9,84,69
+2022-10-04,Tuesday,40,October,2022,1,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Telecom,241,253,231,22,22,590,136290,51.30434783,29,4,5,67,3,87,63
+2025-10-18,Saturday,42,October,2025,11,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,355,369,345,24,24,356,122820,23.15447154,34,4,5,93,5,86,65
+2024-11-23,Saturday,47,November,2024,16,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,220,228,212,16,16,769,163028,53.96491228,29,5,6,70,4,82,73
+2025-04-08,Tuesday,15,April,2025,2,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,246,245,243,2,2,629,152847,5.134693878,30,5,7,90,6,71,72
+2024-10-03,Thursday,40,October,2024,13,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,E-commerce,189,183,183,0,0,668,122244,0.0,34,4,5,77,4,82,61
+2021-06-27,Sunday,25,June,2021,6,India,APAC,Bangalore,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,121,106,99,7,7,730,72270,48.20754717,16,2,2,75,2,91,66
+2022-12-04,Sunday,48,December,2022,16,Italy,EMEA,Rome,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Banking,219,204,190,14,14,725,137750,49.75490196,29,4,5,84,4,81,84
+2025-03-21,Friday,12,March,2025,2,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Retail,212,221,199,22,22,444,88356,44.19909502,22,3,4,88,4,72,88
+2025-12-24,Wednesday,52,December,2025,23,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,E-commerce,105,97,80,17,17,286,22880,50.12371134,28,0,0,78,0,91,88
+2026-12-01,Tuesday,49,December,2026,18,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,E-commerce,317,302,293,9,9,343,100499,10.2218543,23,3,4,78,3,75,73
+2025-06-09,Monday,24,June,2025,19,Sweden,EMEA,Sweden Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 3,E-commerce,139,129,129,0,0,719,92751,0.0,15,3,3,68,2,91,63
+2025-01-23,Thursday,4,January,2025,11,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,333,322,293,29,29,462,135366,41.60869565,32,4,5,81,4,71,77
+2021-04-10,Saturday,14,April,2021,10,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Healthcare,222,225,204,21,21,191,38964,17.82666667,26,1,1,71,1,88,70
+2025-04-07,Monday,15,April,2025,9,United States,AMER,Dallas,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,266,288,276,12,12,350,96600,14.58333333,16,3,3,93,3,74,80
+2022-11-25,Friday,47,November,2022,12,Bangladesh,APAC,Bangladesh Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,101,103,87,16,16,856,74472,132.9708738,29,2,3,83,2,75,71
+2022-05-16,Monday,20,May,2022,20,China,APAC,Shanghai,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,305,294,287,7,7,471,135177,11.21428571,15,4,5,69,3,72,76
+2021-08-03,Tuesday,31,August,2021,2,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 3,Healthcare,64,75,67,8,8,186,12462,19.84,27,0,0,81,0,71,87
+2022-04-18,Monday,16,April,2022,21,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,460,469,461,8,8,327,150747,5.57782516,18,5,6,76,5,75,87
+2022-05-09,Monday,19,May,2022,21,Indonesia,APAC,Indonesia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,E-commerce,317,332,315,17,17,845,266175,43.26807229,16,9,10,79,8,95,69
+2021-08-12,Thursday,32,August,2021,3,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Banking,431,430,417,13,13,649,270633,19.62093023,23,9,11,92,10,77,88
+2023-12-19,Tuesday,51,December,2023,20,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Retail,284,294,272,22,22,288,78336,21.55102041,20,2,2,76,2,84,87
+2025-04-27,Sunday,17,April,2025,21,Vietnam,APAC,Vietnam Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,331,353,326,27,27,282,91932,21.5694051,15,3,3,68,2,72,69
+2026-03-17,Tuesday,12,March,2026,12,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Telecom,283,300,273,27,27,542,147966,48.78,26,5,6,77,5,79,67
+2025-09-15,Monday,38,September,2025,2,France,EMEA,Paris,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,438,448,422,26,26,729,307638,42.30803571,15,10,12,77,9,94,68
+2023-10-10,Tuesday,41,October,2023,2,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Healthcare,395,411,389,22,22,620,241180,33.18734793,18,8,9,67,6,89,89
+2024-11-15,Friday,46,November,2024,17,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,418,425,405,20,20,524,212220,24.65882353,24,7,9,73,7,88,88
+2024-02-14,Wednesday,7,February,2024,7,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Telecom,437,419,416,3,3,494,205504,3.53699284,15,7,8,94,8,90,88
+2022-10-25,Tuesday,43,October,2022,9,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,406,400,383,17,17,369,141327,15.6825,23,4,5,75,4,77,66
+2023-03-01,Wednesday,9,March,2023,22,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Telecom,309,317,299,18,18,636,190164,36.11356467,34,6,8,88,7,71,63
+2024-12-21,Saturday,51,December,2024,9,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,E-commerce,425,414,399,15,15,201,80199,7.282608696,19,2,2,74,1,90,90
+2022-11-14,Monday,46,November,2022,6,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Banking,126,154,143,11,11,705,100815,50.35714286,17,3,4,84,3,83,80
+2025-07-24,Thursday,30,July,2025,11,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,Telecom,67,76,76,0,0,582,44232,0.0,35,1,1,74,1,75,64
+2026-02-24,Tuesday,9,February,2026,9,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Retail,462,455,427,28,28,793,338611,48.8,34,11,15,69,10,82,61
+2021-03-12,Friday,10,March,2021,18,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Healthcare,310,320,314,6,6,203,63742,3.80625,30,2,3,73,2,82,74
+2023-07-29,Saturday,30,July,2023,13,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,479,498,496,2,2,556,275776,2.232931727,30,9,12,86,10,79,90
+2025-03-04,Tuesday,10,March,2025,7,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,Retail,367,393,374,19,19,256,95744,12.37659033,17,3,4,65,3,87,60
+2024-07-23,Tuesday,30,July,2024,0,Ireland,EMEA,Dublin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Telecom,291,284,284,0,0,834,236856,0.0,31,8,10,94,9,77,86
+2023-01-21,Saturday,3,January,2023,4,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Healthcare,241,266,264,2,2,815,215160,6.127819549,24,7,9,93,8,71,86
+2025-11-06,Thursday,45,November,2025,17,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Banking,197,197,191,6,6,270,51570,8.223350254,32,1,1,88,1,92,83
+2021-12-16,Thursday,50,December,2021,15,United States,AMER,Dallas,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Banking,427,442,433,9,9,211,91363,4.296380091,25,3,4,73,3,74,78
+2021-06-12,Saturday,23,June,2021,9,France,EMEA,Paris,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,413,420,415,5,5,260,107900,3.095238095,32,3,4,90,4,78,62
+2024-06-26,Wednesday,26,June,2024,4,Canada,AMER,Vancouver,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,Banking,179,175,161,14,14,573,92253,45.84,34,3,4,87,3,72,65
+2023-07-11,Tuesday,28,July,2023,10,Sri Lanka,APAC,Sri Lanka Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,E-commerce,164,189,169,20,20,416,70304,44.02116402,28,2,3,87,3,74,87
+2025-01-05,Sunday,1,January,2025,7,United Kingdom,EMEA,London,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Telecom,463,481,473,8,8,390,184470,6.486486487,15,6,7,85,6,85,88
+2022-05-28,Saturday,21,May,2022,3,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Retail,95,114,101,13,13,597,60297,68.07894737,23,2,2,84,2,83,71
+2024-01-09,Tuesday,2,January,2024,5,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Telecom,429,429,415,14,14,636,263940,20.75524476,20,9,11,94,10,71,86
+2024-11-09,Saturday,45,November,2024,18,Thailand,APAC,Thailand Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Healthcare,280,286,261,25,25,539,140679,47.11538462,28,4,5,74,4,83,72
+2023-08-05,Saturday,31,August,2023,6,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,276,279,269,10,10,530,142570,18.99641577,21,4,5,95,5,84,82
+2023-06-03,Saturday,22,June,2023,19,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 2,E-commerce,106,90,81,9,9,815,66015,81.5,32,2,3,88,3,82,71
+2025-05-25,Sunday,21,May,2025,5,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,E-commerce,66,87,83,4,4,473,39259,21.74712644,25,1,1,89,1,80,83
+2025-03-12,Wednesday,11,March,2025,11,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,E-commerce,391,399,380,19,19,341,129580,16.23809524,25,4,5,81,4,87,70
+2023-07-22,Saturday,29,July,2023,19,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Retail,294,320,307,13,13,623,191261,25.309375,23,6,7,65,5,88,74
+2023-11-28,Tuesday,48,November,2023,21,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Retail,291,299,286,13,13,754,215644,32.7826087,27,7,9,87,8,86,85
+2022-05-27,Friday,21,May,2022,10,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,229,239,224,15,15,218,48832,13.68200837,17,1,1,94,1,90,61
+2022-02-11,Friday,6,February,2022,15,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,354,342,327,15,15,276,90252,12.10526316,34,3,4,87,3,92,68
+2025-10-27,Monday,44,October,2025,22,Chile,AMER,Chile Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Retail,223,252,251,1,1,558,140058,2.214285714,34,4,5,69,3,85,76
+2023-05-12,Friday,19,May,2023,22,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Retail,69,72,43,29,29,510,21930,205.4166667,34,0,0,95,0,93,88
+2025-06-08,Sunday,23,June,2025,22,Hong Kong,APAC,Hong Kong Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Healthcare,106,128,98,30,30,899,88102,210.703125,15,3,3,88,3,89,73
+2023-11-24,Friday,47,November,2023,11,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,E-commerce,229,231,228,3,3,280,63840,3.636363636,35,2,3,89,3,76,80
+2022-12-11,Sunday,49,December,2022,23,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Healthcare,195,194,185,9,9,872,161320,40.45360825,34,5,7,70,5,70,77
+2023-08-12,Saturday,32,August,2023,18,Czech Republic,EMEA,Czech Republic Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,E-commerce,373,384,381,3,3,621,236601,4.8515625,24,8,10,85,9,94,73
+2025-09-03,Wednesday,36,September,2025,8,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Healthcare,182,163,159,4,4,625,99375,15.33742331,20,3,4,93,4,71,64
+2023-08-17,Thursday,33,August,2023,20,Denmark,EMEA,Denmark Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 3,Healthcare,448,478,462,16,16,673,310926,22.52719665,33,10,13,68,9,84,81
+2022-09-10,Saturday,36,September,2022,23,India,APAC,Hyderabad,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,E-commerce,396,379,350,29,29,381,133350,29.1530343,25,4,5,93,5,88,69
+2021-01-26,Tuesday,4,January,2021,17,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,E-commerce,262,255,234,21,21,493,115362,40.6,35,4,5,95,5,75,78
+2024-07-31,Wednesday,31,July,2024,19,Luxembourg,EMEA,Luxembourg Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Retail,470,469,461,8,8,827,381247,14.10660981,18,13,15,83,12,80,64
+2023-12-26,Tuesday,52,December,2023,6,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 2,E-commerce,287,313,304,9,9,197,59888,5.664536741,26,2,3,90,3,71,66
+2025-03-13,Thursday,11,March,2025,16,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 1,Retail,399,420,411,9,9,897,368667,19.22142857,32,12,16,95,15,77,71
+2022-06-04,Saturday,22,June,2022,19,Hungary,EMEA,Hungary Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Retail,434,445,445,0,0,365,162425,0.0,19,5,6,68,4,85,63
+2023-05-27,Saturday,21,May,2023,14,Greece,EMEA,Greece Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Banking,287,293,290,3,3,736,213440,7.535836178,33,7,9,71,6,81,76
+2024-10-29,Tuesday,44,October,2024,20,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,146,169,158,11,11,671,106018,43.67455621,29,3,4,86,3,93,90
+2023-10-12,Thursday,41,October,2023,14,Australia,APAC,Sydney,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,E-commerce,95,102,87,15,15,839,72993,123.3823529,16,2,2,68,1,75,76
+2022-04-25,Monday,17,April,2022,1,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 1,Banking,72,102,97,5,5,651,63147,31.91176471,24,2,2,71,1,71,82
+2023-09-13,Wednesday,37,September,2023,9,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Telecom,345,334,311,23,23,846,263106,58.25748503,23,9,11,95,10,72,61
+2025-10-05,Sunday,40,October,2025,3,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,E-commerce,371,359,330,29,29,709,233970,57.2729805,20,8,10,68,7,83,82
+2023-10-17,Tuesday,42,October,2023,13,United States,AMER,Dallas,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Healthcare,129,128,113,15,15,877,99101,102.7734375,30,3,4,66,3,72,65
+2022-07-23,Saturday,29,July,2022,3,Netherlands,EMEA,Amsterdam,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 2,Banking,434,458,437,21,21,481,210197,22.05458515,25,7,9,67,6,71,81
+2024-09-28,Saturday,39,September,2024,3,Finland,EMEA,Finland Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 3,Telecom,398,426,420,6,6,423,177660,5.957746479,35,6,8,72,6,80,61
+2021-01-19,Tuesday,3,January,2021,11,Canada,AMER,Toronto,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Healthcare,199,186,159,27,27,382,60738,55.4516129,31,2,3,87,3,94,74
+2024-03-10,Sunday,10,March,2024,0,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Telecom,346,345,328,17,17,602,197456,29.66376812,16,6,7,81,6,93,81
+2023-09-10,Sunday,36,September,2023,17,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Email,Consumer,Retention,Tier 2,E-commerce,120,104,74,30,30,371,27454,107.0192308,35,0,0,74,0,81,63
+2025-10-23,Thursday,43,October,2025,8,Ukraine,EMEA,Ukraine Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Telecom,256,257,257,0,0,208,53456,0.0,27,1,1,73,1,78,63
+2022-01-27,Thursday,4,January,2022,19,Romania,EMEA,Romania Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 2,Banking,489,511,509,2,2,885,450465,3.463796478,24,15,19,80,15,72,84
+2023-06-23,Friday,25,June,2023,7,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 1,E-commerce,63,77,65,12,12,375,24375,58.44155844,31,0,0,73,0,87,70
+2022-08-30,Tuesday,35,August,2022,18,Pakistan,APAC,Pakistan Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,E-commerce,294,323,309,14,14,387,119583,16.77399381,23,4,5,84,4,84,83
+2021-09-24,Friday,38,September,2021,7,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,Retail,110,119,106,13,13,676,71656,73.8487395,30,2,3,89,3,88,88
+2025-12-21,Sunday,51,December,2025,21,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 2,Healthcare,209,223,221,2,2,732,161772,6.565022422,23,5,6,79,5,73,68
+2024-07-30,Tuesday,31,July,2024,14,Israel,EMEA,Israel Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Banking,341,346,341,5,5,816,278256,11.79190751,20,9,11,75,8,91,60
+2021-03-27,Saturday,12,March,2021,10,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Enterprise,Retention,Tier 1,E-commerce,494,480,460,20,20,894,411240,37.25,26,14,18,69,12,77,87
+2022-01-26,Wednesday,4,January,2022,16,Paraguay,AMER,Paraguay Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,E-commerce,64,72,71,1,1,482,34222,6.694444444,22,1,1,65,1,87,72
+2021-08-10,Tuesday,32,August,2021,11,Germany,EMEA,Berlin,RETENTION_VOICE_T2,Voice,Enterprise,Retention,Tier 3,Retail,200,204,174,30,30,291,50634,42.79411765,25,1,1,84,1,91,64
+2025-09-15,Monday,38,September,2025,21,Kenya,EMEA,Kenya Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 2,Telecom,456,476,453,23,23,417,188901,20.14915966,33,6,8,77,6,93,68
+2021-03-19,Friday,11,March,2021,18,Slovakia,EMEA,Slovakia Hub,RETENTION_VOICE_T2,Voice,Consumer,Retention,Tier 3,Retail,256,282,269,13,13,775,208475,35.72695035,19,7,8,73,6,94,79
+2022-08-23,Tuesday,34,August,2022,5,Bulgaria,EMEA,Bulgaria Hub,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 1,E-commerce,57,86,66,20,20,508,33528,118.1395349,19,1,1,65,1,89,69
+2022-11-14,Monday,46,November,2022,4,Italy,EMEA,Rome,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,294,305,280,25,25,644,180320,52.78688525,30,6,8,86,7,75,70
+2023-01-28,Saturday,4,January,2023,11,India,APAC,Pune,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Telecom,80,61,50,11,11,464,23200,83.67213115,24,0,0,93,0,91,90
+2022-04-21,Thursday,16,April,2022,19,Brazil,AMER,Sao Paulo,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 1,Healthcare,160,181,159,22,22,630,100170,76.57458564,27,3,4,82,3,74,69
+2024-10-09,Wednesday,41,October,2024,12,North Korea,APAC,North Korea Hub,RETENTION_VOICE_T2,Chat,Consumer,Retention,Tier 3,Banking,191,208,196,12,12,306,59976,17.65384615,19,2,2,83,2,72,82
+2025-10-30,Thursday,44,October,2025,5,Slovenia,EMEA,Slovenia Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Healthcare,54,64,40,24,24,313,12520,117.375,34,0,0,72,0,86,62
+2024-06-16,Sunday,24,June,2024,5,Portugal,EMEA,Portugal Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,E-commerce,429,427,408,19,19,645,263160,28.70023419,21,9,11,82,9,88,68
+2022-09-26,Monday,39,September,2022,8,Poland,EMEA,Poland Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Banking,498,480,466,14,14,838,390508,24.44166667,27,13,17,94,16,77,83
+2026-01-24,Saturday,4,January,2026,3,Japan,APAC,Tokyo,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 2,Healthcare,421,413,387,26,26,290,112230,18.2566586,25,3,4,66,3,89,85
+2022-10-30,Sunday,43,October,2022,3,South Korea,APAC,South Korea Hub,RETENTION_VOICE_T2,Email,Enterprise,Retention,Tier 1,Banking,410,404,383,21,21,361,138263,18.76485149,25,4,5,75,4,88,79
+2025-04-24,Thursday,17,April,2025,7,Turkey,EMEA,Turkey Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Healthcare,121,142,120,22,22,769,92280,119.1408451,28,3,4,89,4,83,76
+2022-02-16,Wednesday,7,February,2022,22,Malaysia,APAC,Kuala Lumpur,RETENTION_VOICE_T2,Email,Premium,Retention,Tier 2,Retail,249,279,249,30,30,316,78684,33.97849462,22,2,2,68,1,73,72
+2024-07-16,Tuesday,29,July,2024,10,New Zealand,APAC,New Zealand Hub,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 1,Telecom,223,215,191,24,24,682,130262,76.13023256,32,4,5,76,4,89,69
+2021-05-25,Tuesday,21,May,2021,23,Iceland,EMEA,Iceland Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 3,Retail,147,127,117,10,10,718,84006,56.53543307,34,2,3,69,2,77,61
+2026-01-24,Saturday,4,January,2026,21,Mongolia,APAC,Mongolia Hub,RETENTION_VOICE_T2,Voice,Premium,Retention,Tier 1,Retail,217,203,194,9,9,626,121444,27.75369458,30,4,5,87,4,71,84
+2025-01-13,Monday,3,January,2025,7,South Africa,EMEA,Cape Town,RETENTION_VOICE_T2,Chat,Premium,Retention,Tier 3,Banking,234,261,248,13,13,662,164176,32.97318008,31,5,7,91,6,95,69

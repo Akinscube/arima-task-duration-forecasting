@@ -1,0 +1,32 @@
+
+# Per-dataset configuration — one file per candidate dataset (Stage 0 of the pipeline).
+# Copy this file per dataset, adjust, and run:  python src/data_quality.py configs/<name>.yaml
+
+# Second attempt at the call-center dataset, after the single-queue scope
+# (RETENTION_VOICE_T2, see call_center_operations_wfo_dataset.yaml) failed
+# thin_periods (71.7% of weeks <5 rows) and gaps (11% missing weeks).
+# Root causes identified and fixed here:
+#  1. thin_periods: single-queue pooling is too narrow (mean 3.3 rows/week).
+#     Region=EMEA pools 5613 of 10000 rows (largest region) -> mean 18.1
+#     rows/week, weeks <5 rows drops from 71.7% to ~10%.
+#  2. gaps: ALL 27 zero-row weeks in the raw file (across every segment, not
+#     just this one) fall in 2026, which only has 450 rows vs ~1800-2000/year
+#     for 2021-2025 -- an incomplete trailing year, not a real recurring gap.
+#     Trimming to Date <= 2025-12-31 removes the gap entirely.
+# Filtered via: data/processed/call_center_emea_2021_2025.csv
+# (Date also reformatted from ambiguous DD-MM-YYYY to ISO.)
+# NOTE: pooling by Region mixes queues/sites/channels within EMEA -- this is
+# an aggregate "EMEA support operations" handle-time series, not a single
+# queue's. Acceptable if that's a valid unit of analysis; record the tradeoff.
+
+name: call_center_emea_2021_2025   # used in report/plot filenames
+file: data/processed/call_center_emea_2021_2025.csv
+
+# --- column mapping ---------------------------------------------------------
+timestamp_column: Date          # bucket date (ISO, pre-normalized from raw DD-MM-YYYY)
+duration_column: aHT_Seconds    # average handle time per bucket, seconds
+
+# --- series construction (these become the Stage 2 decisions) ---------------
+frequency: W                    # daily coverage too thin; see call_center_operations_wfo_dataset.yaml
+aggregation: median             # median | mean  (median if durations are heavy-tailed)
+seasonal_period: 52             # weekly data, annual pattern

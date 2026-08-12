@@ -1,0 +1,15 @@
+
+# Per-dataset configuration — one file per candidate dataset (Stage 0 of the pipeline).
+# Copy this file per dataset, adjust, and run:  python src/data_quality.py configs/<name>.yaml
+
+name: hybrid_manufacturing_categorical   # used in report/plot filenames
+file: data/raw/hybrid_manufacturing_categorical.csv
+
+# --- column mapping ---------------------------------------------------------
+timestamp_column: Scheduled_Start   # always populated, unlike Actual_Start (NaN for the 129 Failed jobs)
+duration_column: Processing_Time    # minutes; matches Actual_End - Actual_Start, always populated
+
+# --- series construction (these become the Stage 2 decisions) ---------------
+frequency: D                    # D = daily, W = weekly  (coarsen if periods are thin)
+aggregation: median             # median | mean  (median if durations are heavy-tailed)
+seasonal_period: 7              # 7 for daily data with weekly pattern; 52 for weekly/annual
