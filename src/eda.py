@@ -161,7 +161,7 @@ def run_eda(name: str, cfg: dict, has_ground_truth: bool) -> dict:
     pacf_lag, pacf_val = dominant_lag(s_clean, nlags, lambda x, nlags: pacf(x, nlags=nlags))
 
     # -------- STL decomposition (interpolated input only, per eda-parameters.md)
-    stl_input = series.interpolate()
+    stl_input = series_minutes.interpolate()
     stl_result = STL(stl_input, period=seasonal_period, robust=True).fit()
     strength = seasonal_strength(stl_result)
     visible_seasonality = "y" if strength > SEASONALITY_STRENGTH_THRESHOLD else "n"

@@ -1,0 +1,20 @@
+BASELINE FORECASTS — generated_job_shop_manufacturing
+============================================================
+n_train: 1168   n_test: 293
+train/test split: TRAIN_FRACTION=0.8 (data_quality.py Gate 3 rule)
+protocol: walk-forward, one-step-ahead (no lookahead; see spec/baseline-forecasting-models.md)
+
+[methods]
+  naive:            y_hat_t = y_(t-1)
+  historical_mean:  y_hat_t = mean(y_1..y_(t-1))  (expanding window)
+  moving_average:   y_hat_t = mean(y_(t-k)..y_(t-1)),  k=7 (fixed, all datasets)
+  ses:              y_hat_t = alpha*y_(t-1) + (1-alpha)*y_hat_(t-1),  alpha=1.0000 (fit on train only)
+
+[metrics] (error = actual - forecast; MAPE excludes |actual| <= 1e-9)
+  naive: MAE=1.7549  RMSE=2.1687  MAPE=3.1811%  (excluded 0 zero-actual points)
+  historical_mean: MAE=3.5358  RMSE=4.2862  MAPE=6.4423%  (excluded 0 zero-actual points)
+  moving_average: MAE=2.5314  RMSE=3.1428  MAPE=4.6395%  (excluded 0 zero-actual points)
+  ses: MAE=1.7549  RMSE=2.1687  MAPE=3.1811%  (excluded 0 zero-actual points)
+
+[output] per-point forecasts written to reports/baselines/generated_job_shop_manufacturing_baselines_forecasts.csv
+[output] actual-vs-forecast plot written to reports/baselines/generated_job_shop_manufacturing_forecasts_plot.png

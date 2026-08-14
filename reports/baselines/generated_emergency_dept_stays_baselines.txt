@@ -1,0 +1,20 @@
+BASELINE FORECASTS — generated_emergency_dept_stays
+============================================================
+n_train: 1168   n_test: 293
+train/test split: TRAIN_FRACTION=0.8 (data_quality.py Gate 3 rule)
+protocol: walk-forward, one-step-ahead (no lookahead; see spec/baseline-forecasting-models.md)
+
+[methods]
+  naive:            y_hat_t = y_(t-1)
+  historical_mean:  y_hat_t = mean(y_1..y_(t-1))  (expanding window)
+  moving_average:   y_hat_t = mean(y_(t-k)..y_(t-1)),  k=7 (fixed, all datasets)
+  ses:              y_hat_t = alpha*y_(t-1) + (1-alpha)*y_hat_(t-1),  alpha=0.0833 (fit on train only)
+
+[metrics] (error = actual - forecast; MAPE excludes |actual| <= 1e-9)
+  naive: MAE=17.1869  RMSE=21.653  MAPE=9.8866%  (excluded 0 zero-actual points)
+  historical_mean: MAE=17.4855  RMSE=21.685  MAPE=10.4137%  (excluded 0 zero-actual points)
+  moving_average: MAE=14.6066  RMSE=18.2276  MAPE=8.4216%  (excluded 0 zero-actual points)
+  ses: MAE=14.3285  RMSE=18.1539  MAPE=8.2611%  (excluded 0 zero-actual points)
+
+[output] per-point forecasts written to reports/baselines/generated_emergency_dept_stays_baselines_forecasts.csv
+[output] actual-vs-forecast plot written to reports/baselines/generated_emergency_dept_stays_forecasts_plot.png

@@ -1,0 +1,14 @@
+BASELINES CROSS-DOMAIN SUMMARY
+============================================================
+moving_average window k=7 (fixed across all datasets, regardless of frequency — see spec/baseline-forecasting-models.md's design-decisions table)
+
+dataset | n_train | n_test | ses_alpha | naive_mae | naive_rmse | naive_mape | historical_mean_mae | historical_mean_rmse | historical_mean_mape | moving_average_mae | moving_average_rmse | moving_average_mape | ses_mae | ses_rmse | ses_mape
+synthetic_it_support_tickets | 1168 | 292 | 0.0 | 6.7024 | 8.4186 | 23.1896 | 4.8116 | 5.9037 | 16.6746 | 5.1581 | 6.3121 | 18.015 | 4.8126 | 5.903 | 16.6511
+call_center_emea_2021_2025 | 209 | 53 | 0.0 | 75.2453 | 88.0483 | 14.1235 | 55.6959 | 68.0098 | 10.6646 | 58.5809 | 72.6532 | 10.9872 | 55.8782 | 68.1435 | 10.7154
+generated_emergency_dept_stays | 1168 | 293 | 0.0833 | 17.1869 | 21.653 | 9.8866 | 17.4855 | 21.685 | 10.4137 | 14.6066 | 18.2276 | 8.4216 | 14.3285 | 18.1539 | 8.2611
+generated_job_shop_manufacturing | 1168 | 293 | 1.0 | 1.7549 | 2.1687 | 3.1811 | 3.5358 | 4.2862 | 6.4423 | 2.5314 | 3.1428 | 4.6395 | 1.7549 | 2.1687 | 3.1811
+
+{"dataset": "synthetic_it_support_tickets", "n_train": 1168, "n_test": 292, "ses_alpha": 0.0, "naive_mae": 6.7024, "naive_rmse": 8.4186, "naive_mape": 23.1896, "historical_mean_mae": 4.8116, "historical_mean_rmse": 5.9037, "historical_mean_mape": 16.6746, "moving_average_mae": 5.1581, "moving_average_rmse": 6.3121, "moving_average_mape": 18.015, "ses_mae": 4.8126, "ses_rmse": 5.903, "ses_mape": 16.6511}
+{"dataset": "call_center_emea_2021_2025", "n_train": 209, "n_test": 53, "ses_alpha": 0.0, "naive_mae": 75.2453, "naive_rmse": 88.0483, "naive_mape": 14.1235, "historical_mean_mae": 55.6959, "historical_mean_rmse": 68.0098, "historical_mean_mape": 10.6646, "moving_average_mae": 58.5809, "moving_average_rmse": 72.6532, "moving_average_mape": 10.9872, "ses_mae": 55.8782, "ses_rmse": 68.1435, "ses_mape": 10.7154}
+{"dataset": "generated_emergency_dept_stays", "n_train": 1168, "n_test": 293, "ses_alpha": 0.0833, "naive_mae": 17.1869, "naive_rmse": 21.653, "naive_mape": 9.8866, "historical_mean_mae": 17.4855, "historical_mean_rmse": 21.685, "historical_mean_mape": 10.4137, "moving_average_mae": 14.6066, "moving_average_rmse": 18.2276, "moving_average_mape": 8.4216, "ses_mae": 14.3285, "ses_rmse": 18.1539, "ses_mape": 8.2611}
+{"dataset": "generated_job_shop_manufacturing", "n_train": 1168, "n_test": 293, "ses_alpha": 1.0, "naive_mae": 1.7549, "naive_rmse": 2.1687, "naive_mape": 3.1811, "historical_mean_mae": 3.5358, "historical_mean_rmse": 4.2862, "historical_mean_mape": 6.4423, "moving_average_mae": 2.5314, "moving_average_rmse": 3.1428, "moving_average_mape": 4.6395, "ses_mae": 1.7549, "ses_rmse": 2.1687, "ses_mape": 3.1811}
