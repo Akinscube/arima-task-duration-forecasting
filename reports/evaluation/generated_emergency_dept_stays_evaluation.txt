@@ -1,0 +1,30 @@
+MODEL EVALUATION — generated_emergency_dept_stays
+============================================================
+*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
+
+n_test: 293
+data sources: reports/arima/generated_emergency_dept_stays_arima_forecasts.csv, reports/baselines/generated_emergency_dept_stays_baselines_forecasts.csv (read-only, not refit)
+loss differential: d_t = |baseline_error_t| - |arima_error_t| (positive = ARIMA smaller)
+'beats' requires BOTH a lower MAE AND Holm-adjusted p < alpha=0.05
+Holm-Bonferroni correction applied within this dataset's 4-test family only
+
+[1] METRICS (MAE / RMSE / MAPE)
+    arima           : MAE=13.2721  RMSE=16.8442  MAPE=7.6559%
+    naive           : MAE=17.1869  RMSE=21.653  MAPE=9.8866%
+    historical_mean : MAE=17.4855  RMSE=21.685  MAPE=10.4137%
+    moving_average  : MAE=14.6066  RMSE=18.2276  MAPE=8.4216%
+    ses             : MAE=14.3285  RMSE=18.1539  MAPE=8.2611%
+
+[2] LJUNG-BOX (autocorrelation diagnostic on d_t — motivates the HAC correction below)
+    vs naive           : [lag1: p=0.0060, lag5: p=0.0447, lag7: p=0.0284]  -> AUTOCORRELATED
+    vs historical_mean : [lag1: p=0.0040, lag5: p=0.0181, lag7: p=0.0009]  -> AUTOCORRELATED
+    vs moving_average  : [lag1: p=0.8039, lag5: p=0.9657, lag7: p=0.9279]  -> clean
+    vs ses             : [lag1: p=0.3558, lag5: p=0.8622, lag7: p=0.3755]  -> clean
+
+[3] Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION
+    vs naive           : mean(d)=+3.9147  stat=+7.013  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
+    vs historical_mean : mean(d)=+4.2134  stat=+5.666  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
+    vs moving_average  : mean(d)=+1.3345  stat=+3.580  p_raw=0.0003  p_holm=0.0007  HAC maxlags=5  -> arima_wins
+    vs ses             : mean(d)=+1.0564  stat=+2.681  p_raw=0.0073  p_holm=0.0073  HAC maxlags=5  -> arima_wins
+
+[4] SUMMARY: arima_wins=4  baseline_wins=0  no_significant_difference=0  (of 4 baselines)

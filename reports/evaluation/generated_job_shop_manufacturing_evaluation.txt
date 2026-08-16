@@ -1,0 +1,31 @@
+MODEL EVALUATION — generated_job_shop_manufacturing
+============================================================
+*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
+
+n_test: 293
+data sources: reports/arima/generated_job_shop_manufacturing_arima_forecasts.csv, reports/baselines/generated_job_shop_manufacturing_baselines_forecasts.csv (read-only, not refit)
+loss differential: d_t = |baseline_error_t| - |arima_error_t| (positive = ARIMA smaller)
+'beats' requires BOTH a lower MAE AND Holm-adjusted p < alpha=0.05
+Holm-Bonferroni correction applied within this dataset's 4-test family only
+NOTE: 'naive' and 'ses' baselines are numerically identical on this dataset (see reports/baselines/generated_job_shop_manufacturing_baselines.txt) — their DM tests vs ARIMA are expected to produce identical statistics/p-values, not a bug.
+
+[1] METRICS (MAE / RMSE / MAPE)
+    arima           : MAE=1.6362  RMSE=2.0706  MAPE=2.9646%
+    naive           : MAE=1.7549  RMSE=2.1687  MAPE=3.1811%
+    historical_mean : MAE=3.5358  RMSE=4.2862  MAPE=6.4423%
+    moving_average  : MAE=2.5314  RMSE=3.1428  MAPE=4.6395%
+    ses             : MAE=1.7549  RMSE=2.1687  MAPE=3.1811%
+
+[2] LJUNG-BOX (autocorrelation diagnostic on d_t — motivates the HAC correction below)
+    vs naive           : [lag1: p=0.1524, lag5: p=0.0829, lag7: p=0.0540]  -> clean
+    vs historical_mean : [lag1: p=0.0000, lag5: p=0.0000, lag7: p=0.0000]  -> AUTOCORRELATED
+    vs moving_average  : [lag1: p=0.0000, lag5: p=0.0000, lag7: p=0.0000]  -> AUTOCORRELATED
+    vs ses             : [lag1: p=0.1524, lag5: p=0.0829, lag7: p=0.0540]  -> clean
+
+[3] Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION
+    vs naive           : mean(d)=+0.1188  stat=+4.065  p_raw=0.0000  p_holm=0.0001  HAC maxlags=5  -> arima_wins
+    vs historical_mean : mean(d)=+1.8996  stat=+7.944  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
+    vs moving_average  : mean(d)=+0.8952  stat=+6.040  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
+    vs ses             : mean(d)=+0.1188  stat=+4.065  p_raw=0.0000  p_holm=0.0001  HAC maxlags=5  -> arima_wins
+
+[4] SUMMARY: arima_wins=4  baseline_wins=0  no_significant_difference=0  (of 4 baselines)

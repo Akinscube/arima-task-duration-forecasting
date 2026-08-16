@@ -1,0 +1,14 @@
+MODEL EVALUATION CROSS-DOMAIN SUMMARY
+============================================================
+*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
+
+dataset | n_test | arima_wins | baseline_wins | no_significant_difference | no_test_possible
+synthetic_it_support_tickets | 292 | 2 | 0 | 2 | 0
+call_center_emea_2021_2025 | 53 | 1 | 0 | 3 | 0
+generated_emergency_dept_stays | 293 | 4 | 0 | 0 | 0
+generated_job_shop_manufacturing | 293 | 4 | 0 | 0 | 0
+
+{"dataset": "synthetic_it_support_tickets", "n_test": 292, "arima_wins": 2, "baseline_wins": 0, "no_significant_difference": 2, "no_test_possible": 0}
+{"dataset": "call_center_emea_2021_2025", "n_test": 53, "arima_wins": 1, "baseline_wins": 0, "no_significant_difference": 3, "no_test_possible": 0}
+{"dataset": "generated_emergency_dept_stays", "n_test": 293, "arima_wins": 4, "baseline_wins": 0, "no_significant_difference": 0, "no_test_possible": 0}
+{"dataset": "generated_job_shop_manufacturing", "n_test": 293, "arima_wins": 4, "baseline_wins": 0, "no_significant_difference": 0, "no_test_possible": 0}

@@ -1,0 +1,14 @@
+ARIMA CROSS-DOMAIN SUMMARY
+============================================================
+plain ARIMA(p,d,q), no seasonal term, fit once on train and extended via append(refit=False) for walk-forward one-step-ahead test forecasts (see spec/arima-fitting.md). No comparison against baselines or significance testing in this stage.
+
+dataset | failed | n_train | n_test | d | p_max | q_max | order | aic_bic_agree | mae | rmse | mape
+synthetic_it_support_tickets | False | 1168 | 292 | 0 | 5 | 5 | (5, 0, 2) | False | 4.8284 | 5.9311 | 16.6834
+call_center_emea_2021_2025 | False | 209 | 53 | 0 | 5 | 5 | (0, 0, 0) | True | 55.8782 | 68.1435 | 10.7154
+generated_emergency_dept_stays | False | 1168 | 293 | 1 | 5 | 5 | (5, 1, 1) | True | 13.2721 | 16.8442 | 7.6559
+generated_job_shop_manufacturing | False | 1168 | 293 | 0 | 5 | 5 | (1, 0, 1) | True | 1.6362 | 2.0706 | 2.9646
+
+{"dataset": "synthetic_it_support_tickets", "failed": false, "n_train": 1168, "n_test": 292, "d": 0, "p_max": 5, "q_max": 5, "order": "(5, 0, 2)", "aic_bic_agree": false, "mae": 4.8284, "rmse": 5.9311, "mape": 16.6834}
+{"dataset": "call_center_emea_2021_2025", "failed": false, "n_train": 209, "n_test": 53, "d": 0, "p_max": 5, "q_max": 5, "order": "(0, 0, 0)", "aic_bic_agree": true, "mae": 55.8782, "rmse": 68.1435, "mape": 10.7154}
+{"dataset": "generated_emergency_dept_stays", "failed": false, "n_train": 1168, "n_test": 293, "d": 1, "p_max": 5, "q_max": 5, "order": "(5, 1, 1)", "aic_bic_agree": true, "mae": 13.2721, "rmse": 16.8442, "mape": 7.6559}
+{"dataset": "generated_job_shop_manufacturing", "failed": false, "n_train": 1168, "n_test": 293, "d": 0, "p_max": 5, "q_max": 5, "order": "(1, 0, 1)", "aic_bic_agree": true, "mae": 1.6362, "rmse": 2.0706, "mape": 2.9646}

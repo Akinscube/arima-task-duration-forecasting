@@ -1,0 +1,60 @@
+ARIMA — generated_job_shop_manufacturing
+============================================================
+n_train: 1168   n_test: 293
+train/test split: TRAIN_FRACTION=0.8 (data_quality.py Gate 3 rule)
+protocol: walk-forward, one-step-ahead, fit once on train then extend state only (no refitting) — see spec/arima-fitting.md
+
+[1] ORDER SELECTION — d (ADF, train-only, alpha=0.05)
+    d=0: p=0.0000  (stationary)
+    d=1: p=0.0000  (stationary)
+    selected d: 0
+
+[2] ORDER SELECTION — p/q bounds (ACF/PACF significance, band=+/-0.0574, nlags=40)
+    PACF significant lags: [1, 2, 3, 4, 26]  -> p_max=5
+    ACF significant lags:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]  -> q_max=5
+
+[3] ORDER SELECTION — grid search (36 candidates, p in 0..5, q in 0..5)
+    (0, 0, 0): AIC=7072.79  BIC=7082.92
+    (0, 0, 1): AIC=5965.45  BIC=5980.63
+    (0, 0, 2): AIC=5457.22  BIC=5477.48
+    (0, 0, 3): AIC=5262.60  BIC=5287.91
+    (0, 0, 4): AIC=5126.21  BIC=5156.59
+    (0, 0, 5): AIC=5077.35  BIC=5112.79
+    (1, 0, 0): AIC=5054.83  BIC=5070.02
+    (1, 0, 1): AIC=4971.74  BIC=4991.99
+    (1, 0, 2): AIC=4973.61  BIC=4998.93
+    (1, 0, 3): AIC=4975.03  BIC=5005.41
+    (1, 0, 4): AIC=4974.95  BIC=5010.39
+    (1, 0, 5): AIC=4976.57  BIC=5017.07
+    (2, 0, 0): AIC=4979.86  BIC=5000.12
+    (2, 0, 1): AIC=4973.59  BIC=4998.91
+    (2, 0, 2): AIC=4975.74  BIC=5006.12
+    (2, 0, 3): AIC=4976.24  BIC=5011.68
+    (2, 0, 4): AIC=4976.44  BIC=5016.94
+    (2, 0, 5): AIC=4978.40  BIC=5023.97
+    (3, 0, 0): AIC=4976.36  BIC=5001.67
+    (3, 0, 1): AIC=4975.38  BIC=5005.76
+    (3, 0, 2): AIC=4976.50  BIC=5011.94
+    (3, 0, 3): EXCLUDED — did not converge (ConvergenceWarning)
+    (3, 0, 4): EXCLUDED — did not converge (ConvergenceWarning)
+    (3, 0, 5): AIC=4975.70  BIC=5026.33
+    (4, 0, 0): AIC=4973.60  BIC=5003.98
+    (4, 0, 1): AIC=4975.59  BIC=5011.03
+    (4, 0, 2): AIC=4974.28  BIC=5014.79
+    (4, 0, 3): EXCLUDED — did not converge (ConvergenceWarning)
+    (4, 0, 4): EXCLUDED — did not converge (ConvergenceWarning)
+    (4, 0, 5): EXCLUDED — did not converge (ConvergenceWarning)
+    (5, 0, 0): AIC=4975.59  BIC=5011.03
+    (5, 0, 1): EXCLUDED — did not converge (ConvergenceWarning)
+    (5, 0, 2): EXCLUDED — did not converge (ConvergenceWarning)
+    (5, 0, 3): EXCLUDED — did not converge (ConvergenceWarning)
+    (5, 0, 4): EXCLUDED — did not converge (ConvergenceWarning)
+    (5, 0, 5): AIC=4979.60  BIC=5040.36
+
+    selected order (AIC-preferred): (1, 0, 1)  AIC=4971.74  BIC=4991.99
+
+[4] FINAL MODEL: ARIMA(1, 0, 1), trend='c'
+    MAE=1.6362  RMSE=2.0706  MAPE=2.9646%  (excluded 0 zero-actual points)
+
+[output] per-point forecasts written to reports/arima/generated_job_shop_manufacturing_arima_forecasts.csv
+[output] actual-vs-forecast plot written to reports/arima/generated_job_shop_manufacturing_arima_forecast_plot.png

@@ -1,0 +1,30 @@
+MODEL EVALUATION — call_center_emea_2021_2025
+============================================================
+*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
+
+n_test: 53
+data sources: reports/arima/call_center_emea_2021_2025_arima_forecasts.csv, reports/baselines/call_center_emea_2021_2025_baselines_forecasts.csv (read-only, not refit)
+loss differential: d_t = |baseline_error_t| - |arima_error_t| (positive = ARIMA smaller)
+'beats' requires BOTH a lower MAE AND Holm-adjusted p < alpha=0.05
+Holm-Bonferroni correction applied within this dataset's 4-test family only
+
+[1] METRICS (MAE / RMSE / MAPE)
+    arima           : MAE=55.8782  RMSE=68.1435  MAPE=10.7154%
+    naive           : MAE=75.2453  RMSE=88.0483  MAPE=14.1235%
+    historical_mean : MAE=55.6959  RMSE=68.0098  MAPE=10.6646%
+    moving_average  : MAE=58.5809  RMSE=72.6532  MAPE=10.9872%
+    ses             : MAE=55.8782  RMSE=68.1435  MAPE=10.7154%
+
+[2] LJUNG-BOX (autocorrelation diagnostic on d_t — motivates the HAC correction below)
+    vs naive           : [lag1: p=0.4831, lag5: p=0.6117, lag7: p=0.7317]  -> clean
+    vs historical_mean : [lag1: p=0.9421, lag5: p=0.8479, lag7: p=0.7688]  -> clean
+    vs moving_average  : [lag1: p=0.5375, lag5: p=0.9902, lag7: p=0.9752]  -> clean
+    vs ses             : [lag1: p=0.0199, lag5: p=0.1296, lag7: p=0.2340]  -> AUTOCORRELATED
+
+[3] Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION
+    vs naive           : mean(d)=+19.3671  stat=+3.464  p_raw=0.0005  p_holm=0.0021  HAC maxlags=3  -> arima_wins
+    vs historical_mean : mean(d)=-0.1823  stat=-0.884  p_raw=0.3767  p_holm=0.7533  HAC maxlags=3  -> no_significant_difference
+    vs moving_average  : mean(d)=+2.7026  stat=+0.783  p_raw=0.4338  p_holm=0.7533  HAC maxlags=3  -> no_significant_difference
+    vs ses             : mean(d)=+0.0000  stat=+1.419  p_raw=0.1558  p_holm=0.4674  HAC maxlags=3  -> no_significant_difference
+
+[4] SUMMARY: arima_wins=1  baseline_wins=0  no_significant_difference=3  (of 4 baselines)

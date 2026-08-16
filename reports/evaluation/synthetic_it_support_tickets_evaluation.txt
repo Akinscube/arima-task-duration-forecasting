@@ -1,0 +1,30 @@
+MODEL EVALUATION — synthetic_it_support_tickets
+============================================================
+*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
+
+n_test: 292
+data sources: reports/arima/synthetic_it_support_tickets_arima_forecasts.csv, reports/baselines/synthetic_it_support_tickets_baselines_forecasts.csv (read-only, not refit)
+loss differential: d_t = |baseline_error_t| - |arima_error_t| (positive = ARIMA smaller)
+'beats' requires BOTH a lower MAE AND Holm-adjusted p < alpha=0.05
+Holm-Bonferroni correction applied within this dataset's 4-test family only
+
+[1] METRICS (MAE / RMSE / MAPE)
+    arima           : MAE=4.8284  RMSE=5.9311  MAPE=16.6834%
+    naive           : MAE=6.7024  RMSE=8.4186  MAPE=23.1896%
+    historical_mean : MAE=4.8116  RMSE=5.9037  MAPE=16.6746%
+    moving_average  : MAE=5.1581  RMSE=6.3121  MAPE=18.015%
+    ses             : MAE=4.8126  RMSE=5.903  MAPE=16.6511%
+
+[2] LJUNG-BOX (autocorrelation diagnostic on d_t — motivates the HAC correction below)
+    vs naive           : [lag1: p=0.1780, lag5: p=0.6192, lag7: p=0.1912]  -> clean
+    vs historical_mean : [lag1: p=0.8024, lag5: p=0.3561, lag7: p=0.5753]  -> clean
+    vs moving_average  : [lag1: p=0.2218, lag5: p=0.0782, lag7: p=0.1309]  -> clean
+    vs ses             : [lag1: p=0.7580, lag5: p=0.3699, lag7: p=0.5914]  -> clean
+
+[3] Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION
+    vs naive           : mean(d)=+1.8740  stat=+6.678  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
+    vs historical_mean : mean(d)=-0.0168  stat=-0.514  p_raw=0.6076  p_holm=1.0000  HAC maxlags=5  -> no_significant_difference
+    vs moving_average  : mean(d)=+0.3297  stat=+3.529  p_raw=0.0004  p_holm=0.0013  HAC maxlags=5  -> arima_wins
+    vs ses             : mean(d)=-0.0158  stat=-0.485  p_raw=0.6277  p_holm=1.0000  HAC maxlags=5  -> no_significant_difference
+
+[4] SUMMARY: arima_wins=2  baseline_wins=0  no_significant_difference=2  (of 4 baselines)

@@ -1,0 +1,61 @@
+ARIMA — synthetic_it_support_tickets
+============================================================
+n_train: 1168   n_test: 292
+train/test split: TRAIN_FRACTION=0.8 (data_quality.py Gate 3 rule)
+protocol: walk-forward, one-step-ahead, fit once on train then extend state only (no refitting) — see spec/arima-fitting.md
+
+[1] ORDER SELECTION — d (ADF, train-only, alpha=0.05)
+    d=0: p=0.0000  (stationary)
+    d=1: p=0.0000  (stationary)
+    selected d: 0
+
+[2] ORDER SELECTION — p/q bounds (ACF/PACF significance, band=+/-0.0574, nlags=40)
+    PACF significant lags: [2, 6, 11, 14, 15, 30, 35]  -> p_max=5
+    ACF significant lags:  [2, 6, 11, 14, 25, 30, 35]  -> q_max=5
+
+[3] ORDER SELECTION — grid search (36 candidates, p in 0..5, q in 0..5)
+    (0, 0, 0): AIC=7479.38  BIC=7489.50
+    (0, 0, 1): AIC=7479.62  BIC=7494.81
+    (0, 0, 2): AIC=7475.57  BIC=7495.82
+    (0, 0, 3): AIC=7477.57  BIC=7502.88
+    (0, 0, 4): AIC=7479.30  BIC=7509.68
+    (0, 0, 5): AIC=7481.30  BIC=7516.74
+    (1, 0, 0): AIC=7479.87  BIC=7495.06
+    (1, 0, 1): AIC=7478.40  BIC=7498.66
+    (1, 0, 2): AIC=7477.56  BIC=7502.88
+    (1, 0, 3): AIC=7479.55  BIC=7509.93
+    (1, 0, 4): AIC=7481.30  BIC=7516.74
+    (1, 0, 5): AIC=7481.49  BIC=7521.99
+    (2, 0, 0): AIC=7475.85  BIC=7496.10
+    (2, 0, 1): AIC=7477.84  BIC=7503.16
+    (2, 0, 2): AIC=7479.48  BIC=7509.86
+    (2, 0, 3): AIC=7481.48  BIC=7516.92
+    (2, 0, 4): EXCLUDED — did not converge (ConvergenceWarning)
+    (2, 0, 5): AIC=7473.65  BIC=7519.21
+    (3, 0, 0): AIC=7477.84  BIC=7503.16
+    (3, 0, 1): AIC=7479.84  BIC=7510.22
+    (3, 0, 2): AIC=7481.47  BIC=7516.91
+    (3, 0, 3): EXCLUDED — did not converge (ConvergenceWarning)
+    (3, 0, 4): EXCLUDED — did not converge (ConvergenceWarning)
+    (3, 0, 5): AIC=7477.59  BIC=7528.22
+    (4, 0, 0): AIC=7478.79  BIC=7509.17
+    (4, 0, 1): AIC=7480.78  BIC=7516.22
+    (4, 0, 2): EXCLUDED — did not converge (ConvergenceWarning)
+    (4, 0, 3): EXCLUDED — did not converge (ConvergenceWarning)
+    (4, 0, 4): EXCLUDED — did not converge (ConvergenceWarning)
+    (4, 0, 5): EXCLUDED — did not converge (ConvergenceWarning)
+    (5, 0, 0): AIC=7480.70  BIC=7516.14
+    (5, 0, 1): AIC=7480.63  BIC=7521.13
+    (5, 0, 2): AIC=7473.16  BIC=7518.73
+    (5, 0, 3): AIC=7477.44  BIC=7528.07
+    (5, 0, 4): EXCLUDED — did not converge (ConvergenceWarning)
+    (5, 0, 5): EXCLUDED — did not converge (ConvergenceWarning)
+
+    selected order (AIC-preferred): (5, 0, 2)  AIC=7473.16  BIC=7518.73
+    NOTE: BIC prefers a different order: (0, 0, 0) — AIC's pick is used (see spec/arima-fitting.md)
+
+[4] FINAL MODEL: ARIMA(5, 0, 2), trend='c'
+    MAE=4.8284  RMSE=5.9311  MAPE=16.6834%  (excluded 0 zero-actual points)
+
+[output] per-point forecasts written to reports/arima/synthetic_it_support_tickets_arima_forecasts.csv
+[output] actual-vs-forecast plot written to reports/arima/synthetic_it_support_tickets_arima_forecast_plot.png
