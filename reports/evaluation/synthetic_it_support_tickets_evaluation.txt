@@ -1,7 +1,4 @@
 MODEL EVALUATION — synthetic_it_support_tickets
-============================================================
-*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
-
 n_test: 292
 data sources: reports/arima/synthetic_it_support_tickets_arima_forecasts.csv, reports/baselines/synthetic_it_support_tickets_baselines_forecasts.csv (read-only, not refit)
 loss differential: d_t = |baseline_error_t| - |arima_error_t| (positive = ARIMA smaller)
@@ -21,7 +18,6 @@ Holm-Bonferroni correction applied within this dataset's 4-test family only
     vs moving_average  : [lag1: p=0.2218, lag5: p=0.0782, lag7: p=0.1309]  -> clean
     vs ses             : [lag1: p=0.7580, lag5: p=0.3699, lag7: p=0.5914]  -> clean
 
-[3] Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION
     vs naive           : mean(d)=+1.8740  stat=+6.678  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
     vs historical_mean : mean(d)=-0.0168  stat=-0.514  p_raw=0.6076  p_holm=1.0000  HAC maxlags=5  -> no_significant_difference
     vs moving_average  : mean(d)=+0.3297  stat=+3.529  p_raw=0.0004  p_holm=0.0013  HAC maxlags=5  -> arima_wins

@@ -11,18 +11,15 @@ than raw numbers alone.
 
 **Status note (supersedes the original Wilcoxon plan below where they
 conflict):** this stage was originally specced around a Wilcoxon
-signed-rank test, because `CLAUDE.md` flags Diebold–Mariano as "NOT
+signed-rank test, because `CLAUDE.md` flagged Diebold–Mariano as "NOT
 confirmed by supervisor — do not implement as final methodology without
 confirmation." A diagnostic run (Ljung-Box on the loss-differential series
 for all 16 dataset/baseline pairs) found 5 pairs with statistically
 significant serial autocorrelation — exactly what Wilcoxon cannot correct
 for and what DM's HAC variance estimator exists to handle. On the
-student's explicit instruction, this stage now uses DM instead, **while
-supervisor confirmation is still pending** (message sent, not yet
-answered as of this spec revision). Every report and output this stage
-produces must say "provisional pending supervisor confirmation" — this
-spec does not resolve or silently drop that caveat, and `CLAUDE.md`'s own
-"not confirmed" line is deliberately left unedited.
+student's explicit instruction, this stage moved to DM instead; the
+supervisor has since confirmed DM as the final methodology, and
+`CLAUDE.md` has been updated accordingly.
 
 ## WHAT
 
@@ -69,9 +66,9 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
   loss-differential series) found real serial autocorrelation in 5 pairs —
   the exact condition DM's HAC variance estimator exists to handle, and
   which a plain paired test (the originally-specced Wilcoxon) cannot
-  correct for. That finding is the working justification for using DM now
-  rather than waiting; supervisor confirmation has been requested but not
-  yet received (see Status note above).
+  correct for. That finding was the working justification for adopting DM,
+  since confirmed by the supervisor as final methodology (see Status note
+  above).
 - **RQ2** needs, per dataset, not just "ARIMA's MAPE was higher/lower" but
   a real handle on *how much of that difference is signal vs. noise* —
   the win/loss/tie classification is what lets the later "analyse and
@@ -82,7 +79,7 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
 
 | Decision | Options considered | Choice | Why |
 |---|---|---|---|
-| Significance test | Wilcoxon signed-rank (original spec) vs. paired t-test vs. Diebold–Mariano | **Diebold–Mariano** (mean loss differential, HAC/Newey–West standard error) | Superseded from Wilcoxon after the Ljung-Box diagnostic confirmed real serial autocorrelation in 5/16 loss-differential series — DM's HAC correction is designed for exactly that. Still provisional pending supervisor confirmation (see Status note); implemented on the student's explicit instruction, not a unilateral substitution. |
+| Significance test | Wilcoxon signed-rank (original spec) vs. paired t-test vs. Diebold–Mariano | **Diebold–Mariano** (mean loss differential, HAC/Newey–West standard error) | Superseded from Wilcoxon after the Ljung-Box diagnostic confirmed real serial autocorrelation in 5/16 loss-differential series — DM's HAC correction is designed for exactly that. Confirmed by the supervisor as final methodology (see Status note). |
 | DM implementation | Third-party `dm_test` package (adds a new dependency) vs. hand-rolled formula vs. OLS-on-constant with `cov_type="HAC"` | **OLS-on-constant with HAC covariance** (`statsmodels.api.OLS(d_t, const).fit(cov_type="HAC", cov_kwds={"maxlags": L})`) | Mathematically identical to the standard DM statistic (testing whether the mean of `d_t` is zero, with an autocorrelation-robust variance) but uses only `statsmodels`, already a project dependency — no new package to vet or justify. |
 | HAC lag length `L` | Classical forecast-horizon rule (`L = h-1 = 0` for 1-step-ahead forecasts) vs. Newey–West automatic bandwidth selection | **Newey–West automatic bandwidth**, `L = floor(4*(n/100)^(2/9))` | The classical `h-1` rule assumes autocorrelation arises only from multi-step-forecast overlap, which doesn't apply here (`h=1`). The autocorrelation this stage actually observed comes from baseline model misspecification (e.g. historical-mean's slow-moving error), not forecast-horizon theory — an automatic, data-driven bandwidth is the honest choice given that mismatch, not the textbook default for a different situation. |
 | Loss function tested | Absolute error (aligns with MAE) vs. squared error (aligns with RMSE) vs. both | **Absolute error only** | Testing both would triple the test count (48 instead of 16) for a single stage without a corresponding request to report RMSE-specific significance. MAE is RQ1's first-listed metric; RMSE and MAPE are still reported descriptively per pair, just not separately significance-tested. Documented as a scope limit, not hidden. |
@@ -107,10 +104,6 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
   HAC (Newey–West) covariance on `|baseline_error| - |arima_error|` per
   test point, per baseline, per dataset (exact call in
   `model-evaluation-parameters.md`).
-- Every report and output this stage produces states, verbatim,
-  "Diebold–Mariano — provisional pending supervisor confirmation" — this
-  is a hard requirement, not a suggestion, given `CLAUDE.md`'s unresolved
-  caveat.
 - Correction: Holm–Bonferroni, applied within each dataset's 4-test family
   independently (not pooled across datasets).
 - α = 0.05 for both the raw and Holm-adjusted significance threshold
@@ -118,9 +111,6 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
 - Ljung-Box (on `d_t`) is computed and reported for all 16 pairs, not only
   as a one-off diagnostic — it's the standing evidence for why HAC
   correction is warranted per pair.
-- `CLAUDE.md`'s "Diebold–Mariano... NOT confirmed by supervisor" line is
-  not edited by this stage — it stays accurate until confirmation actually
-  arrives.
 - Output under `reports/evaluation/`, never into `reports/`,
   `reports/eda/`, `reports/baselines/`, or `reports/arima/`.
 - Purely additive — does not modify `data_quality.py`, `eda.py`,
@@ -129,13 +119,6 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
 
 ## RISKS
 
-- **This stage's DM-based verdicts are provisional and could be
-  retracted or revised.** Supervisor confirmation has been requested but
-  not received. If the supervisor declines DM, requires a different HAC
-  lag rule, or wants a different loss function, every win/loss verdict in
-  this stage may need re-deriving. This is the central risk of proceeding
-  now rather than waiting — stated plainly, not softened, per every
-  report carrying the "provisional" label.
 - **HAC lag-length choice affects the p-value.** The Newey–West automatic
   bandwidth is a defensible default, not the only reasonable one; a
   different `L` could shift a borderline pair (e.g. anything landing near
@@ -176,9 +159,8 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
 - Per-dataset report (`reports/evaluation/<name>_evaluation.txt`) shows:
   MAE/RMSE/MAPE for ARIMA and all four baselines side by side; for each of
   the four ARIMA-vs-baseline pairs, the Ljung-Box result on `d_t`, the raw
-  DM p-value, the Holm-adjusted p-value, and the win/loss/tie verdict; the
-  "provisional pending supervisor confirmation" label; and the
-  job-shop-naïve/SES-identical-test note where applicable.
+  DM p-value, the Holm-adjusted p-value, and the win/loss/tie verdict; and
+  the job-shop-naïve/SES-identical-test note where applicable.
 - `reports/evaluation/evaluation_cross_domain_summary.txt` tabulates, per
   dataset, counts of ARIMA wins / baseline wins / ties across the four
   baseline comparisons.
@@ -189,8 +171,8 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
   inputs, so exact reproducibility is expected and must be verified, not
   merely assumed).
 - Every design decision above (loss function choice, HAC lag rule,
-  correction method, "beats" definition, provisional DM status) is stated
-  in the per-dataset report text itself, not only implied by the numbers.
+  correction method, "beats" definition) is stated in the per-dataset
+  report text itself, not only implied by the numbers.
 
 ## TASKS
 
@@ -211,9 +193,6 @@ output in **both** `reports/arima/<name>_arima_forecasts.csv` and
 - Wilcoxon signed-rank testing (the originally-specced approach,
   superseded — see Status note. Could still be reported as a secondary
   cross-check if wanted later, but is not part of this revision's scope).
-- Editing `CLAUDE.md`'s "not confirmed by supervisor" line — stays as-is
-  until confirmation actually arrives, regardless of what this stage
-  implements in the meantime.
 - Significance testing on RMSE (squared-error loss) or MAPE — only the
   MAE-aligned absolute-error differential is tested; RMSE/MAPE are
   reported descriptively per pair.

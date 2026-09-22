@@ -64,5 +64,5 @@ the repo are screening candidates, not part of the final four.
  
 - Baselines: naïve, historical mean, moving average, exponential smoothing
 - Metrics: MAE, RMSE, MAPE + significance testing
-- Diebold–Mariano test: NOT confirmed by supervisor — do not implement as
-  final methodology without confirmation
+- Diebold–Mariano test: confirmed by supervisor as final significance-test
+  methodology (supersedes the original Wilcoxon plan)

@@ -177,5 +177,5 @@ stage.
 - Written dissertation-text interpretation of the cross-domain findings —
   this stage produces reproducible artifacts (reports, tables, plots);
   prose interpretation is the student's write-up, not pipeline code.
-- Diebold–Mariano or any inter-model significance testing (already
-  deferred pending supervisor confirmation per `CLAUDE.md`).
+- Diebold–Mariano or any inter-model significance testing (deferred to
+  the later model-evaluation stage per `CLAUDE.md`).

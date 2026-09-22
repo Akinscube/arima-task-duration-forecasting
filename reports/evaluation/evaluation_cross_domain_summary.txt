@@ -1,7 +1,4 @@
 MODEL EVALUATION CROSS-DOMAIN SUMMARY
-============================================================
-*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
-
 dataset | n_test | arima_wins | baseline_wins | no_significant_difference | no_test_possible
 synthetic_it_support_tickets | 292 | 2 | 0 | 2 | 0
 call_center_emea_2021_2025 | 53 | 1 | 0 | 3 | 0

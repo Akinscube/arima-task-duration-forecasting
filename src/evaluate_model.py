@@ -2,14 +2,11 @@
 Model evaluation (metrics & benchmarks) — see spec/model-evaluation.md and
 spec/model-evaluation-parameters.md.
 
-*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION. ***
-CLAUDE.md flags DM as "NOT confirmed by supervisor — do not implement as
-final methodology without confirmation." This stage uses it anyway, on
-the student's explicit instruction, after a diagnostic (Ljung-Box on all
-16 dataset/baseline loss-differential series) found real serial
+Uses Diebold-Mariano (confirmed by supervisor as final methodology,
+superseding the original Wilcoxon plan), after a diagnostic (Ljung-Box on
+all 16 dataset/baseline loss-differential series) found real serial
 autocorrelation in 5 pairs — exactly what DM's HAC variance estimator is
-designed to correct for and a plain paired test (Wilcoxon, this stage's
-original plan) cannot. Every report/output states this plainly. See
+designed to correct for and a plain paired test (Wilcoxon) cannot. See
 spec/model-evaluation.md's Status note.
 
 Reads ONLY the already-persisted per-point forecasts from
@@ -63,7 +60,6 @@ BASELINE_METHODS = ["naive", "historical_mean", "moving_average", "ses"]
 ALPHA = 0.05
 MAPE_ZERO_EPS = 1e-9
 LJUNG_BOX_LAGS = [1, 5, 7]
-DM_LABEL = "Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION"
 
 ARIMA_DIR = Path("reports/arima")
 BASELINES_DIR = Path("reports/baselines")
@@ -189,7 +185,7 @@ def evaluate_dataset(name: str, arima_df: pd.DataFrame, base_df: pd.DataFrame) -
 
 def write_report(result: dict) -> None:
     name = result["name"]
-    lines = [f"MODEL EVALUATION — {name}", "=" * 60, f"*** {DM_LABEL} ***", ""]
+    lines = [f"MODEL EVALUATION — {name}"]
     lines.append(f"n_test: {result['n_test']}")
     lines.append("data sources: reports/arima/%s_arima_forecasts.csv, "
                  "reports/baselines/%s_baselines_forecasts.csv (read-only, not refit)" % (name, name))
@@ -219,7 +215,6 @@ def write_report(result: dict) -> None:
         lines.append(f"    vs {method:16s}: [{p_str}]  -> {flag}")
     lines.append("")
 
-    lines.append(f"[3] {DM_LABEL}")
     for method in BASELINE_METHODS:
         dm = result["pair_results"][method]["dm"]
         p_holm = result["holm_map"].get(method)
@@ -262,7 +257,7 @@ def plot_heatmap(results: list[dict]) -> None:
     ax.set_xticklabels(BASELINE_METHODS, rotation=20, ha="right")
     ax.set_yticks(range(len(names)))
     ax.set_yticklabels(names)
-    ax.set_title(f"ARIMA vs. baselines — win/loss/tie\n({DM_LABEL})", fontsize=9)
+    ax.set_title(f"ARIMA vs. baselines — win/loss/tie", fontsize=9)
     fig.tight_layout()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT_DIR / "evaluation_win_loss_heatmap.png", dpi=150)
@@ -270,7 +265,7 @@ def plot_heatmap(results: list[dict]) -> None:
 
 
 def write_cross_domain_summary(results: list[dict], skipped: list[tuple[str, str]]) -> None:
-    lines = ["MODEL EVALUATION CROSS-DOMAIN SUMMARY", "=" * 60, f"*** {DM_LABEL} ***", ""]
+    lines = ["MODEL EVALUATION CROSS-DOMAIN SUMMARY"]
     rows = []
     for r in results:
         wins = sum(1 for v in r["verdicts"].values() if v == "arima_wins")
@@ -319,7 +314,6 @@ def main(argv: list[str]) -> int:
         plot_heatmap(results)
         print(f"win/loss heatmap written to {OUT_DIR}/evaluation_win_loss_heatmap.png")
     print(f"\ncross-domain summary written to {OUT_DIR}/evaluation_cross_domain_summary.txt")
-    print(f"\n*** {DM_LABEL} ***")
     return 0
 
 

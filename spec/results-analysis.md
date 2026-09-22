@@ -22,9 +22,8 @@ already exists, not new computation.
 2. **Narrative document** (`reports/analysis/rq1_rq2_analysis.md`),
    structured as:
    - **RQ1 verdict** — does ARIMA beat each baseline, per dataset and
-     overall, quoting `evaluate_model.py`'s DM results verbatim
-     (including the "provisional pending supervisor confirmation" status
-     — this document does not resolve or soften that caveat).
+     overall, quoting `evaluate_model.py`'s DM results verbatim (DM is
+     confirmed by the supervisor as final methodology).
    - **RQ2: cross-domain performance variation** — connects EDA's
      temporal-property diagnostics (stationarity, seasonality strength,
      dominant lags) to the pattern already visible in three independent
@@ -38,8 +37,8 @@ already exists, not new computation.
      evidence (no MRO dataset was tested — `CLAUDE.md`: "Aviation MRO is
      motivating background only").
    - **Limitations** — explicitly restates every unresolved caveat
-     already on record (DM provisional status, MAE-only significance
-     testing, per-dataset-not-global correction, `call_center_emea_2021_2025`'s
+     already on record (MAE-only significance testing,
+     per-dataset-not-global correction, `call_center_emea_2021_2025`'s
      low test-set power, plain-ARIMA-only scope, the pending
      generated-vs-real dataset question) rather than letting them get
      lost by the time conclusions are drawn.
@@ -78,9 +77,6 @@ already exists, not new computation.
   spec, or `ground_truth.json`.
 - Every claim in the narrative document must trace to a specific existing
   report/number (spot-checkable) — no unsupported assertions.
-- The DM "provisional pending supervisor confirmation" status must be
-  stated plainly wherever RQ1's verdict is discussed — this stage does
-  not upgrade DM's status on its own authority.
 - The aviation-MRO section stays strictly evidence-grounded to the four
   tested domains — no fabricated or assumed MRO-specific data.
 - Output under `reports/analysis/`, never into any prior stage's report
@@ -93,10 +89,6 @@ already exists, not new computation.
   loudly (raise, not silently produce blanks/NaNs) on a missing expected
   key, so drift is caught immediately rather than propagating into the
   narrative document unnoticed.
-- **RQ1's verdict is provisional, not final.** If the supervisor declines
-  DM or requires a different methodology, this document's RQ1 section
-  may need rewriting. Stated plainly at the top of the narrative document,
-  not buried in the limitations section alone.
 - **Ties are not evidence of equivalence.** `no_significant_difference`
   (especially on `call_center_emea_2021_2025`'s 53-point test set) means
   "not detected as different," not "proven equal" — the narrative
@@ -122,10 +114,10 @@ already exists, not new computation.
   column populated from a named source file, no blanks.
 - Re-running `src/analyse_results.py` reproduces identical output
   (deterministic — it only reads existing files).
-- `reports/analysis/rq1_rq2_analysis.md` directly answers RQ1 (with the
-  DM-provisional caveat stated up front) and RQ2 (domain-variation
-  pattern, the underperforming domain(s) named explicitly, and the
-  aviation-MRO workforce-planning implication grounded in that evidence).
+- `reports/analysis/rq1_rq2_analysis.md` directly answers RQ1 and RQ2
+  (domain-variation pattern, the underperforming domain(s) named
+  explicitly, and the aviation-MRO workforce-planning implication
+  grounded in that evidence).
 - Every numeric claim in the narrative document is traceable to a named
   source report (T5's spot-check must pass).
 - Limitations section explicitly lists all five items named in WHAT.
@@ -146,8 +138,6 @@ already exists, not new computation.
 
 - Any new statistical computation, metric, or significance test beyond
   what the four prior stages already produced.
-- Resolving DM's provisional status — still pending supervisor
-  confirmation, unaffected by this stage.
 - Resolving the generated-vs-real dataset question — still pending
   supervisor input.
 - A full literature review or discussion beyond what the four tested

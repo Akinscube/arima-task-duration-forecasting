@@ -25,9 +25,9 @@ truncated to the intersection, not silently joined on position.
 
 ## Loss differential, autocorrelation diagnostic, and significance test
 
-**Status: Diebold–Mariano, provisional pending supervisor confirmation**
+**Status: Diebold–Mariano, confirmed by supervisor as final methodology**
 (supersedes the original Wilcoxon plan — see `model-evaluation.md`'s
-Status note). Every report this stage writes must state this plainly.
+Status note).
 
 - Per baseline, per test point: `d_t = |baseline_error_t| - |arima_error_t|`
   (paired absolute-error differential — positive means ARIMA's absolute
@@ -87,8 +87,7 @@ loss-function scope).
 
 - `reports/evaluation/<name>_evaluation.txt` — per-dataset MAE/RMSE/MAPE
   table (ARIMA + 4 baselines), Ljung-Box diagnostic, raw/Holm-adjusted DM
-  p-values and verdict per baseline pair, "provisional pending supervisor
-  confirmation" label.
+  p-values and verdict per baseline pair.
 - `reports/evaluation/evaluation_cross_domain_summary.txt` — one row per
   evaluated dataset: counts of `arima_wins` / `baseline_wins` /
   `no_significant_difference` across its 4 pairs.

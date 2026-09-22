@@ -1,7 +1,4 @@
 MODEL EVALUATION — call_center_emea_2021_2025
-============================================================
-*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
-
 n_test: 53
 data sources: reports/arima/call_center_emea_2021_2025_arima_forecasts.csv, reports/baselines/call_center_emea_2021_2025_baselines_forecasts.csv (read-only, not refit)
 loss differential: d_t = |baseline_error_t| - |arima_error_t| (positive = ARIMA smaller)
@@ -21,7 +18,6 @@ Holm-Bonferroni correction applied within this dataset's 4-test family only
     vs moving_average  : [lag1: p=0.5375, lag5: p=0.9902, lag7: p=0.9752]  -> clean
     vs ses             : [lag1: p=0.0199, lag5: p=0.1296, lag7: p=0.2340]  -> AUTOCORRELATED
 
-[3] Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION
     vs naive           : mean(d)=+19.3671  stat=+3.464  p_raw=0.0005  p_holm=0.0021  HAC maxlags=3  -> arima_wins
     vs historical_mean : mean(d)=-0.1823  stat=-0.884  p_raw=0.3767  p_holm=0.7533  HAC maxlags=3  -> no_significant_difference
     vs moving_average  : mean(d)=+2.7026  stat=+0.783  p_raw=0.4338  p_holm=0.7533  HAC maxlags=3  -> no_significant_difference

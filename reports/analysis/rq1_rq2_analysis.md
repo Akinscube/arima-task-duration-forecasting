@@ -5,16 +5,6 @@ Synthesizes `reports/eda/`, `reports/baselines/`, `reports/arima/`, and
 into direct answers to RQ1 and RQ2. No new statistic is computed here —
 every number below is cited from an existing report.
 
-## Status banner
-
-**The significance testing behind RQ1's verdict (Diebold–Mariano) is
-provisional, pending supervisor confirmation** (`CLAUDE.md`: "NOT
-confirmed by supervisor — do not implement as final methodology without
-confirmation"; confirmation has been requested, not yet received). Every
-win/loss/tie claim below inherits that caveat. If DM is not confirmed, or
-a different methodology is required, this section's verdicts may need
-re-deriving.
-
 ## RQ1 verdict
 
 > *"Is the prediction of the task duration made using an ARIMA model more
@@ -137,9 +127,6 @@ that ARIMA is unsuitable for MRO scheduling as a whole.
 
 ## Limitations
 
-- **Diebold–Mariano is provisional, pending supervisor confirmation** —
-  restated from the Status banner because it is the single most
-  consequential open item behind every claim in this document.
 - **Only MAE-based significance was tested.** RMSE/MAPE are reported
   descriptively per pair but were not independently significance-tested
   (`spec/model-evaluation.md`'s scope decision) — a dataset could in

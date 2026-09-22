@@ -1,7 +1,4 @@
 MODEL EVALUATION — generated_emergency_dept_stays
-============================================================
-*** Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION ***
-
 n_test: 293
 data sources: reports/arima/generated_emergency_dept_stays_arima_forecasts.csv, reports/baselines/generated_emergency_dept_stays_baselines_forecasts.csv (read-only, not refit)
 loss differential: d_t = |baseline_error_t| - |arima_error_t| (positive = ARIMA smaller)
@@ -21,7 +18,6 @@ Holm-Bonferroni correction applied within this dataset's 4-test family only
     vs moving_average  : [lag1: p=0.8039, lag5: p=0.9657, lag7: p=0.9279]  -> clean
     vs ses             : [lag1: p=0.3558, lag5: p=0.8622, lag7: p=0.3755]  -> clean
 
-[3] Diebold-Mariano — PROVISIONAL, PENDING SUPERVISOR CONFIRMATION
     vs naive           : mean(d)=+3.9147  stat=+7.013  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
     vs historical_mean : mean(d)=+4.2134  stat=+5.666  p_raw=0.0000  p_holm=0.0000  HAC maxlags=5  -> arima_wins
     vs moving_average  : mean(d)=+1.3345  stat=+3.580  p_raw=0.0003  p_holm=0.0007  HAC maxlags=5  -> arima_wins
